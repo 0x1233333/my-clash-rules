@@ -1,29 +1,112 @@
 sources:
-  # === 苹果服务 (合并了 Apple 和 iCloud) ===
+  # ============================================
+  # 1. 核心应用类
+  # ============================================
+
+  # === AI 平台 (OpenAI, Gemini, Claude 等) ===
+  - name: "AI"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
+
+  # === 苹果服务 (ACL + LS 双源互补) ===
   - name: "Apple"
     type: "domain-suffix"
     urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
 
-  # === 谷歌服务 (FCM等) ===
+  # === 微软服务 (Microsoft, Bing, OneDrive) ===
+  - name: "Microsoft"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
+
+  # === 谷歌服务 (FCM, General Google) ===
   - name: "Google"
     type: "domain-suffix"
     urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list" # 虽名为CN，常用于规则判断
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
 
-  # === 代理列表 (合并了 Proxy, GFW, 非CN域名) ===
+  # === 电报 (Telegram 域名 + IP) ===
+  - name: "Telegram"
+    type: "domain-suffix" # 脚本兼容处理，会自动提取里面的 IP
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+
+  # ============================================
+  # 2. 媒体与游戏
+  # ============================================
+
+  # === YouTube 专用 ===
+  - name: "YouTube"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+
+  # === Netflix 专用 ===
+  - name: "Netflix"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+
+  # === 国外媒体聚合 (除油管奈飞外的其他) ===
+  - name: "Media"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
+
+  # === 国内媒体 (网易云, B站大陆版) ===
+  - name: "ChinaMedia"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+
+  # === 游戏平台 (Steam, Epic, Sony, Nintendo) ===
+  - name: "Games"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
+
+  # ============================================
+  # 3. 基础分类 (直连/代理/拦截)
+  # ============================================
+
+  # === 代理列表 (GFW + 非CN) ===
   - name: "Proxy"
     type: "domain-suffix"
     urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
 
-  # === 直连列表 (合并了 Direct, Local, Private) ===
+  # === 直连列表 (国内域名 + 局域网) ===
   - name: "Direct"
     type: "domain-suffix"
     urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
 
@@ -31,25 +114,15 @@ sources:
   - name: "Reject"
     type: "domain-suffix"
     urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
 
-  # === Telegram IP ===
-  - name: "TelegramIP"
-    type: "ip-cidr"
-    urls:
-      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
-
-  # === 国内 IP ===
+  # === 国内 IP 段 (用于 IP 兜底直连) ===
   - name: "CN-IP"
     type: "ip-cidr"
     urls:
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
-
-  # === 局域网 IP ===
-  - name: "LAN-IP"
-    type: "ip-cidr"
-    urls:
-      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
 
   # === 应用程序 (进程名) ===
   - name: "Applications"
