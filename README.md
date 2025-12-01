@@ -1,8 +1,3 @@
-这是为您更新的 **README.md**。
-
-根据您最新的 `sources.yaml` 配置，我已经更新了所有的分类（增加了 **ProxyMini**、**Social**、**Crypto全家桶** 等），并且将**所有的引用链接全部展开为完整的 URL**，方便您直接复制使用。
-
------
 
 # 🛡️ 全自动规则聚合工厂 (Auto Rules Factory)
 
