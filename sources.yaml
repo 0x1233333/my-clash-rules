@@ -67,7 +67,7 @@ sources:
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Skype.list"
 
   # === 社交媒体 (Social) ===
-  # 聚合 Twitter, Facebook, Instagram, TikTok
+  # 聚合 Twitter, Facebook, Instagram, Reddit, TikTok
   - name: "Social"
     type: "domain-suffix"
     urls:
@@ -89,7 +89,7 @@ sources:
       # 基础兜底
       - "https://raw.githubusercontent.com/0x1233333/bank-Crypto/refs/heads/main/Crypto.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list"
-      # 头部交易所 (BM7)
+      # 头部交易所 (BM7独立列表，防API变动)
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Binance/Binance.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OKX/OKX.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bybit/Bybit.list"
@@ -100,7 +100,7 @@ sources:
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Huobi/Huobi.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bitget/Bitget.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Kraken/Kraken.list"
-      # 看盘与工具
+      # 看盘与工具 (TradingView防卡)
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TradingView/TradingView.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CoinMarketCap/CoinMarketCap.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MetaMask/MetaMask.list"
@@ -178,7 +178,8 @@ sources:
   # 6. 基础分类 (直连/代理/拦截)
   # ============================================
 
-  # === 代理列表 (Proxy) ===
+  # === 代理列表 (Full - 巨无霸版) ===
+  # 包含 GFWList 和 非CN域名，适合高性能路由
   - name: "Proxy"
     type: "domain-suffix"
     urls:
@@ -186,7 +187,18 @@ sources:
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
-      # 生活类 (Uber/Grab)
+      # 生活类 (Grab/Uber)
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Grab.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Uber.list"
+
+  # === 代理列表 (Lite - 精简版) ===
+  # [推荐] 配合 GEOIP 使用，适合一般路由，防卡顿
+  - name: "ProxyLite"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+      # 生活类
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Grab.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Uber.list"
 
