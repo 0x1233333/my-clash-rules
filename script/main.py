@@ -28,20 +28,21 @@ def parse_content(content):
 
     for line in lines:
         line = line.strip()
-        # [基础过滤]
+        # [基础过滤] 空行、注释
         if not line or line.startswith('#') or line.startswith('//'):
             continue
         
-        # [核心修复] 全局查杀 payload 关键字
-        # 无论是什么文件，只要包含 payload: 或者等于 payload，直接跳过
+        # [暴力过滤] 任何包含 'payload' 字样的行，直接扔掉
         if 'payload' in line.lower():
             continue
 
-        # 暴力过滤 YAML 键值
+        # 过滤 YAML 键值 (带冒号且不是http开头)
         if ':' in line and not line.startswith('http'):
-            continue
+            # 这里是为了防止把 yaml 的 key 当作规则
+            # 但要小心不要误杀 IPv6，所以下面会有更严格的正则检查
+            pass 
 
-        # 处理 YAML 列表格式 (- 'value')
+        # 处理 YAML 列表格式
         if line.startswith("- '") and line.endswith("'"):
             item = line[3:-1]
             payload.add(item)
@@ -83,17 +84,22 @@ def generate_clash(name, rule_type, dataset):
         f.write(f"# COUNT: {len(dataset)}\n")
         f.write("\n")
         for item in sorted(dataset):
-            # [IP清洗] 确保 IP 规则里没有怪东西
+            # [核心修复区] 针对 IP-CIDR 的严格清洗
             if rule_type == 'ip-cidr':
-                if re.search(r'[a-zA-Z]', item): # 如果包含字母，跳过
+                # 正则白名单：只允许 数字(0-9)、点(.)、冒号(:)、斜杠(/)、IPv6十六进制(a-f, A-F)
+                # 任何其他字符（比如 payload 里的 p, y, l, o）都会导致不匹配
+                if not re.match(r'^[0-9a-fA-F:./]+$', item):
+                    print(f"⚠️ [Clash] 剔除非法 IP 规则: {item}")
                     continue
+                
+                # 正常的 IP 处理逻辑
                 if '/' not in item:
                     f.write(f"{clash_type},{item}/32,no-resolve\n")
                 else:
                     f.write(f"{clash_type},{item},no-resolve\n")
             else:
                 f.write(f"{clash_type},{item}\n")
-    print(f"Clash 规则已生成: {filename}")
+    print(f"✅ Clash 规则已生成: {filename}")
 
 def generate_singbox(name, rule_type, dataset):
     """生成 Sing-box 格式文件 (.json)"""
@@ -102,12 +108,15 @@ def generate_singbox(name, rule_type, dataset):
         "rules": []
     }
     
+    # 针对 IP 类型也做同样的正则过滤
     clean_dataset = []
     if rule_type == "ip_cidr" or rule_type == "ip-cidr":
         for item in dataset:
-            if re.search(r'[a-zA-Z]', item):
-                continue
-            clean_dataset.append(item)
+            # 正则白名单清洗
+            if re.match(r'^[0-9a-fA-F:./]+$', item):
+                clean_dataset.append(item)
+            else:
+                print(f"⚠️ [SingBox] 剔除非法 IP 规则: {item}")
     else:
         clean_dataset = list(dataset)
 
@@ -134,7 +143,7 @@ def generate_singbox(name, rule_type, dataset):
     filename = os.path.join(OUTPUT_SINGBOX, f"{name}.json")
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(srs_data, f, indent=2, ensure_ascii=False)
-    print(f"Sing-box 规则已生成: {filename}")
+    print(f"✅ Sing-box 规则已生成: {filename}")
 
 def main():
     os.makedirs(OUTPUT_CLASH, exist_ok=True)
