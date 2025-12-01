@@ -1,0 +1,31 @@
+# 定义规则分类，脚本会把相同分类的内容合并、去重
+# type 支持: domain-suffix, domain-keyword, domain, ip-cidr
+
+sources:
+  # === 分类：苹果服务 ===
+  - name: "Apple"
+    type: "domain-suffix"
+    urls:
+      # Loyalsoldier 的苹果
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+      # (示例) 假设张三也有一个苹果列表，加在这里，脚本会自动去重
+      # - "https://raw.githubusercontent.com/zhangsan/rules/master/apple.list"
+
+  # === 分类：代理列表 (Proxy) ===
+  - name: "Proxy"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
+
+  # === 分类：广告拦截 (Reject) ===
+  - name: "Reject"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+
+  # === 分类：Telegram IP ===
+  - name: "TelegramIP"
+    type: "ip-cidr"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
