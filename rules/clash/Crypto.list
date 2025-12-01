@@ -1,6 +1,6 @@
 # NAME: Crypto
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 316
+# COUNT: 315
 
 DOMAIN-SUFFIX,13.248.135.87/32
 DOMAIN-SUFFIX,1inch.io
@@ -253,7 +253,6 @@ DOMAIN-SUFFIX,pancakeswap.com
 DOMAIN-SUFFIX,pancakeswap.finance
 DOMAIN-SUFFIX,parity.io
 DOMAIN-SUFFIX,paxful.com
-DOMAIN-SUFFIX,payload:
 DOMAIN-SUFFIX,phantom.app
 DOMAIN-SUFFIX,pnutsol.com
 DOMAIN-SUFFIX,poloniex.com

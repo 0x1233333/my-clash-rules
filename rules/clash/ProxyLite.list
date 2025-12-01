@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26715
+# COUNT: 26714
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -26236,7 +26236,6 @@ DOMAIN-SUFFIX,pages.et.uber.com
 DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
 DOMAIN-SUFFIX,partner-api.grab.com
 DOMAIN-SUFFIX,partners.uber.com
-DOMAIN-SUFFIX,payload:
 DOMAIN-SUFFIX,pchomeonline.com.tw
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,phncdn.com

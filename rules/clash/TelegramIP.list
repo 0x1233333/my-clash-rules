@@ -1,6 +1,6 @@
 # NAME: TelegramIP
 # TYPE: IP-CIDR
-# COUNT: 13
+# COUNT: 12
 
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,185.76.151.0/24,no-resolve
@@ -14,4 +14,3 @@ IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,91.108.8.0/21,no-resolve
 IP-CIDR,95.161.64.0/20,no-resolve
-IP-CIDR,payload:/32,no-resolve

@@ -1,6 +1,6 @@
 # NAME: Apple
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 1823
+# COUNT: 1822
 
 DOMAIN-SUFFIX,+.a1.mzstatic.com
 DOMAIN-SUFFIX,+.a2.mzstatic.com
@@ -1677,7 +1677,6 @@ DOMAIN-SUFFIX,overapple.com
 DOMAIN-SUFFIX,p-events-delivery.akamaized.net
 DOMAIN-SUFFIX,pascherbeatsmonster.com
 DOMAIN-SUFFIX,paulsimon-music.com
-DOMAIN-SUFFIX,payload:
 DOMAIN-SUFFIX,perfectkickz.net
 DOMAIN-SUFFIX,personeelsland.com
 DOMAIN-SUFFIX,picknicekicks.net

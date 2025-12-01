@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39356
+# COUNT: 39355
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -28798,7 +28798,6 @@ DOMAIN-SUFFIX,paydiant.com
 DOMAIN-SUFFIX,paygonline.com
 DOMAIN-SUFFIX,payhulu.com
 DOMAIN-SUFFIX,paylike.com
-DOMAIN-SUFFIX,payload:
 DOMAIN-SUFFIX,paypa1.com
 DOMAIN-SUFFIX,paypa1.org
 DOMAIN-SUFFIX,paypaal.com

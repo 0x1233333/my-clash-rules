@@ -1,6 +1,6 @@
 # NAME: Direct
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 121026
+# COUNT: 121025
 
 DOMAIN-SUFFIX,+.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,+.0.in-addr.arpa
@@ -119644,7 +119644,6 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,paopaoche.net
 DOMAIN-SUFFIX,papocket.com
 DOMAIN-SUFFIX,passthepopcorn.me
-DOMAIN-SUFFIX,payload:
 DOMAIN-SUFFIX,pba0.apple.com
 DOMAIN-SUFFIX,pc6.com
 DOMAIN-SUFFIX,pcbeta.com
