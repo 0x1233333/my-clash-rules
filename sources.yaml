@@ -1,127 +1,158 @@
 sources:
   # ============================================
-  # 1. 核心应用类
+  # 1. 核心大厂与系统服务
   # ============================================
 
-  # === AI 平台 ===
-  - name: "AI"
-    type: "domain-suffix"
-    urls:
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/OpenAI.list"
-
-  # === 苹果服务 ===
+  # === 苹果服务 (Apple) ===
   - name: "Apple"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
       # StricklandF 补充
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppStore.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppleCN.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppleID.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppleIntelligence.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/ApplePush.list"
 
-  # === 微软服务 ===
+  # === 微软服务 (Microsoft) ===
   - name: "Microsoft"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list"
 
-  # === 谷歌服务 ===
+  # === 谷歌服务 (Google) ===
   - name: "Google"
     type: "domain-suffix"
     urls:
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
 
-  # === 即时通讯 (Telegram + WhatsApp + Others) ===
-  # 建议在 INI 中将此列表指向“📲 电报信息”分组
+  # ============================================
+  # 2. 人工智能 (AI)
+  # ============================================
+
+  # === AI 平台 ===
+  # 聚合 OpenAI, Gemini, Claude, Copilot 等
+  - name: "AI"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/OpenAI.list"
+
+  # ============================================
+  # 3. 社交与通讯
+  # ============================================
+
+  # === 聊天软件 (Chat) ===
+  # 聚合 Telegram, WhatsApp, Line, Discord 等
   - name: "Chat"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
-      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
-      # StricklandF 补充
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/WhatsApp.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WhatsApp/WhatsApp.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Line/Line.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Skype.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Viber.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Zalo.list"
+
+  # === 社交媒体 (Social) ===
+  # 聚合 Twitter, Facebook, Instagram, TikTok
+  - name: "Social"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Reddit/Reddit.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list"
 
   # ============================================
-  # 2. 金融与资产 (高度整合)
+  # 4. 金融与资产 (重点优化)
   # ============================================
 
   # === 加密货币 (Crypto) ===
+  # 包含所有主流交易所独立规则 + TradingView + 钱包
   - name: "Crypto"
     type: "domain-suffix"
     urls:
+      # 基础兜底
       - "https://raw.githubusercontent.com/0x1233333/bank-Crypto/refs/heads/main/Crypto.list"
-      # StricklandF 补充
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Crypto.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Binance.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Kraken.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/MEXC.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/TrustWallet.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/CBWallet.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list"
+      # 头部交易所 (BM7)
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Binance/Binance.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OKX/OKX.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bybit/Bybit.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Coinbase/Coinbase.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuCoin/KuCoin.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gate/Gate.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MEXC/MEXC.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Huobi/Huobi.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bitget/Bitget.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Kraken/Kraken.list"
+      # 看盘与工具
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TradingView/TradingView.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CoinMarketCap/CoinMarketCap.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MetaMask/MetaMask.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Etherscan/Etherscan.list"
 
-  # === 银行与支付 (Finance) ===
+  # === 国际银行与支付 (Finance) ===
   - name: "Finance"
     type: "domain-suffix"
     urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Wise.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/OCBC.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/N26.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/WebMoney.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/BOCHK.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/HSBCHK.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/SCBHK.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/ZABHK.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/iFastGB.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/BOCOM.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/CNCITIC.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/BOCHK.list"
 
   # === 券商与股票 (Securities) ===
   - name: "Securities"
     type: "domain-suffix"
     urls:
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Futubull.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Moomoo.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Longbridge.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Securities.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Futu/Futu.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TigerBrokers/TigerBrokers.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/IBKR.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Trading212.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/RockFlow.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/uSmart.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Longbridge.list"
 
   # ============================================
-  # 3. 媒体与游戏
+  # 5. 媒体与游戏
   # ============================================
 
   # === YouTube 专用 ===
   - name: "YouTube"
     type: "domain-suffix"
     urls:
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list"
 
   # === Netflix 专用 ===
   - name: "Netflix"
     type: "domain-suffix"
     urls:
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list"
 
   # === 国外媒体聚合 ===
   - name: "Media"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.list"
 
   # === 国内媒体 ===
   - name: "ChinaMedia"
@@ -135,62 +166,61 @@ sources:
   - name: "Games"
     type: "domain-suffix"
     urls:
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sony/Sony.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xbox/Xbox.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Roblox/Roblox.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Blizzard/Blizzard.list"
 
   # ============================================
-  # 4. 基础分类 (直连/代理/拦截)
+  # 6. 基础分类 (直连/代理/拦截)
   # ============================================
 
-  # === 代理列表 (含生活类APP: Grab, Uber等) ===
+  # === 代理列表 (Proxy) ===
   - name: "Proxy"
     type: "domain-suffix"
     urls:
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
-      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
-      # StricklandF 生活类补充
+      # 生活类 (Uber/Grab)
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Grab.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Uber.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/UltraMobile.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/STUN_Servers.list"
 
-  # === 直连列表 ===
+  # === 直连列表 (Direct) ===
   - name: "Direct"
     type: "domain-suffix"
     urls:
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
 
-  # === 广告拦截 ===
+  # === 广告拦截 (Reject) ===
   - name: "Reject"
     type: "domain-suffix"
     urls:
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
-      # StricklandF 补充
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/AdsBlock.list"
-      - "https://raw.githubusercontent.com/StricklandF/Filter/main/QQMusicAds.list"
 
-  # === 国内 IP ===
+  # === IP 规则 ===
   - name: "CN-IP"
     type: "ip-cidr"
     urls:
-      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPs.list"
 
-  # === 应用程序 ===
+  - name: "TelegramIP"
+    type: "ip-cidr"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+
+  # === 应用程序 (进程名) ===
   - name: "Applications"
     type: "process-name"
     urls:
