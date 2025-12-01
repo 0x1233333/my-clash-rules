@@ -11,7 +11,7 @@ sources:
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
-      # StricklandF 补充
+      # StricklandF
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppStore.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppleID.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppleIntelligence.list"
@@ -39,7 +39,6 @@ sources:
   # ============================================
 
   # === AI 平台 ===
-  # 聚合 OpenAI, Gemini, Claude, Copilot 等
   - name: "AI"
     type: "domain-suffix"
     urls:
@@ -55,7 +54,6 @@ sources:
   # ============================================
 
   # === 聊天软件 (Chat) ===
-  # 聚合 Telegram, WhatsApp, Line, Discord 等
   - name: "Chat"
     type: "domain-suffix"
     urls:
@@ -67,7 +65,6 @@ sources:
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Skype.list"
 
   # === 社交媒体 (Social) ===
-  # 聚合 Twitter, Facebook, Instagram, Reddit, TikTok
   - name: "Social"
     type: "domain-suffix"
     urls:
@@ -78,18 +75,17 @@ sources:
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list"
 
   # ============================================
-  # 4. 金融与资产 (重点优化)
+  # 4. 金融与资产 (Crypto全家桶 + 银行证券)
   # ============================================
 
   # === 加密货币 (Crypto) ===
-  # 包含所有主流交易所独立规则 + TradingView + 钱包
   - name: "Crypto"
     type: "domain-suffix"
     urls:
-      # 基础兜底
+      # 基础
       - "https://raw.githubusercontent.com/0x1233333/bank-Crypto/refs/heads/main/Crypto.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list"
-      # 头部交易所 (BM7独立列表，防API变动)
+      # 交易所独立规则 (BM7)
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Binance/Binance.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OKX/OKX.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bybit/Bybit.list"
@@ -100,7 +96,7 @@ sources:
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Huobi/Huobi.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bitget/Bitget.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Kraken/Kraken.list"
-      # 看盘与工具 (TradingView防卡)
+      # 工具与钱包
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TradingView/TradingView.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CoinMarketCap/CoinMarketCap.list"
       - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MetaMask/MetaMask.list"
@@ -178,8 +174,8 @@ sources:
   # 6. 基础分类 (直连/代理/拦截)
   # ============================================
 
-  # === 代理列表 (Full - 巨无霸版) ===
-  # 包含 GFWList 和 非CN域名，适合高性能路由
+  # === 1. 代理列表 (Full - 巨无霸版) ===
+  # 包含 GFWList 和 非CN域名，规则量大，抗污染强
   - name: "Proxy"
     type: "domain-suffix"
     urls:
@@ -191,16 +187,22 @@ sources:
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Grab.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Uber.list"
 
-  # === 代理列表 (Lite - 精简版) ===
-  # [推荐] 配合 GEOIP 使用，适合一般路由，防卡顿
+  # === 2. 代理列表 (Lite - 标准版) ===
+  # 规则量适中，包含常见被墙网站
   - name: "ProxyLite"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
-      # 生活类
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Grab.list"
       - "https://raw.githubusercontent.com/StricklandF/Filter/main/Uber.list"
+
+  # === 3. 代理列表 (Mini - 超迷你版) ===
+  # [新增] 仅包含 ACL 核心代理规则，体积极小 (<100KB)
+  - name: "ProxyMini"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
 
   # === 直连列表 (Direct) ===
   - name: "Direct"
