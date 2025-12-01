@@ -1,6 +1,6 @@
 # NAME: Social
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 643
+# COUNT: 635
 
 DOMAIN-SUFFIX,108.168.176.192/26
 DOMAIN-SUFFIX,108.168.177.0/27
@@ -560,14 +560,6 @@ DOMAIN-SUFFIX,react.com
 DOMAIN-SUFFIX,reactjs.com
 DOMAIN-SUFFIX,reactjs.org
 DOMAIN-SUFFIX,recoiljs.org
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,redditmail.com
-DOMAIN-SUFFIX,redditmedia.com
-DOMAIN-SUFFIX,redditstatic.com
-DOMAIN-SUFFIX,reddituploads.com
-DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net
-DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
 DOMAIN-SUFFIX,redkix.com
 DOMAIN-SUFFIX,rocksdb.com
 DOMAIN-SUFFIX,rocksdb.net
