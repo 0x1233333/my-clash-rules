@@ -22,19 +22,23 @@ def download_content(url):
     return ""
 
 def parse_content(content):
-    """解析内容"""
+    """解析内容，提取纯净的规则实体"""
     lines = content.splitlines()
     payload = set()
 
     for line in lines:
         line = line.strip()
-        # 基础过滤
+        # [基础过滤]
         if not line or line.startswith('#') or line.startswith('//'):
             continue
         
+        # [核心修复] 全局查杀 payload 关键字
+        # 无论是什么文件，只要包含 payload: 或者等于 payload，直接跳过
+        if 'payload' in line.lower():
+            continue
+
         # 暴力过滤 YAML 键值
         if ':' in line and not line.startswith('http'):
-            # 如果包含冒号但不是网址，极大概率是 YAML 键 (如 payload:)，跳过
             continue
 
         # 处理 YAML 列表格式 (- 'value')
@@ -79,14 +83,10 @@ def generate_clash(name, rule_type, dataset):
         f.write(f"# COUNT: {len(dataset)}\n")
         f.write("\n")
         for item in sorted(dataset):
-            # [终极清洗] 针对 IP-CIDR 的强制正则检查
+            # [IP清洗] 确保 IP 规则里没有怪东西
             if rule_type == 'ip-cidr':
-                # 正则：如果在 IP 规则里发现了 a-z 的字母，绝对是垃圾数据，直接跳过！
-                if re.search(r'[a-zA-Z]', item):
-                    print(f"警告：检测到非法 IP 规则，已自动剔除: {item}")
+                if re.search(r'[a-zA-Z]', item): # 如果包含字母，跳过
                     continue
-                
-                # 正常的 IP 处理逻辑
                 if '/' not in item:
                     f.write(f"{clash_type},{item}/32,no-resolve\n")
                 else:
@@ -102,22 +102,20 @@ def generate_singbox(name, rule_type, dataset):
         "rules": []
     }
     
-    # 针对 IP 类型也做同样的正则过滤
     clean_dataset = []
     if rule_type == "ip_cidr" or rule_type == "ip-cidr":
         for item in dataset:
-            # 如果包含字母，跳过
             if re.search(r'[a-zA-Z]', item):
                 continue
             clean_dataset.append(item)
     else:
         clean_dataset = list(dataset)
 
+    if not clean_dataset:
+        return
+
     rule_obj = {}
     dataset_list = sorted(clean_dataset)
-
-    if not dataset_list:
-        return
 
     # 映射 Sing-box 类型
     if rule_type == "domain-suffix":
