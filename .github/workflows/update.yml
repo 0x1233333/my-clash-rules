@@ -2,8 +2,8 @@ name: Update Rules Factory
 
 on:
   schedule:
-    - cron: '0 20 * * *'
-  workflow_dispatch:
+    - cron: '0 20 * * *' # 北京时间凌晨4点自动运行
+  workflow_dispatch:     # 允许手动点击运行
 
 jobs:
   build:
@@ -24,12 +24,6 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Clean up old files
-        # 这一步会删除根目录下的旧 .list 文件，保持仓库整洁
-        run: |
-          rm -f *.list 2>/dev/null || true
-          rm -f convert.py 2>/dev/null || true
-
       - name: Run processor script
         run: |
           python script/main.py
@@ -38,5 +32,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+          # 添加所有变动 (主要针对 rules/ 文件夹下的更新)
           git add .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update rules $(date +'%Y-%m-%d')" && git push)
+          
+          # 如果有变化才提交，没变化则跳过，防止报错
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update rules $(date +'%Y-%m-%d')" && git push)
