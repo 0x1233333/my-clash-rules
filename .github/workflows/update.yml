@@ -24,6 +24,15 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      # [新增步骤] 暴力清理旧文件
+      # 在生成新规则前，先清空规则目录。
+      # 这样可以确保删除掉那些不再使用的"僵尸文件" (如 Telegram.list)。
+      - name: Clean up old rules
+        run: |
+          rm -rf rules/clash/*.list
+          rm -rf rules/singbox/*.json
+          echo "🧹 Old rules cleaned up."
+
       - name: Run processor script
         run: |
           python script/main.py
@@ -33,8 +42,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # 添加所有变动 (主要针对 rules/ 文件夹下的更新)
+          # 将所有变动（包括删除的文件和新生成的文件）加入暂存区
           git add .
           
-          # 如果有变化才提交，没变化则跳过，防止报错
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update rules $(date +'%Y-%m-%d')" && git push)
+          # 提交更改
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Clean & Regenerate rules $(date +'%Y-%m-%d')" && git push)
