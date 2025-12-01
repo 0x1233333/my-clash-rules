@@ -1,6 +1,6 @@
 # NAME: Direct
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 340
+# COUNT: 344
 
 DOMAIN-SUFFIX,+.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,+.0.in-addr.arpa
@@ -232,6 +232,7 @@ DOMAIN-SUFFIX,96.100.in-addr.arpa
 DOMAIN-SUFFIX,97.100.in-addr.arpa
 DOMAIN-SUFFIX,98.100.in-addr.arpa
 DOMAIN-SUFFIX,99.100.in-addr.arpa
+DOMAIN-SUFFIX,::/127
 DOMAIN-SUFFIX,BitComet
 DOMAIN-SUFFIX,BitComet.exe
 DOMAIN-SUFFIX,BitComet_x64.exe
@@ -279,8 +280,11 @@ DOMAIN-SUFFIX,dl.l.google.com
 DOMAIN-SUFFIX,dl.steam.clngaa.com
 DOMAIN-SUFFIX,dl.steam.ksyna.com
 DOMAIN-SUFFIX,dota2.wmsj.cn
+DOMAIN-SUFFIX,fc00::/7
 DOMAIN-SUFFIX,fdm
 DOMAIN-SUFFIX,fdm.exe
+DOMAIN-SUFFIX,fe80::/10
+DOMAIN-SUFFIX,ff00::/8
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,gtm.oasisfeng.com

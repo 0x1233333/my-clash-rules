@@ -1,6 +1,6 @@
 # NAME: Media
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 596
+# COUNT: 597
 
 DOMAIN-SUFFIX,*YouTubeMusic*
 DOMAIN-SUFFIX,*com.google.ios.youtubemusic*
@@ -64,6 +64,7 @@ DOMAIN-SUFFIX,Viu*
 DOMAIN-SUFFIX,WeMusic*
 DOMAIN-SUFFIX,YouTube*
 DOMAIN-SUFFIX,YouTubeMusic*
+DOMAIN-SUFFIX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 DOMAIN-SUFFIX,abc-studios.com
 DOMAIN-SUFFIX,abc.com
 DOMAIN-SUFFIX,abcnews.com
