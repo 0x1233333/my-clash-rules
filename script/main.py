@@ -27,7 +27,8 @@ def parse_content(content):
 
     for line in lines:
         line = line.strip()
-        if not line or line.startswith('#'):
+        # [修复点] 跳过空行、注释、以及 YAML 的键名(如 payload:)
+        if not line or line.startswith('#') or line.endswith(':'):
             continue
         
         # 处理 YAML 格式 (- 'value')
@@ -65,10 +66,12 @@ def generate_clash(name, rule_type, dataset):
         f.write("\n")
         for item in sorted(dataset):
             # IP-CIDR 补全 /32
-            if rule_type == 'ip-cidr' and '/' not in item:
-                f.write(f"{clash_type},{item}/32,no-resolve\n")
-            elif rule_type == 'ip-cidr':
-                f.write(f"{clash_type},{item},no-resolve\n")
+            # [修复点] 再次确保 item 不是 payload 等关键词，且是有效的 IP 格式才补全
+            if rule_type == 'ip-cidr':
+                if '/' not in item:
+                    f.write(f"{clash_type},{item}/32,no-resolve\n")
+                else:
+                    f.write(f"{clash_type},{item},no-resolve\n")
             else:
                 f.write(f"{clash_type},{item}\n")
     print(f"Clash 规则已生成: {filename}")
