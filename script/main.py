@@ -22,19 +22,19 @@ def download_content(url):
     return ""
 
 def parse_content(content):
-    """解析内容，提取纯净的规则实体"""
+    """解析内容"""
     lines = content.splitlines()
     payload = set()
 
     for line in lines:
         line = line.strip()
-        # [核心修复] 过滤掉空行、注释、以及 YAML 的键名
+        # 基础过滤
         if not line or line.startswith('#') or line.startswith('//'):
             continue
         
-        # 暴力过滤 YAML 键值 (防止 payload: 混入)
+        # 暴力过滤 YAML 键值
         if ':' in line and not line.startswith('http'):
-            # 如果包含冒号但不是网址，极大概率是 YAML 键，跳过
+            # 如果包含冒号但不是网址，极大概率是 YAML 键 (如 payload:)，跳过
             continue
 
         # 处理 YAML 列表格式 (- 'value')
@@ -81,9 +81,9 @@ def generate_clash(name, rule_type, dataset):
         for item in sorted(dataset):
             # [终极清洗] 针对 IP-CIDR 的强制正则检查
             if rule_type == 'ip-cidr':
-                # 正则：如果在 IP 规则里发现了 g-z 的字母 (IPv6只用a-f)，或者包含 payload 关键字
-                # 简单粗暴点：只要包含 'payload' 这个词，直接跳过
-                if 'payload' in item.lower():
+                # 正则：如果在 IP 规则里发现了 a-z 的字母，绝对是垃圾数据，直接跳过！
+                if re.search(r'[a-zA-Z]', item):
+                    print(f"警告：检测到非法 IP 规则，已自动剔除: {item}")
                     continue
                 
                 # 正常的 IP 处理逻辑
@@ -102,11 +102,12 @@ def generate_singbox(name, rule_type, dataset):
         "rules": []
     }
     
-    # 针对 IP 类型也做同样的过滤
+    # 针对 IP 类型也做同样的正则过滤
     clean_dataset = []
     if rule_type == "ip_cidr" or rule_type == "ip-cidr":
         for item in dataset:
-            if 'payload' in item.lower():
+            # 如果包含字母，跳过
+            if re.search(r'[a-zA-Z]', item):
                 continue
             clean_dataset.append(item)
     else:
