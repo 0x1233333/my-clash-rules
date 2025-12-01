@@ -2,6 +2,7 @@ import requests
 import yaml
 import json
 import os
+import re
 
 # 配置文件路径
 CONFIG_FILE = 'sources.yaml'
@@ -27,8 +28,11 @@ def parse_content(content):
 
     for line in lines:
         line = line.strip()
-        # [修复点] 跳过空行、注释、以及 YAML 的键名(如 payload:)
+        # [核心修复] 过滤掉空行、注释、以及 YAML 的键名(如 payload:)
         if not line or line.startswith('#') or line.endswith(':'):
+            continue
+        # [额外保险] 过滤掉不包含任何规则内容的行
+        if line.lower() == 'payload':
             continue
         
         # 处理 YAML 格式 (- 'value')
@@ -65,9 +69,13 @@ def generate_clash(name, rule_type, dataset):
         f.write(f"# COUNT: {len(dataset)}\n")
         f.write("\n")
         for item in sorted(dataset):
-            # IP-CIDR 补全 /32
-            # [修复点] 再次确保 item 不是 payload 等关键词，且是有效的 IP 格式才补全
+            # [终极修复] 针对 IP-CIDR 的强制检查
             if rule_type == 'ip-cidr':
+                # 如果内容里连个数字都没有，绝对不是IP，直接跳过！
+                if not any(char.isdigit() for char in item):
+                    continue
+                
+                # 正常的 IP 处理逻辑
                 if '/' not in item:
                     f.write(f"{clash_type},{item}/32,no-resolve\n")
                 else:
@@ -83,8 +91,20 @@ def generate_singbox(name, rule_type, dataset):
         "rules": []
     }
     
+    # 针对 IP 类型也做同样的过滤，防止脏数据
+    clean_dataset = []
+    if rule_type == "ip_cidr" or rule_type == "ip-cidr":
+        for item in dataset:
+            if any(char.isdigit() for char in item):
+                clean_dataset.append(item)
+    else:
+        clean_dataset = list(dataset)
+
     rule_obj = {}
-    dataset_list = sorted(list(dataset))
+    dataset_list = sorted(clean_dataset)
+
+    if not dataset_list:
+        return
 
     # 映射 Sing-box 类型
     if rule_type == "domain-suffix":
