@@ -27,7 +27,7 @@
 
 -----
 
-### 🔗 规则引用地址 (Clash / ACL4SSR 专用)
+### 🔗 规则引用地址 (Clash专用)
 
 **基础前缀:** `https://raw.githubusercontent.com/0x1233333/my-clash-rules/main/rules/clash/`
 
