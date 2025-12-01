@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "ai.azure.com",
+        "ai.google.dev",
+        "aistudio.google.com",
+        "anthropic",
+        "anthropic.com",
+        "api.githubcopilot.com",
+        "api.groq.com",
+        "api.together.xyz",
+        "auth0.com",
+        "bard.google.com",
+        "challenges.cloudflare.com",
+        "chatgpt.com",
+        "claude",
+        "claude.ai",
+        "claudeusercontent.com",
+        "client-api.arkoselabs.com",
+        "console.groq.com",
+        "copilot-proxy.githubusercontent.com",
+        "copilot.cloud.microsoft",
+        "copilot.microsoft.com",
+        "cursor.com",
+        "cursor.sh",
+        "events.statsigapi.net",
+        "featuregates.org",
+        "gemini.google.com",
+        "generativelanguage.googleapis.com",
+        "grazie.ai",
+        "grazie.aws.intellij.net",
+        "identrust.com",
+        "intercom.io",
+        "intercomcdn.com",
+        "makersuite.google.com",
+        "meta.ai",
+        "mistral.ai",
+        "oaistatic.com",
+        "oaiusercontent.com",
+        "openai",
+        "openai.com",
+        "openaiapi-site.azureedge.net",
+        "perplexity.ai",
+        "sentry.io",
+        "sora.com",
+        "stripe.com",
+        "sydney.bing.com"
+      ]
+    }
+  ]
+}

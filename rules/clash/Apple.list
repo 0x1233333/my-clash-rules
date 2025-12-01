@@ -1,6 +1,6 @@
 # NAME: Apple
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 219
+# COUNT: 248
 
 DOMAIN-SUFFIX,+.a1.mzstatic.com
 DOMAIN-SUFFIX,+.a2.mzstatic.com
@@ -220,4 +220,33 @@ DOMAIN-SUFFIX,+.www.apple.com
 DOMAIN-SUFFIX,+.www.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN-SUFFIX,+.wwwicloud.com
 DOMAIN-SUFFIX,+.xp.apple.com
+DOMAIN-SUFFIX,139.178.128.0/18
+DOMAIN-SUFFIX,144.178.0.0/19
+DOMAIN-SUFFIX,144.178.36.0/22
+DOMAIN-SUFFIX,144.178.48.0/20
+DOMAIN-SUFFIX,17.0.0.0/8
+DOMAIN-SUFFIX,192.35.50.0/24
+DOMAIN-SUFFIX,198.183.17.0/24
+DOMAIN-SUFFIX,205.180.175.0/24
+DOMAIN-SUFFIX,63.92.224.0/19
+DOMAIN-SUFFIX,65.199.22.0/23
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.comscoreresearch.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,payload:
