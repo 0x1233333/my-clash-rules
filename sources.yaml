@@ -3,22 +3,29 @@ sources:
   # 1. 核心应用类
   # ============================================
 
-  # === AI 平台 (OpenAI, Gemini, Claude 等) ===
+  # === AI 平台 ===
   - name: "AI"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/OpenAI.list"
 
-  # === 苹果服务 (ACL + LS 双源互补) ===
+  # === 苹果服务 ===
   - name: "Apple"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
+      # StricklandF 补充
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppStore.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppleCN.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppleID.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppleIntelligence.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/ApplePush.list"
 
-  # === 微软服务 (Microsoft, Bing, OneDrive) ===
+  # === 微软服务 ===
   - name: "Microsoft"
     type: "domain-suffix"
     urls:
@@ -26,23 +33,74 @@ sources:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list"
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
 
-  # === 谷歌服务 (FCM, General Google) ===
+  # === 谷歌服务 ===
   - name: "Google"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list" # 虽名为CN，常用于规则判断
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
 
-  # === 电报 (Telegram 域名 + IP) ===
-  - name: "Telegram"
-    type: "domain-suffix" # 脚本兼容处理，会自动提取里面的 IP
+  # === 即时通讯 (Telegram + WhatsApp + Others) ===
+  # 建议在 INI 中将此列表指向“📲 电报信息”分组
+  - name: "Chat"
+    type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+      # StricklandF 补充
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/WhatsApp.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Skype.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Viber.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Zalo.list"
 
   # ============================================
-  # 2. 媒体与游戏
+  # 2. 金融与资产 (高度整合)
+  # ============================================
+
+  # === 加密货币 (Crypto) ===
+  - name: "Crypto"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/0x1233333/bank-Crypto/refs/heads/main/Crypto.list"
+      # StricklandF 补充
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Crypto.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Binance.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Kraken.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/MEXC.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/TrustWallet.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/CBWallet.list"
+
+  # === 银行与支付 (Finance) ===
+  - name: "Finance"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Wise.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/OCBC.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/N26.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/WebMoney.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/BOCHK.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/HSBCHK.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/SCBHK.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/ZABHK.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/iFastGB.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/BOCOM.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/CNCITIC.list"
+
+  # === 券商与股票 (Securities) ===
+  - name: "Securities"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Futubull.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Moomoo.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Longbridge.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/IBKR.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Trading212.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/RockFlow.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/uSmart.list"
+
+  # ============================================
+  # 3. 媒体与游戏
   # ============================================
 
   # === YouTube 专用 ===
@@ -57,7 +115,7 @@ sources:
     urls:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
 
-  # === 国外媒体聚合 (除油管奈飞外的其他) ===
+  # === 国外媒体聚合 ===
   - name: "Media"
     type: "domain-suffix"
     urls:
@@ -65,7 +123,7 @@ sources:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
 
-  # === 国内媒体 (网易云, B站大陆版) ===
+  # === 国内媒体 ===
   - name: "ChinaMedia"
     type: "domain-suffix"
     urls:
@@ -73,7 +131,7 @@ sources:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
 
-  # === 游戏平台 (Steam, Epic, Sony, Nintendo) ===
+  # === 游戏平台 ===
   - name: "Games"
     type: "domain-suffix"
     urls:
@@ -84,10 +142,10 @@ sources:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
 
   # ============================================
-  # 3. 基础分类 (直连/代理/拦截)
+  # 4. 基础分类 (直连/代理/拦截)
   # ============================================
 
-  # === 代理列表 (GFW + 非CN) ===
+  # === 代理列表 (含生活类APP: Grab, Uber等) ===
   - name: "Proxy"
     type: "domain-suffix"
     urls:
@@ -95,8 +153,13 @@ sources:
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
+      # StricklandF 生活类补充
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Grab.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Uber.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/UltraMobile.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/STUN_Servers.list"
 
-  # === 直连列表 (国内域名 + 局域网) ===
+  # === 直连列表 ===
   - name: "Direct"
     type: "domain-suffix"
     urls:
@@ -117,14 +180,17 @@ sources:
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
       - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+      # StricklandF 补充
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/AdsBlock.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/QQMusicAds.list"
 
-  # === 国内 IP 段 (用于 IP 兜底直连) ===
+  # === 国内 IP ===
   - name: "CN-IP"
     type: "ip-cidr"
     urls:
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
 
-  # === 应用程序 (进程名) ===
+  # === 应用程序 ===
   - name: "Applications"
     type: "process-name"
     urls:
