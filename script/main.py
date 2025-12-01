@@ -22,22 +22,32 @@ def download_content(url):
     return ""
 
 def parse_content(content):
-    """解析内容，提取纯净的规则实体"""
+    """解析内容"""
     lines = content.splitlines()
     payload = set()
 
     for line in lines:
         line = line.strip()
-        # [核心修复] 过滤掉空行、注释、以及 YAML 的键名(如 payload:)
-        if not line or line.startswith('#') or line.endswith(':'):
-            continue
-        # [额外保险] 过滤掉不包含任何规则内容的行
-        if line.lower() == 'payload':
+        # 基础过滤
+        if not line or line.startswith('#') or line.startswith('//'):
             continue
         
-        # 处理 YAML 格式 (- 'value')
+        # 暴力过滤 YAML 键值
+        if ':' in line and not line.startswith('http'):
+            # 如果包含冒号但不是网址，极大概率是 YAML 键 (如 payload:)，跳过
+            continue
+
+        # 处理 YAML 列表格式 (- 'value')
         if line.startswith("- '") and line.endswith("'"):
             item = line[3:-1]
+            payload.add(item)
+            continue
+        if line.startswith('- "') and line.endswith('"'):
+            item = line[3:-1]
+            payload.add(item)
+            continue
+        if line.startswith("- "):
+            item = line[2:].strip()
             payload.add(item)
             continue
         
@@ -69,10 +79,11 @@ def generate_clash(name, rule_type, dataset):
         f.write(f"# COUNT: {len(dataset)}\n")
         f.write("\n")
         for item in sorted(dataset):
-            # [终极修复] 针对 IP-CIDR 的强制检查
+            # [终极清洗] 针对 IP-CIDR 的强制正则检查
             if rule_type == 'ip-cidr':
-                # 如果内容里连个数字都没有，绝对不是IP，直接跳过！
-                if not any(char.isdigit() for char in item):
+                # 正则：如果在 IP 规则里发现了 a-z 的字母，绝对是垃圾数据，直接跳过！
+                if re.search(r'[a-zA-Z]', item):
+                    print(f"警告：检测到非法 IP 规则，已自动剔除: {item}")
                     continue
                 
                 # 正常的 IP 处理逻辑
@@ -91,12 +102,14 @@ def generate_singbox(name, rule_type, dataset):
         "rules": []
     }
     
-    # 针对 IP 类型也做同样的过滤，防止脏数据
+    # 针对 IP 类型也做同样的正则过滤
     clean_dataset = []
     if rule_type == "ip_cidr" or rule_type == "ip-cidr":
         for item in dataset:
-            if any(char.isdigit() for char in item):
-                clean_dataset.append(item)
+            # 如果包含字母，跳过
+            if re.search(r'[a-zA-Z]', item):
+                continue
+            clean_dataset.append(item)
     else:
         clean_dataset = list(dataset)
 
