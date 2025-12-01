@@ -1,5 +1,7 @@
-# 自动转换自 Loyalsoldier/google.txt
-# 格式兼容: ACL4SSR / Subconverter
+# NAME: Google
+# TYPE: DOMAIN-SUFFIX
+# COUNT: 144
+
 DOMAIN-SUFFIX,+.265.com
 DOMAIN-SUFFIX,+.2mdn-cn.net
 DOMAIN-SUFFIX,+.2mdn.net
@@ -143,3 +145,4 @@ DOMAIN-SUFFIX,+.www.destinationurl.com
 DOMAIN-SUFFIX,+.www.gstatic.com
 DOMAIN-SUFFIX,+.www.pxcc.com
 DOMAIN-SUFFIX,+.xn--flw351e.com
+DOMAIN-SUFFIX,payload:
