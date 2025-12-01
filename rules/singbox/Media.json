@@ -65,7 +65,6 @@
         "WeMusic*",
         "YouTube*",
         "YouTubeMusic*",
-        "^https?:\\/\\/www\\.amazon\\.com\\/(Amazon-Video|gp\\/video)\\/",
         "abc-studios.com",
         "abc.com",
         "abcnews.com",
