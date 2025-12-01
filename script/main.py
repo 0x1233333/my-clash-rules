@@ -2,7 +2,6 @@ import requests
 import yaml
 import json
 import os
-import re
 
 # 配置文件路径
 CONFIG_FILE = 'sources.yaml'
@@ -22,27 +21,25 @@ def download_content(url):
     return ""
 
 def parse_content(content):
-    """解析内容，提取纯净的域名或IP"""
+    """解析内容，提取纯净的规则实体"""
     lines = content.splitlines()
-    payload = set() # 使用集合自动去重
+    payload = set()
 
     for line in lines:
         line = line.strip()
-        # 跳过空行和注释
         if not line or line.startswith('#'):
             continue
         
-        # 处理 YAML 格式 (- 'domain')
+        # 处理 YAML 格式 (- 'value')
         if line.startswith("- '") and line.endswith("'"):
             item = line[3:-1]
             payload.add(item)
             continue
         
-        # 处理 Clash 格式 (DOMAIN-SUFFIX,google.com,Proxy)
+        # 处理 Clash 格式 (TYPE,value,...)
         if ',' in line:
             parts = line.split(',')
             if len(parts) >= 2:
-                # 取第二个元素作为值 (domain 或 ip)
                 payload.add(parts[1].strip())
             continue
             
@@ -52,12 +49,13 @@ def parse_content(content):
     return payload
 
 def generate_clash(name, rule_type, dataset):
-    """生成 Clash 格式文件"""
-    # 映射类型名称
+    """生成 Clash 格式文件 (.list)"""
+    # 映射 Clash 类型
     clash_type = "DOMAIN-SUFFIX"
     if rule_type == "domain-keyword": clash_type = "DOMAIN-KEYWORD"
     if rule_type == "domain": clash_type = "DOMAIN"
     if rule_type == "ip-cidr": clash_type = "IP-CIDR"
+    if rule_type == "process-name": clash_type = "PROCESS-NAME"
 
     filename = os.path.join(OUTPUT_CLASH, f"{name}.list")
     with open(filename, 'w', encoding='utf-8') as f:
@@ -66,7 +64,7 @@ def generate_clash(name, rule_type, dataset):
         f.write(f"# COUNT: {len(dataset)}\n")
         f.write("\n")
         for item in sorted(dataset):
-            # IP-CIDR 需要特殊处理 /32
+            # IP-CIDR 补全 /32
             if rule_type == 'ip-cidr' and '/' not in item:
                 f.write(f"{clash_type},{item}/32,no-resolve\n")
             elif rule_type == 'ip-cidr':
@@ -76,23 +74,26 @@ def generate_clash(name, rule_type, dataset):
     print(f"Clash 规则已生成: {filename}")
 
 def generate_singbox(name, rule_type, dataset):
-    """生成 Sing-box (JSON Source) 格式文件"""
+    """生成 Sing-box 格式文件 (.json)"""
     srs_data = {
         "version": 1,
         "rules": []
     }
     
     rule_obj = {}
-    
+    dataset_list = sorted(list(dataset))
+
     # 映射 Sing-box 类型
     if rule_type == "domain-suffix":
-        rule_obj["domain_suffix"] = sorted(list(dataset))
+        rule_obj["domain_suffix"] = dataset_list
     elif rule_type == "domain-keyword":
-        rule_obj["domain_keyword"] = sorted(list(dataset))
+        rule_obj["domain_keyword"] = dataset_list
     elif rule_type == "domain":
-        rule_obj["domain"] = sorted(list(dataset))
+        rule_obj["domain"] = dataset_list
     elif rule_type == "ip-cidr":
-        rule_obj["ip_cidr"] = sorted(list(dataset))
+        rule_obj["ip_cidr"] = dataset_list
+    elif rule_type == "process-name":
+        rule_obj["process_name"] = dataset_list
         
     srs_data["rules"].append(rule_obj)
 
@@ -102,23 +103,19 @@ def generate_singbox(name, rule_type, dataset):
     print(f"Sing-box 规则已生成: {filename}")
 
 def main():
-    # 创建输出目录
     os.makedirs(OUTPUT_CLASH, exist_ok=True)
     os.makedirs(OUTPUT_SINGBOX, exist_ok=True)
 
-    # 读取配置
     with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
         config = yaml.safe_load(f)
 
-    # 遍历每个分类
     for category in config['sources']:
         name = category['name']
         rule_type = category['type']
         urls = category['urls']
         
-        print(f"\n正在处理分类: {name} ...")
+        print(f"\n正在处理分类: {name} ({rule_type}) ...")
         
-        # 聚合该分类下的所有数据
         merged_data = set()
         for url in urls:
             content = download_content(url)
@@ -127,7 +124,6 @@ def main():
         
         print(f"去重后数据量: {len(merged_data)}")
         
-        # 生成文件
         if merged_data:
             generate_clash(name, rule_type, merged_data)
             generate_singbox(name, rule_type, merged_data)
