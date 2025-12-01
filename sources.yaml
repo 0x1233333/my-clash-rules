@@ -1,31 +1,58 @@
-# 定义规则分类，脚本会把相同分类的内容合并、去重
-# type 支持: domain-suffix, domain-keyword, domain, ip-cidr
-
 sources:
-  # === 分类：苹果服务 ===
+  # === 苹果服务 (合并了 Apple 和 iCloud) ===
   - name: "Apple"
     type: "domain-suffix"
     urls:
-      # Loyalsoldier 的苹果
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
-      # (示例) 假设张三也有一个苹果列表，加在这里，脚本会自动去重
-      # - "https://raw.githubusercontent.com/zhangsan/rules/master/apple.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
 
-  # === 分类：代理列表 (Proxy) ===
+  # === 谷歌服务 (FCM等) ===
+  - name: "Google"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
+
+  # === 代理列表 (合并了 Proxy, GFW, 非CN域名) ===
   - name: "Proxy"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
-      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
 
-  # === 分类：广告拦截 (Reject) ===
+  # === 直连列表 (合并了 Direct, Local, Private) ===
+  - name: "Direct"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
+
+  # === 广告拦截 ===
   - name: "Reject"
     type: "domain-suffix"
     urls:
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
 
-  # === 分类：Telegram IP ===
+  # === Telegram IP ===
   - name: "TelegramIP"
     type: "ip-cidr"
     urls:
       - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+
+  # === 国内 IP ===
+  - name: "CN-IP"
+    type: "ip-cidr"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
+
+  # === 局域网 IP ===
+  - name: "LAN-IP"
+    type: "ip-cidr"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
+
+  # === 应用程序 (进程名) ===
+  - name: "Applications"
+    type: "process-name"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt"
