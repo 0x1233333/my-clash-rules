@@ -1,168 +1,180 @@
-import requests
-import yaml
-import json
-import os
-import re
+sources:
+  # ============================================
+  # 1. 核心大厂与系统服务 (通用 - 不分级)
+  # ============================================
+  - name: "Apple"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/AppStore.list"
 
-# 配置文件路径
-CONFIG_FILE = 'sources.yaml'
-# 输出目录
-OUTPUT_CLASH = 'rules/clash'
-OUTPUT_SINGBOX = 'rules/singbox'
+  - name: "Microsoft"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list"
 
-def download_content(url):
-    """下载规则内容"""
-    try:
-        print(f"正在下载: {url}")
-        resp = requests.get(url, timeout=15)
-        if resp.status_code == 200:
-            return resp.text
-    except Exception as e:
-        print(f"下载失败 {url}: {e}")
-    return ""
+  - name: "Google"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
 
-def parse_content(content):
-    """解析内容"""
-    lines = content.splitlines()
-    payload = set()
+  # ============================================
+  # 2. 垂直领域 (通用 - 不分级)
+  # ============================================
+  - name: "AI"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/OpenAI.list"
 
-    for line in lines:
-        line = line.strip()
-        # 基础过滤
-        if not line or line.startswith('#') or line.startswith('//'):
-            continue
-        
-        # 暴力过滤 YAML 键值
-        if ':' in line and not line.startswith('http'):
-            # 如果包含冒号但不是网址，极大概率是 YAML 键 (如 payload:)，跳过
-            continue
+  - name: "Chat"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WhatsApp/WhatsApp.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Skype.list"
 
-        # 处理 YAML 列表格式 (- 'value')
-        if line.startswith("- '") and line.endswith("'"):
-            item = line[3:-1]
-            payload.add(item)
-            continue
-        if line.startswith('- "') and line.endswith('"'):
-            item = line[3:-1]
-            payload.add(item)
-            continue
-        if line.startswith("- "):
-            item = line[2:].strip()
-            payload.add(item)
-            continue
-        
-        # 处理 Clash 格式 (TYPE,value,...)
-        if ',' in line:
-            parts = line.split(',')
-            if len(parts) >= 2:
-                payload.add(parts[1].strip())
-            continue
-            
-        # 处理纯文本格式
-        payload.add(line)
-        
-    return payload
+  - name: "Social"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list"
 
-def generate_clash(name, rule_type, dataset):
-    """生成 Clash 格式文件 (.list)"""
-    # 映射 Clash 类型
-    clash_type = "DOMAIN-SUFFIX"
-    if rule_type == "domain-keyword": clash_type = "DOMAIN-KEYWORD"
-    if rule_type == "domain": clash_type = "DOMAIN"
-    if rule_type == "ip-cidr": clash_type = "IP-CIDR"
-    if rule_type == "process-name": clash_type = "PROCESS-NAME"
+  - name: "Crypto"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/0x1233333/bank-Crypto/refs/heads/main/Crypto.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Binance/Binance.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OKX/OKX.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TradingView/TradingView.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MetaMask/MetaMask.list"
 
-    filename = os.path.join(OUTPUT_CLASH, f"{name}.list")
-    with open(filename, 'w', encoding='utf-8') as f:
-        f.write(f"# NAME: {name}\n")
-        f.write(f"# TYPE: {clash_type}\n")
-        f.write(f"# COUNT: {len(dataset)}\n")
-        f.write("\n")
-        for item in sorted(dataset):
-            # [终极清洗] 针对 IP-CIDR 的强制正则检查
-            if rule_type == 'ip-cidr':
-                # 正则：如果在 IP 规则里发现了 a-z 的字母，绝对是垃圾数据，直接跳过！
-                if re.search(r'[a-zA-Z]', item):
-                    print(f"警告：检测到非法 IP 规则，已自动剔除: {item}")
-                    continue
-                
-                # 正常的 IP 处理逻辑
-                if '/' not in item:
-                    f.write(f"{clash_type},{item}/32,no-resolve\n")
-                else:
-                    f.write(f"{clash_type},{item},no-resolve\n")
-            else:
-                f.write(f"{clash_type},{item}\n")
-    print(f"Clash 规则已生成: {filename}")
+  - name: "Finance"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Wise.list"
 
-def generate_singbox(name, rule_type, dataset):
-    """生成 Sing-box 格式文件 (.json)"""
-    srs_data = {
-        "version": 1,
-        "rules": []
-    }
-    
-    # 针对 IP 类型也做同样的正则过滤
-    clean_dataset = []
-    if rule_type == "ip_cidr" or rule_type == "ip-cidr":
-        for item in dataset:
-            # 如果包含字母，跳过
-            if re.search(r'[a-zA-Z]', item):
-                continue
-            clean_dataset.append(item)
-    else:
-        clean_dataset = list(dataset)
+  - name: "Securities"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Securities.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Futu/Futu.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TigerBrokers/TigerBrokers.list"
 
-    rule_obj = {}
-    dataset_list = sorted(clean_dataset)
+  - name: "Media"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list"
 
-    if not dataset_list:
-        return
+  - name: "Games"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sony/Sony.list"
 
-    # 映射 Sing-box 类型
-    if rule_type == "domain-suffix":
-        rule_obj["domain_suffix"] = dataset_list
-    elif rule_type == "domain-keyword":
-        rule_obj["domain_keyword"] = dataset_list
-    elif rule_type == "domain":
-        rule_obj["domain"] = dataset_list
-    elif rule_type == "ip-cidr":
-        rule_obj["ip_cidr"] = dataset_list
-    elif rule_type == "process-name":
-        rule_obj["process_name"] = dataset_list
-        
-    srs_data["rules"].append(rule_obj)
+  # ============================================
+  # 3. 基础代理分类 (分级生成)
+  # ============================================
 
-    filename = os.path.join(OUTPUT_SINGBOX, f"{name}.json")
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(srs_data, f, indent=2, ensure_ascii=False)
-    print(f"Sing-box 规则已生成: {filename}")
+  # === ProxyFull (超大杯) ===
+  # 包含 GFWList, 非CN域名, 以及各类杂项。体积巨大，抗污染最强。
+  - name: "ProxyFull"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Grab.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Uber.list"
 
-def main():
-    os.makedirs(OUTPUT_CLASH, exist_ok=True)
-    os.makedirs(OUTPUT_SINGBOX, exist_ok=True)
+  # === ProxyLite (中杯 - 推荐) ===
+  # 包含 ACL 和 LS 的常用代理列表。平衡之选。
+  - name: "ProxyLite"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Grab.list"
+      - "https://raw.githubusercontent.com/StricklandF/Filter/main/Uber.list"
 
-    with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
-        config = yaml.safe_load(f)
+  # === ProxyMini (小杯) ===
+  # 仅包含核心域名。极小。必须配合 GEOIP,CN 使用。
+  - name: "ProxyMini"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list"
 
-    for category in config['sources']:
-        name = category['name']
-        rule_type = category['type']
-        urls = category['urls']
-        
-        print(f"\n正在处理分类: {name} ({rule_type}) ...")
-        
-        merged_data = set()
-        for url in urls:
-            content = download_content(url)
-            parsed = parse_content(content)
-            merged_data.update(parsed)
-        
-        print(f"去重后数据量: {len(merged_data)}")
-        
-        if merged_data:
-            generate_clash(name, rule_type, merged_data)
-            generate_singbox(name, rule_type, merged_data)
+  # ============================================
+  # 4. 直连与IP分类 (分级生成)
+  # ============================================
 
-if __name__ == "__main__":
-    main()
+  # === DirectFull (超大杯 - 不推荐用于普通路由) ===
+  # 包含所有中国域名列表。体积巨大。
+  - name: "DirectFull"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
+
+  # === DirectLite (中杯 - 推荐) ===
+  # 仅包含局域网、下载、特定中国服务(Steam/GoogleCN)。常规国内网站走 GEOIP。
+  - name: "DirectLite"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list"
+      - "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/MicrosoftCN.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/AppleCN.list"
+
+  # === 广告拦截 ===
+  - name: "Reject"
+    type: "domain-suffix"
+    urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.list"
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy.list"
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+
+  # === IP 规则 ===
+  - name: "CN-IP"
+    type: "ip-cidr"
+    urls:
+      - "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPs.list"
+
+  - name: "TelegramIP"
+    type: "ip-cidr"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+
+  # === 应用程序 ===
+  - name: "Applications"
+    type: "process-name"
+    urls:
+      - "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt"
