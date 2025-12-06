@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26765
+# COUNT: 26771
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -21856,6 +21856,7 @@ DOMAIN-SUFFIX,+.tiffany-towers.com
 DOMAIN-SUFFIX,+.tig-ol-bitties.live
 DOMAIN-SUFFIX,+.tigervpn.com
 DOMAIN-SUFFIX,+.tik-tokapi.com
+DOMAIN-SUFFIX,+.tiktok-row.net
 DOMAIN-SUFFIX,+.tiktok.com
 DOMAIN-SUFFIX,+.tiktokcdn-eu.com
 DOMAIN-SUFFIX,+.tiktokcdn-us.com
@@ -21863,6 +21864,8 @@ DOMAIN-SUFFIX,+.tiktokcdn.com
 DOMAIN-SUFFIX,+.tiktokd.net
 DOMAIN-SUFFIX,+.tiktokd.org
 DOMAIN-SUFFIX,+.tiktokeu-cdn.com
+DOMAIN-SUFFIX,+.tiktokglobalshopv.com
+DOMAIN-SUFFIX,+.tiktokminis.us
 DOMAIN-SUFFIX,+.tiktokrow-cdn.com
 DOMAIN-SUFFIX,+.tiktokv.com
 DOMAIN-SUFFIX,+.tiktokv.eu
@@ -25633,6 +25636,7 @@ DOMAIN-SUFFIX,+.zophar.net
 DOMAIN-SUFFIX,+.zopim.com
 DOMAIN-SUFFIX,+.zorglist.com
 DOMAIN-SUFFIX,+.zorrovpn.com
+DOMAIN-SUFFIX,+.zotero.org
 DOMAIN-SUFFIX,+.zozotown.com
 DOMAIN-SUFFIX,+.zpn.im
 DOMAIN-SUFFIX,+.zqqpwz.com
@@ -25897,6 +25901,7 @@ DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,bybit-exchange.github.io
 DOMAIN-SUFFIX,bybit.ada.support
 DOMAIN-SUFFIX,bytedance.map.fastly.net
+DOMAIN-SUFFIX,c.gle
 DOMAIN-SUFFIX,c.ppy.sh
 DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com
@@ -26212,6 +26217,7 @@ DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,megaupload.com
 DOMAIN-SUFFIX,messages.uber.com
 DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,microsoftpersonalcontent.com
 DOMAIN-SUFFIX,misa-prod.s3.ap-northeast-1.amazonaws.com
 DOMAIN-SUFFIX,mobilelive-hamivideo.cdn.hinet.net
 DOMAIN-SUFFIX,mof.moca.vn

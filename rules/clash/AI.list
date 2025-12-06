@@ -1,6 +1,6 @@
 # NAME: AI
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 116
+# COUNT: 120
 
 DOMAIN-SUFFIX,104.238.150.13/32
 DOMAIN-SUFFIX,14061
@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,chatgptvideo.xyz
 DOMAIN-SUFFIX,chatgptvideob.buzz
 DOMAIN-SUFFIX,claude
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,colab
@@ -85,11 +86,13 @@ DOMAIN-SUFFIX,in.appcenter.ms
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,ios.chat.openai.com
+DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,location.microsoft.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,o33249.ingest.sentry.io
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -118,3 +121,4 @@ DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,sydney.bing.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,www.bing.com
+DOMAIN-SUFFIX,x.ai

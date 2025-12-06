@@ -1,6 +1,6 @@
 # NAME: Media
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 597
+# COUNT: 601
 
 DOMAIN-SUFFIX,*YouTubeMusic*
 DOMAIN-SUFFIX,*com.google.ios.youtubemusic*
@@ -137,6 +137,7 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,cinemax.com
 DOMAIN-SUFFIX,claude
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
@@ -395,6 +396,7 @@ DOMAIN-SUFFIX,japronx.com
 DOMAIN-SUFFIX,japronx.net
 DOMAIN-SUFFIX,japronx.tv
 DOMAIN-SUFFIX,japronx.vip
+DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,joox.com
 DOMAIN-SUFFIX,jooxweb-api
 DOMAIN-SUFFIX,js-agent.newrelic.com
@@ -471,6 +473,7 @@ DOMAIN-SUFFIX,nivod.tv
 DOMAIN-SUFFIX,nivodi.tv
 DOMAIN-SUFFIX,nivodz.com
 DOMAIN-SUFFIX,nomadlandmovie.ch
+DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,now-ashare.com
 DOMAIN-SUFFIX,now-tv.com
 DOMAIN-SUFFIX,now.com
@@ -586,6 +589,7 @@ DOMAIN-SUFFIX,warnermediacdn.com
 DOMAIN-SUFFIX,watchdisneyfe.com
 DOMAIN-SUFFIX,watchespn.com
 DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,yb.uncn.jp
 DOMAIN-SUFFIX,youboranqs01.com
 DOMAIN-SUFFIX,youtu.be

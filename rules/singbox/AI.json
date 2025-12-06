@@ -56,6 +56,7 @@
         "chatgptvideob.buzz",
         "claude",
         "claude.ai",
+        "claude.com",
         "claudeusercontent.com",
         "client-api.arkoselabs.com",
         "colab",
@@ -86,11 +87,13 @@
         "intercom.io",
         "intercomcdn.com",
         "ios.chat.openai.com",
+        "jetbrains.ai",
         "launchdarkly.com",
         "location.microsoft.com",
         "makersuite.google.com",
         "meta.ai",
         "mistral.ai",
+        "notebooklm.google.com",
         "o33249.ingest.sentry.io",
         "oaistatic.com",
         "oaiusercontent.com",
@@ -118,7 +121,8 @@
         "stripe.com",
         "sydney.bing.com",
         "turn.livekit.cloud",
-        "www.bing.com"
+        "www.bing.com",
+        "x.ai"
       ]
     }
   ]

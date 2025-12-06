@@ -1,6 +1,6 @@
 # NAME: ProxyMini
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 419
+# COUNT: 421
 
 DOMAIN-SUFFIX,1.201.0.0/24
 DOMAIN-SUFFIX,103.2.28.0/24
@@ -140,6 +140,7 @@ DOMAIN-SUFFIX,bongacams.com
 DOMAIN-SUFFIX,box.com
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,buzzsprout.com
+DOMAIN-SUFFIX,c.gle
 DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,cdnst.net
@@ -267,6 +268,7 @@ DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,megaupload.com
 DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,microsoftpersonalcontent.com
 DOMAIN-SUFFIX,mvnrepository.com
 DOMAIN-SUFFIX,myteamspeak.com
 DOMAIN-SUFFIX,netdna-cdn.com
