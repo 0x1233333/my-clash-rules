@@ -1,6 +1,6 @@
 # NAME: Google
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 905
+# COUNT: 906
 
 DOMAIN-SUFFIX,+.265.com
 DOMAIN-SUFFIX,+.2mdn-cn.net
@@ -327,6 +327,7 @@ DOMAIN-SUFFIX,bumptop.com
 DOMAIN-SUFFIX,bumptop.net
 DOMAIN-SUFFIX,bumptop.org
 DOMAIN-SUFFIX,bumptunes.com
+DOMAIN-SUFFIX,c.gle
 DOMAIN-SUFFIX,cache.pack.google.com
 DOMAIN-SUFFIX,campuslondon.com
 DOMAIN-SUFFIX,capitalg.com

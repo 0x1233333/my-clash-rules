@@ -1,6 +1,6 @@
 # NAME: Microsoft
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 674
+# COUNT: 675
 
 DOMAIN-SUFFIX,1drv
 DOMAIN-SUFFIX,1drv.com
@@ -379,6 +379,7 @@ DOMAIN-SUFFIX,microsoftonline.cn
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,microsoftpartnercommunity.com
 DOMAIN-SUFFIX,microsoftpartnersolutions.com
+DOMAIN-SUFFIX,microsoftpersonalcontent.com
 DOMAIN-SUFFIX,microsoftreactor.cn
 DOMAIN-SUFFIX,microsoftreactor.com.cn
 DOMAIN-SUFFIX,microsoftreactor.info
