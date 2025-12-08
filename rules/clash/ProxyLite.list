@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26777
+# COUNT: 26778
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -11964,6 +11964,7 @@ DOMAIN-SUFFIX,+.imageab.com
 DOMAIN-SUFFIX,+.imagebam.com
 DOMAIN-SUFFIX,+.imagecurl.com
 DOMAIN-SUFFIX,+.imagecurl.org
+DOMAIN-SUFFIX,+.imagedelivery.net
 DOMAIN-SUFFIX,+.imagefap.com
 DOMAIN-SUFFIX,+.imageflea.com
 DOMAIN-SUFFIX,+.imageglass.org
