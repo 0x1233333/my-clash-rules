@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26778
+# COUNT: 26779
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -18833,6 +18833,7 @@ DOMAIN-SUFFIX,+.r18.com
 DOMAIN-SUFFIX,+.r18av.com
 DOMAIN-SUFFIX,+.r18lu-avi.shop
 DOMAIN-SUFFIX,+.r18lu.com
+DOMAIN-SUFFIX,+.r2.dev
 DOMAIN-SUFFIX,+.r34porn.net
 DOMAIN-SUFFIX,+.rabbitscams.com
 DOMAIN-SUFFIX,+.rabbitscams.sex
