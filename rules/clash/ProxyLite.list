@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26779
+# COUNT: 26780
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -18726,6 +18726,7 @@ DOMAIN-SUFFIX,+.qmov.net
 DOMAIN-SUFFIX,+.qmp4.com
 DOMAIN-SUFFIX,+.qmttqg3k.me
 DOMAIN-SUFFIX,+.qnap.com
+DOMAIN-SUFFIX,+.qobuz.com
 DOMAIN-SUFFIX,+.qombol.com
 DOMAIN-SUFFIX,+.qoo10.jp
 DOMAIN-SUFFIX,+.qooqlevideo.com
