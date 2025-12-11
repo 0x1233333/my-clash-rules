@@ -1,6 +1,6 @@
 # NAME: CN-IP
 # TYPE: IP-CIDR
-# COUNT: 30305
+# COUNT: 30304
 
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -3331,7 +3331,6 @@ IP-CIDR,103.36.36.0/22,no-resolve
 IP-CIDR,103.36.56.0/21,no-resolve
 IP-CIDR,103.36.56.0/22,no-resolve
 IP-CIDR,103.36.60.0/22,no-resolve
-IP-CIDR,103.36.63.0/24,no-resolve
 IP-CIDR,103.36.64.0/22,no-resolve
 IP-CIDR,103.36.72.0/22,no-resolve
 IP-CIDR,103.36.96.0/22,no-resolve
