@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26892
+# COUNT: 26893
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -2628,6 +2628,7 @@ DOMAIN-SUFFIX,+.awjq.cc
 DOMAIN-SUFFIX,+.aws
 DOMAIN-SUFFIX,+.aws-iot-hackathon.com
 DOMAIN-SUFFIX,+.aws.com
+DOMAIN-SUFFIX,+.aws.dev
 DOMAIN-SUFFIX,+.awsapprunner.com
 DOMAIN-SUFFIX,+.awsapps.com
 DOMAIN-SUFFIX,+.awsautopilot.com
