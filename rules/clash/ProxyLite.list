@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26893
+# COUNT: 26900
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -17459,6 +17459,7 @@ DOMAIN-SUFFIX,+.parstream.com
 DOMAIN-SUFFIX,+.parstream.net
 DOMAIN-SUFFIX,+.parstream.org
 DOMAIN-SUFFIX,+.partmaker.com
+DOMAIN-SUFFIX,+.partnerstack.xyz
 DOMAIN-SUFFIX,+.partycasino.com
 DOMAIN-SUFFIX,+.partylikeits1986.org
 DOMAIN-SUFFIX,+.partypoker.com
@@ -26366,7 +26367,13 @@ DOMAIN-SUFFIX,notify.ppy.sh
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,np-edge.itunes.apple.com
 DOMAIN-SUFFIX,nsstatic.net
+DOMAIN-SUFFIX,ntdfreemobile-tgc.cdn.hinet.net
+DOMAIN-SUFFIX,ntdfreepc-tgc.cdn.hinet.net
+DOMAIN-SUFFIX,ntdfreetv-tgc.cdn.hinet.net
+DOMAIN-SUFFIX,ntdfreevcpc-tgc.cdn.hinet.net
+DOMAIN-SUFFIX,ntdofifreemobile-tgc.cdn.hinet.net
 DOMAIN-SUFFIX,ntdofifreepc-tgc.cdn.hinet.net
+DOMAIN-SUFFIX,ntdofifreetv-tgc.cdn.hinet.net
 DOMAIN-SUFFIX,ntdofifreevcpc-tgc.cdn.hinet.net
 DOMAIN-SUFFIX,ntp-b.nist.gov
 DOMAIN-SUFFIX,ntp-c.colorado.edu
