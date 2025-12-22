@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39552
+# COUNT: 39553
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -5228,6 +5228,7 @@ DOMAIN-SUFFIX,+.stat.gov.tw
 DOMAIN-SUFFIX,+.statebank
 DOMAIN-SUFFIX,+.statefarm
 DOMAIN-SUFFIX,+.static-economist.com
+DOMAIN-SUFFIX,+.static.pocketcasts.com
 DOMAIN-SUFFIX,+.static.shemalez.com
 DOMAIN-SUFFIX,+.static01.nyt.com
 DOMAIN-SUFFIX,+.staticflickr.com
