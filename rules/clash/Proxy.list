@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39553
+# COUNT: 39554
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -33543,6 +33543,7 @@ DOMAIN-SUFFIX,static-economist.com
 DOMAIN-SUFFIX,static-nike.com
 DOMAIN-SUFFIX,static-verizon.com
 DOMAIN-SUFFIX,static.fun
+DOMAIN-SUFFIX,static.pocketcasts.com
 DOMAIN-SUFFIX,static9.net.au
 DOMAIN-SUFFIX,statically.io
 DOMAIN-SUFFIX,staticflickr.com
