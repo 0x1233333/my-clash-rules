@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39569
+# COUNT: 39570
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -1163,7 +1163,6 @@ DOMAIN-SUFFIX,+.chrome.com
 DOMAIN-SUFFIX,+.chromecast.com
 DOMAIN-SUFFIX,+.chromeexperiments.com
 DOMAIN-SUFFIX,+.chromestatus.com
-DOMAIN-SUFFIX,+.chromium.org
 DOMAIN-SUFFIX,+.chuang-yen.org
 DOMAIN-SUFFIX,+.chubold.com
 DOMAIN-SUFFIX,+.chubun.com
@@ -3530,6 +3529,7 @@ DOMAIN-SUFFIX,+.looktoronto.com
 DOMAIN-SUFFIX,+.lotsawahouse.org
 DOMAIN-SUFFIX,+.lotte
 DOMAIN-SUFFIX,+.lotuslight.org.tw
+DOMAIN-SUFFIX,+.lovart.ai
 DOMAIN-SUFFIX,+.lovetvshow.com
 DOMAIN-SUFFIX,+.lpl
 DOMAIN-SUFFIX,+.lplfinancial
@@ -24455,6 +24455,7 @@ DOMAIN-SUFFIX,lotuslight.org.tw
 DOMAIN-SUFFIX,lou.ac.uk
 DOMAIN-SUFFIX,loucoll.ac.uk
 DOMAIN-SUFFIX,loughborough.ac.uk
+DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,love-sextoys.co.uk
 DOMAIN-SUFFIX,love4porn.com
 DOMAIN-SUFFIX,love6.tv
