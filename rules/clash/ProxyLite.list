@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26919
+# COUNT: 26920
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -10848,6 +10848,7 @@ DOMAIN-SUFFIX,+.herokucharge.com
 DOMAIN-SUFFIX,+.herokussl.com
 DOMAIN-SUFFIX,+.herominers.com
 DOMAIN-SUFFIX,+.herringnetwork.com
+DOMAIN-SUFFIX,+.hetzner-cloud.de
 DOMAIN-SUFFIX,+.hetzner.cloud
 DOMAIN-SUFFIX,+.hetzner.com
 DOMAIN-SUFFIX,+.hetzner.company
