@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39742
+# COUNT: 39747
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -219,6 +219,7 @@ DOMAIN-SUFFIX,+.agro.hk
 DOMAIN-SUFFIX,+.ai
 DOMAIN-SUFFIX,+.ai.binwang.me
 DOMAIN-SUFFIX,+.ai.dev
+DOMAIN-SUFFIX,+.ai.studio
 DOMAIN-SUFFIX,+.aig
 DOMAIN-SUFFIX,+.aiosearch.com
 DOMAIN-SUFFIX,+.aiph.net
@@ -1434,6 +1435,7 @@ DOMAIN-SUFFIX,+.dawangidc.com
 DOMAIN-SUFFIX,+.daxa.cn
 DOMAIN-SUFFIX,+.day
 DOMAIN-SUFFIX,+.daylife.com
+DOMAIN-SUFFIX,+.dazn.com
 DOMAIN-SUFFIX,+.db.tt
 DOMAIN-SUFFIX,+.dbgjd.com
 DOMAIN-SUFFIX,+.dcard.tw
@@ -4264,6 +4266,8 @@ DOMAIN-SUFFIX,+.onmypc.org
 DOMAIN-SUFFIX,+.onthehunt.com
 DOMAIN-SUFFIX,+.ontrac.com
 DOMAIN-SUFFIX,+.oojj.de
+DOMAIN-SUFFIX,+.ooni.io
+DOMAIN-SUFFIX,+.ooni.org
 DOMAIN-SUFFIX,+.open
 DOMAIN-SUFFIX,+.open.com.hk
 DOMAIN-SUFFIX,+.open.firstory.me
@@ -6471,6 +6475,7 @@ DOMAIN-SUFFIX,+.xbookcn.com
 DOMAIN-SUFFIX,+.xbox
 DOMAIN-SUFFIX,+.xbtce.com
 DOMAIN-SUFFIX,+.xcafe.in
+DOMAIN-SUFFIX,+.xcancel.com
 DOMAIN-SUFFIX,+.xcity.jp
 DOMAIN-SUFFIX,+.xcritic.com
 DOMAIN-SUFFIX,+.xerotica.com
