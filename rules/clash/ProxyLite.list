@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26922
+# COUNT: 26925
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -9651,6 +9651,7 @@ DOMAIN-SUFFIX,+.geocities.co.jp
 DOMAIN-SUFFIX,+.geocities.com
 DOMAIN-SUFFIX,+.geocities.jp
 DOMAIN-SUFFIX,+.geodesummit.com
+DOMAIN-SUFFIX,+.geogebra.org
 DOMAIN-SUFFIX,+.geolytics.com
 DOMAIN-SUFFIX,+.geoport.com
 DOMAIN-SUFFIX,+.geospatialimaging.com
@@ -24130,6 +24131,7 @@ DOMAIN-SUFFIX,+.wiivc.net
 DOMAIN-SUFFIX,+.wikaba.com
 DOMAIN-SUFFIX,+.wikawika.xyz
 DOMAIN-SUFFIX,+.wiki.gamerp.jp
+DOMAIN-SUFFIX,+.wiki.gg
 DOMAIN-SUFFIX,+.wiki.keso.cn
 DOMAIN-SUFFIX,+.wiki.oauth.net
 DOMAIN-SUFFIX,+.wiki.phonegap.com
@@ -24263,6 +24265,7 @@ DOMAIN-SUFFIX,+.wokar.org
 DOMAIN-SUFFIX,+.wolfatbestbuy.com
 DOMAIN-SUFFIX,+.wolfatbestbuy.net
 DOMAIN-SUFFIX,+.wolfax.com
+DOMAIN-SUFFIX,+.wolframalpha.com
 DOMAIN-SUFFIX,+.wolfsex-me.sbs
 DOMAIN-SUFFIX,+.wolterskluwer.com
 DOMAIN-SUFFIX,+.wombo.ai
