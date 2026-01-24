@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26928
+# COUNT: 26929
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -3490,6 +3490,7 @@ DOMAIN-SUFFIX,+.binance.us
 DOMAIN-SUFFIX,+.binance.vision
 DOMAIN-SUFFIX,+.binanceapi.com
 DOMAIN-SUFFIX,+.binancecnt.com
+DOMAIN-SUFFIX,+.binanceru.net
 DOMAIN-SUFFIX,+.binancezh.be
 DOMAIN-SUFFIX,+.binancezh.biz
 DOMAIN-SUFFIX,+.binancezh.cc
