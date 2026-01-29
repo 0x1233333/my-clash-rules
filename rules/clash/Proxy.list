@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39822
+# COUNT: 39839
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -498,6 +498,7 @@ DOMAIN-SUFFIX,+.ba
 DOMAIN-SUFFIX,+.babylonbee.com
 DOMAIN-SUFFIX,+.babynet.com.hk
 DOMAIN-SUFFIX,+.backchina.com
+DOMAIN-SUFFIX,+.backend-v2.crixet.com
 DOMAIN-SUFFIX,+.backpackers.com.tw
 DOMAIN-SUFFIX,+.backtotiananmen.com
 DOMAIN-SUFFIX,+.bad.news
@@ -6854,6 +6855,7 @@ DOMAIN-SUFFIX,1010.com.hk
 DOMAIN-SUFFIX,101boyvideos.com
 DOMAIN-SUFFIX,101tubeporn.com
 DOMAIN-SUFFIX,101xxx.xyz
+DOMAIN-SUFFIX,1024terabox.com
 DOMAIN-SUFFIX,103.2.28.0/22
 DOMAIN-SUFFIX,103.246.56.0/22
 DOMAIN-SUFFIX,103.27.148.0/22
@@ -9470,7 +9472,9 @@ DOMAIN-SUFFIX,ark.to
 DOMAIN-SUFFIX,arlingtoncemetery.mil
 DOMAIN-SUFFIX,arm.ac.uk
 DOMAIN-SUFFIX,arma.ac.uk
+DOMAIN-SUFFIX,arma3.com
 DOMAIN-SUFFIX,armagh.ac.uk
+DOMAIN-SUFFIX,armaplatform.com
 DOMAIN-SUFFIX,armorgames.com
 DOMAIN-SUFFIX,armovs.com
 DOMAIN-SUFFIX,army.mil
@@ -10149,6 +10153,7 @@ DOMAIN-SUFFIX,babyzone.com
 DOMAIN-SUFFIX,bach.ac.uk
 DOMAIN-SUFFIX,backchina.com
 DOMAIN-SUFFIX,backdoorlesbians.com
+DOMAIN-SUFFIX,backend-v2.crixet.com
 DOMAIN-SUFFIX,backoncourse.ac.uk
 DOMAIN-SUFFIX,backpackers.com.tw
 DOMAIN-SUFFIX,backroomcastingcouch.com
@@ -10303,6 +10308,7 @@ DOMAIN-SUFFIX,battlefront2.com
 DOMAIN-SUFFIX,battlefrontii.com
 DOMAIN-SUFFIX,battlelog.com
 DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,battleye.com
 DOMAIN-SUFFIX,bavs.ac.uk
 DOMAIN-SUFFIX,baxsound.com
 DOMAIN-SUFFIX,bayareabmw.com
@@ -10806,6 +10812,7 @@ DOMAIN-SUFFIX,bestbuystores.com
 DOMAIN-SUFFIX,bestbuytradein.com
 DOMAIN-SUFFIX,bestbuyus.com
 DOMAIN-SUFFIX,bestcamsites.net
+DOMAIN-SUFFIX,bestclouddrive.com
 DOMAIN-SUFFIX,besterpornos.com
 DOMAIN-SUFFIX,bestescortgirls.nl
 DOMAIN-SUFFIX,bestforchina.org
@@ -11119,6 +11126,7 @@ DOMAIN-SUFFIX,bishopg.ac.uk
 DOMAIN-SUFFIX,bisi.ac.uk
 DOMAIN-SUFFIX,bisq.io
 DOMAIN-SUFFIX,bisq.network
+DOMAIN-SUFFIX,bistudio.com
 DOMAIN-SUFFIX,bisyoujyogyaruge.topaz.ne.jp
 DOMAIN-SUFFIX,bit-z.com
 DOMAIN-SUFFIX,bit.com
@@ -11840,6 +11848,7 @@ DOMAIN-SUFFIX,bodyandsoul.com.au
 DOMAIN-SUFFIX,bodyfluids-jav.com
 DOMAIN-SUFFIX,bognor-training.ac.uk
 DOMAIN-SUFFIX,bognor.ac.uk
+DOMAIN-SUFFIX,bohemia.net
 DOMAIN-SUFFIX,boj.or.jp
 DOMAIN-SUFFIX,bokep.net
 DOMAIN-SUFFIX,bokepseks.org
@@ -14267,6 +14276,7 @@ DOMAIN-SUFFIX,criticalfriend.ac.uk
 DOMAIN-SUFFIX,criticaltheology.ac.uk
 DOMAIN-SUFFIX,critiquebrainz.org
 DOMAIN-SUFFIX,crittercism.com
+DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,crl.versign.net
 DOMAIN-SUFFIX,crmdynint-gcc.com
 DOMAIN-SUFFIX,crmdynint.com
@@ -14700,6 +14710,7 @@ DOMAIN-SUFFIX,daylife.com
 DOMAIN-SUFFIX,dayone.me
 DOMAIN-SUFFIX,daytonbmw.com
 DOMAIN-SUFFIX,daytontrucktires.com
+DOMAIN-SUFFIX,dayz.com
 DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,dazndn.com
@@ -18479,6 +18490,7 @@ DOMAIN-SUFFIX,freess.org
 DOMAIN-SUFFIX,freessh.us
 DOMAIN-SUFFIX,freessl.com
 DOMAIN-SUFFIX,freetcp.com
+DOMAIN-SUFFIX,freeterabox.com
 DOMAIN-SUFFIX,freetibet.net
 DOMAIN-SUFFIX,freetibet.org
 DOMAIN-SUFFIX,freetibetanheroes.org
@@ -24966,6 +24978,7 @@ DOMAIN-SUFFIX,mairbeats.com
 DOMAIN-SUFFIX,maizhong.org
 DOMAIN-SUFFIX,makaan.com
 DOMAIN-SUFFIX,makeanything.com
+DOMAIN-SUFFIX,makearmanotwar.com
 DOMAIN-SUFFIX,makebettercode.com
 DOMAIN-SUFFIX,makecode.org
 DOMAIN-SUFFIX,makeitopen.com
@@ -28845,6 +28858,7 @@ DOMAIN-SUFFIX,osmfoundation.org
 DOMAIN-SUFFIX,osmosis.ac.uk
 DOMAIN-SUFFIX,ospray.net
 DOMAIN-SUFFIX,ospray.org
+DOMAIN-SUFFIX,ospserver.net
 DOMAIN-SUFFIX,oss-ap-northeast-1.aliyuncs.com
 DOMAIN-SUFFIX,oss-ap-northeast-2.aliyuncs.com
 DOMAIN-SUFFIX,oss-ap-south-1.aliyuncs.com
@@ -30563,7 +30577,6 @@ DOMAIN-SUFFIX,ptwxz.com
 DOMAIN-SUFFIX,ptzwx.com
 DOMAIN-SUFFIX,pub.dev
 DOMAIN-SUFFIX,pubg.com
-DOMAIN-SUFFIX,pubg1.battleye.com
 DOMAIN-SUFFIX,public-sex-porn.com
 DOMAIN-SUFFIX,public-trust.com
 DOMAIN-SUFFIX,public-us-pingsx.api.clonoth.com
@@ -32798,6 +32811,7 @@ DOMAIN-SUFFIX,sijihuisuo.club
 DOMAIN-SUFFIX,sijihuisuo.com
 DOMAIN-SUFFIX,sikh-uni.ac.uk
 DOMAIN-SUFFIX,sikiswap.com
+DOMAIN-SUFFIX,silicagame.com
 DOMAIN-SUFFIX,silicon-mobility.com
 DOMAIN-SUFFIX,siliconmobility.com
 DOMAIN-SUFFIX,silkbook.com
@@ -34630,6 +34644,7 @@ DOMAIN-SUFFIX,tensorflow.org
 DOMAIN-SUFFIX,tentowns.ac.uk
 DOMAIN-SUFFIX,tenzinpalmo.com
 DOMAIN-SUFFIX,terabox.com
+DOMAIN-SUFFIX,terabox1024.com
 DOMAIN-SUFFIX,teraboxcdn.com
 DOMAIN-SUFFIX,terapeack.com
 DOMAIN-SUFFIX,terapeak.ca
@@ -36816,6 +36831,7 @@ DOMAIN-SUFFIX,view.et.uber.com
 DOMAIN-SUFFIX,viewerswives.net
 DOMAIN-SUFFIX,viewgals.com
 DOMAIN-SUFFIX,viewpointsfromfacebook.com
+DOMAIN-SUFFIX,vigorgame.com
 DOMAIN-SUFFIX,vijayatemple.org
 DOMAIN-SUFFIX,vikacg.com
 DOMAIN-SUFFIX,vikiporn.com
@@ -39195,6 +39211,7 @@ DOMAIN-SUFFIX,yiqiedoushiganggangkaishi.org
 DOMAIN-SUFFIX,yiyechat.com
 DOMAIN-SUFFIX,yizhihongxing.com
 DOMAIN-SUFFIX,yjcontentdelivery.com
+DOMAIN-SUFFIX,ylands.com
 DOMAIN-SUFFIX,ymail.com
 DOMAIN-SUFFIX,ymca-wales.ac.uk
 DOMAIN-SUFFIX,ymca.ac.uk
