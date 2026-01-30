@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39839
+# COUNT: 39840
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -2078,6 +2078,7 @@ DOMAIN-SUFFIX,+.freeoz.org
 DOMAIN-SUFFIX,+.freess.org
 DOMAIN-SUFFIX,+.freessh.us
 DOMAIN-SUFFIX,+.freetcp.com
+DOMAIN-SUFFIX,+.freeterabox.com
 DOMAIN-SUFFIX,+.freetibet.net
 DOMAIN-SUFFIX,+.freetibet.org
 DOMAIN-SUFFIX,+.freetibetanheroes.org
