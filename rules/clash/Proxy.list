@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39840
+# COUNT: 39850
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -5058,6 +5058,7 @@ DOMAIN-SUFFIX,+.sijihuisuo.com
 DOMAIN-SUFFIX,+.silkbook.com
 DOMAIN-SUFFIX,+.silvergatebank.com
 DOMAIN-SUFFIX,+.simbolostwitter.com
+DOMAIN-SUFFIX,+.simianx.ai
 DOMAIN-SUFFIX,+.simplecd.me
 DOMAIN-SUFFIX,+.simplecd.org
 DOMAIN-SUFFIX,+.simpleproductivityblog.com
@@ -6673,6 +6674,7 @@ DOMAIN-SUFFIX,+.yesasia.com
 DOMAIN-SUFFIX,+.yesasia.com.hk
 DOMAIN-SUFFIX,+.yespornplease.com
 DOMAIN-SUFFIX,+.yeyeclub.com
+DOMAIN-SUFFIX,+.yfsp.tv
 DOMAIN-SUFFIX,+.ygto.com
 DOMAIN-SUFFIX,+.yhcw.net
 DOMAIN-SUFFIX,+.yibada.com
@@ -9660,6 +9662,7 @@ DOMAIN-SUFFIX,atgfw.org
 DOMAIN-SUFFIX,athenaeizou.com
 DOMAIN-SUFFIX,athens.ac.uk
 DOMAIN-SUFFIX,atkgallery.com
+DOMAIN-SUFFIX,atl-paas.net
 DOMAIN-SUFFIX,atlanta168.com
 DOMAIN-SUFFIX,atlantaminidealers.com
 DOMAIN-SUFFIX,atlars.ac.uk
@@ -9667,6 +9670,7 @@ DOMAIN-SUFFIX,atlas.ac.uk
 DOMAIN-SUFFIX,atlasdmt.com
 DOMAIN-SUFFIX,atlasonepoint.com
 DOMAIN-SUFFIX,atlaspost.com
+DOMAIN-SUFFIX,atlassian-dev.net
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,atlassian.net
 DOMAIN-SUFFIX,atnext.com
@@ -18163,6 +18167,9 @@ DOMAIN-SUFFIX,fotolia.tv
 DOMAIN-SUFFIX,fotolja.com
 DOMAIN-SUFFIX,fotoscaserasx.com
 DOMAIN-SUFFIX,foundationdb.org
+DOMAIN-SUFFIX,foundationdns.com
+DOMAIN-SUFFIX,foundationdns.net
+DOMAIN-SUFFIX,foundationdns.org
 DOMAIN-SUFFIX,foundationyear.ac.uk
 DOMAIN-SUFFIX,fountmedia.io
 DOMAIN-SUFFIX,fourface.nodesnoop.com
@@ -23182,6 +23189,7 @@ DOMAIN-SUFFIX,jinroukong.com
 DOMAIN-SUFFIX,jinsilubanzhao.com
 DOMAIN-SUFFIX,jintian.net
 DOMAIN-SUFFIX,jinx.com
+DOMAIN-SUFFIX,jira.com
 DOMAIN-SUFFIX,jiruan.net
 DOMAIN-SUFFIX,jisc-collections.ac.uk
 DOMAIN-SUFFIX,jisc-content.ac.uk
@@ -32827,6 +32835,7 @@ DOMAIN-SUFFIX,simcity.com
 DOMAIN-SUFFIX,simg.jp
 DOMAIN-SUFFIX,simgbb.com
 DOMAIN-SUFFIX,simian.ac.uk
+DOMAIN-SUFFIX,simianx.ai
 DOMAIN-SUFFIX,similar-porn.fun
 DOMAIN-SUFFIX,simility.com
 DOMAIN-SUFFIX,simonsgirls.com
@@ -33591,6 +33600,7 @@ DOMAIN-SUFFIX,srtcdn.net
 DOMAIN-SUFFIX,srttu.edu
 DOMAIN-SUFFIX,sruc.ac.uk
 DOMAIN-SUFFIX,srwwu.uno
+DOMAIN-SUFFIX,ss-inf.net
 DOMAIN-SUFFIX,ss-link.com
 DOMAIN-SUFFIX,ss.levyhsu.com
 DOMAIN-SUFFIX,ss2.us
