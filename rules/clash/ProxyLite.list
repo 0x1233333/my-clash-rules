@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26956
+# COUNT: 26961
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -4473,6 +4473,7 @@ DOMAIN-SUFFIX,+.brutalfetish.com
 DOMAIN-SUFFIX,+.brutaltgp.com
 DOMAIN-SUFFIX,+.bs-adreview.com
 DOMAIN-SUFFIX,+.bs-awh.ne.jp
+DOMAIN-SUFFIX,+.bsappapi.com
 DOMAIN-SUFFIX,+.bsi.ir
 DOMAIN-SUFFIX,+.bsky.app
 DOMAIN-SUFFIX,+.bsky.network
@@ -17981,6 +17982,7 @@ DOMAIN-SUFFIX,+.pixtronix.com
 DOMAIN-SUFFIX,+.pjbyj.top
 DOMAIN-SUFFIX,+.pjful-app.lol
 DOMAIN-SUFFIX,+.pjgirls.com
+DOMAIN-SUFFIX,+.pjsekai.sega.jp
 DOMAIN-SUFFIX,+.pk.com
 DOMAIN-SUFFIX,+.pki-post.ch
 DOMAIN-SUFFIX,+.pki-posta.ch
@@ -19542,6 +19544,7 @@ DOMAIN-SUFFIX,+.sale-nikeshoes.com
 DOMAIN-SUFFIX,+.salebeatslasteststyle4you.com
 DOMAIN-SUFFIX,+.saleblackfridaydrebeats.com
 DOMAIN-SUFFIX,+.salecheaphandbags.com
+DOMAIN-SUFFIX,+.salesforce-setup.com
 DOMAIN-SUFFIX,+.salesforce.com
 DOMAIN-SUFFIX,+.salesforce.org
 DOMAIN-SUFFIX,+.salesforceiq.com
@@ -21385,6 +21388,7 @@ DOMAIN-SUFFIX,+.tahr.org.tw
 DOMAIN-SUFFIX,+.taiav.com
 DOMAIN-SUFFIX,+.tail-f.com
 DOMAIN-SUFFIX,+.tailf.com
+DOMAIN-SUFFIX,+.tails.net
 DOMAIN-SUFFIX,+.tailscale.com
 DOMAIN-SUFFIX,+.tailscale.io
 DOMAIN-SUFFIX,+.tailwindtraders.com
@@ -26470,6 +26474,7 @@ DOMAIN-SUFFIX,p-events-delivery.akamaized.net
 DOMAIN-SUFFIX,p-hermes2.grabtaxi.com
 DOMAIN-SUFFIX,p.grabtaxi.com
 DOMAIN-SUFFIX,p16-tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX,packages.microsoft.com
 DOMAIN-SUFFIX,pages.et.uber.com
 DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
 DOMAIN-SUFFIX,partner-api.grab.com

@@ -1,6 +1,6 @@
 # NAME: AI
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 120
+# COUNT: 121
 
 DOMAIN-SUFFIX,104.238.150.13/32
 DOMAIN-SUFFIX,14061
@@ -92,6 +92,7 @@ DOMAIN-SUFFIX,location.microsoft.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,o33249.ingest.sentry.io
 DOMAIN-SUFFIX,oaistatic.com
