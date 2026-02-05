@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39858
+# COUNT: 39863
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -4345,6 +4345,7 @@ DOMAIN-SUFFIX,+.padmanet.com
 DOMAIN-SUFFIX,+.page
 DOMAIN-SUFFIX,+.page.link
 DOMAIN-SUFFIX,+.page2rss.com
+DOMAIN-SUFFIX,+.pages.dev
 DOMAIN-SUFFIX,+.paimon.moe
 DOMAIN-SUFFIX,+.palacemoon.com
 DOMAIN-SUFFIX,+.paljorpublications.com
@@ -4957,6 +4958,7 @@ DOMAIN-SUFFIX,+.seek
 DOMAIN-SUFFIX,+.seesmic.com
 DOMAIN-SUFFIX,+.seevpn.com
 DOMAIN-SUFFIX,+.seezone.net
+DOMAIN-SUFFIX,+.sef.org.tw
 DOMAIN-SUFFIX,+.sehuatang.net
 DOMAIN-SUFFIX,+.sehuatang.org
 DOMAIN-SUFFIX,+.sejie.com
@@ -6439,6 +6441,7 @@ DOMAIN-SUFFIX,+.www.dwheeler.com
 DOMAIN-SUFFIX,+.www.eastturkistan.net
 DOMAIN-SUFFIX,+.www.gmiddle.com
 DOMAIN-SUFFIX,+.www.gmiddle.net
+DOMAIN-SUFFIX,+.www.hoyolab.com
 DOMAIN-SUFFIX,+.www.hustlercash.com
 DOMAIN-SUFFIX,+.www.idlcoyote.com
 DOMAIN-SUFFIX,+.www.imdb.com
@@ -28870,6 +28873,7 @@ DOMAIN-SUFFIX,osier.ac.uk
 DOMAIN-SUFFIX,osiri-suki-club.com
 DOMAIN-SUFFIX,osl.com
 DOMAIN-SUFFIX,osm.org
+DOMAIN-SUFFIX,osmand.net
 DOMAIN-SUFFIX,osmfoundation.org
 DOMAIN-SUFFIX,osmosis.ac.uk
 DOMAIN-SUFFIX,ospray.net
@@ -32234,6 +32238,7 @@ DOMAIN-SUFFIX,seevic-college.ac.uk
 DOMAIN-SUFFIX,seevic.ac.uk
 DOMAIN-SUFFIX,seevpn.com
 DOMAIN-SUFFIX,seezone.net
+DOMAIN-SUFFIX,sef.org.tw
 DOMAIN-SUFFIX,sefton-acl.ac.uk
 DOMAIN-SUFFIX,sefton.ac.uk
 DOMAIN-SUFFIX,sego8.cc
