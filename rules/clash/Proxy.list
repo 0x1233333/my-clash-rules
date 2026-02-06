@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39863
+# COUNT: 39864
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.030buy.com
@@ -2612,6 +2612,7 @@ DOMAIN-SUFFIX,+.greenvpn.net
 DOMAIN-SUFFIX,+.greenvpn.org
 DOMAIN-SUFFIX,+.grindr.com
 DOMAIN-SUFFIX,+.grok.com
+DOMAIN-SUFFIX,+.grokipedia.com
 DOMAIN-SUFFIX,+.ground.news
 DOMAIN-SUFFIX,+.gs
 DOMAIN-SUFFIX,+.gs-discuss.com
