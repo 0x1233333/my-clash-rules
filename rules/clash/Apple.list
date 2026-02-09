@@ -1,6 +1,6 @@
 # NAME: Apple
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 1822
+# COUNT: 1825
 
 DOMAIN-SUFFIX,+.a1.mzstatic.com
 DOMAIN-SUFFIX,+.a2.mzstatic.com
@@ -256,6 +256,9 @@ DOMAIN-SUFFIX,2013newbeatsworld.com
 DOMAIN-SUFFIX,2013pascherbeatsbydre.com
 DOMAIN-SUFFIX,2014cheapbeatsbydre.com
 DOMAIN-SUFFIX,205.180.175.0/24
+DOMAIN-SUFFIX,2403:300::/32
+DOMAIN-SUFFIX,2620:149::/32
+DOMAIN-SUFFIX,2a01:b740::/32
 DOMAIN-SUFFIX,2beatsdre.com
 DOMAIN-SUFFIX,2buybeatsbydre.com
 DOMAIN-SUFFIX,2drdrebeats.com
