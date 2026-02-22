@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 38273
+# COUNT: 38278
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -164,6 +164,7 @@ DOMAIN-SUFFIX,+.akamaihd.net
 DOMAIN-SUFFIX,+.akdn
 DOMAIN-SUFFIX,+.akiba-online.com
 DOMAIN-SUFFIX,+.akiba-web.com
+DOMAIN-SUFFIX,+.akile.io
 DOMAIN-SUFFIX,+.akinator.com
 DOMAIN-SUFFIX,+.akow.org
 DOMAIN-SUFFIX,+.al
@@ -326,6 +327,7 @@ DOMAIN-SUFFIX,+.aspi.org.au
 DOMAIN-SUFFIX,+.aspistrategist.org.au
 DOMAIN-SUFFIX,+.assembla.com
 DOMAIN-SUFFIX,+.assets.bwbx.io
+DOMAIN-SUFFIX,+.assets.nxtrace.org
 DOMAIN-SUFFIX,+.assimp.org
 DOMAIN-SUFFIX,+.astrill.com
 DOMAIN-SUFFIX,+.at
@@ -2719,6 +2721,7 @@ DOMAIN-SUFFIX,+.mediachinese.com
 DOMAIN-SUFFIX,+.mediafreakcity.com
 DOMAIN-SUFFIX,+.mediawiki.org
 DOMAIN-SUFFIX,+.medium.com
+DOMAIN-SUFFIX,+.meee.com.tw
 DOMAIN-SUFFIX,+.meetup.com
 DOMAIN-SUFFIX,+.mega.co.nz
 DOMAIN-SUFFIX,+.mega.io
@@ -3137,6 +3140,7 @@ DOMAIN-SUFFIX,+.ooni.org
 DOMAIN-SUFFIX,+.open
 DOMAIN-SUFFIX,+.open.firstory.me
 DOMAIN-SUFFIX,+.openai.com
+DOMAIN-SUFFIX,+.opencritic.com
 DOMAIN-SUFFIX,+.opendemocracy.net
 DOMAIN-SUFFIX,+.openid.net
 DOMAIN-SUFFIX,+.openleaks.org
@@ -4691,6 +4695,7 @@ DOMAIN-SUFFIX,+.www.ajsands.com
 DOMAIN-SUFFIX,+.www.antd.org
 DOMAIN-SUFFIX,+.www.aolnews.com
 DOMAIN-SUFFIX,+.www.bing.com
+DOMAIN-SUFFIX,+.www.clashverge.dev
 DOMAIN-SUFFIX,+.www.cmoinc.org
 DOMAIN-SUFFIX,+.www.dmm.com
 DOMAIN-SUFFIX,+.www.eastturkistan.net
