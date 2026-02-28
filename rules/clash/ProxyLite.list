@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 25627
+# COUNT: 25629
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -23892,6 +23892,7 @@ DOMAIN-SUFFIX,+.yandexadexchange.net
 DOMAIN-SUFFIX,+.yandexcloud.net
 DOMAIN-SUFFIX,+.yandexcom.net
 DOMAIN-SUFFIX,+.yandexmetrica.com
+DOMAIN-SUFFIX,+.yandexwebcache.net
 DOMAIN-SUFFIX,+.yandexwebcache.org
 DOMAIN-SUFFIX,+.yangzhi.org
 DOMAIN-SUFFIX,+.yantaqu.com
@@ -25140,6 +25141,7 @@ DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,portal.grab.com
 DOMAIN-SUFFIX,poshtestgallery.cloudapp.net
 DOMAIN-SUFFIX,potato.im
+DOMAIN-SUFFIX,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN-SUFFIX,pplx-res.cloudinary.com
 DOMAIN-SUFFIX,practivate.adobe
 DOMAIN-SUFFIX,practivate.adobe.com
