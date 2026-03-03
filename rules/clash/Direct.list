@@ -1,9 +1,7 @@
 # NAME: Direct
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 344
+# COUNT: 340
 
-DOMAIN-SUFFIX,+.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
-DOMAIN-SUFFIX,+.0.in-addr.arpa
 DOMAIN-SUFFIX,+.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,+.10.in-addr.arpa
 DOMAIN-SUFFIX,+.100.100.in-addr.arpa
@@ -122,9 +120,7 @@ DOMAIN-SUFFIX,+.test.steampowered.com
 DOMAIN-SUFFIX,+.tplinkwifi.net
 DOMAIN-SUFFIX,+.ts.net
 DOMAIN-SUFFIX,+.zte.home
-DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,0.0.0.0/8
-DOMAIN-SUFFIX,0.in-addr.arpa
 DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,10.0.0.0/8
 DOMAIN-SUFFIX,10.in-addr.arpa
