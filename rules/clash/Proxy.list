@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 38311
+# COUNT: 38314
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -304,6 +304,7 @@ DOMAIN-SUFFIX,+.archiveofourown.org
 DOMAIN-SUFFIX,+.archives.gov
 DOMAIN-SUFFIX,+.arctosia.com
 DOMAIN-SUFFIX,+.areca-backup.org
+DOMAIN-SUFFIX,+.arena.ai
 DOMAIN-SUFFIX,+.arena.taipei
 DOMAIN-SUFFIX,+.arethusa.su
 DOMAIN-SUFFIX,+.arlingtoncemetery.mil
@@ -311,6 +312,7 @@ DOMAIN-SUFFIX,+.arte
 DOMAIN-SUFFIX,+.arte.tv
 DOMAIN-SUFFIX,+.artstation.com
 DOMAIN-SUFFIX,+.arvanstorage.ir
+DOMAIN-SUFFIX,+.arweave.org
 DOMAIN-SUFFIX,+.as
 DOMAIN-SUFFIX,+.asacp.org
 DOMAIN-SUFFIX,+.asda
@@ -4650,6 +4652,7 @@ DOMAIN-SUFFIX,+.wiredbytes.com
 DOMAIN-SUFFIX,+.wiredpen.com
 DOMAIN-SUFFIX,+.wireguard.com
 DOMAIN-SUFFIX,+.wisevid.com
+DOMAIN-SUFFIX,+.wispbyte.com
 DOMAIN-SUFFIX,+.withgoogle.com
 DOMAIN-SUFFIX,+.withyoutube.com
 DOMAIN-SUFFIX,+.witopia.net
