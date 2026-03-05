@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 25638
+# COUNT: 25639
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -12471,6 +12471,7 @@ DOMAIN-SUFFIX,+.jerkofftocelebs.com
 DOMAIN-SUFFIX,+.jessicaturner.co.uk
 DOMAIN-SUFFIX,+.jessicaturner.com
 DOMAIN-SUFFIX,+.jetbrains.ai
+DOMAIN-SUFFIX,+.jetbrains.cloud
 DOMAIN-SUFFIX,+.jetbrains.com
 DOMAIN-SUFFIX,+.jetbrains.net
 DOMAIN-SUFFIX,+.jetbrains.space
