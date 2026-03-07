@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 38324
+# COUNT: 38339
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -1164,6 +1164,7 @@ DOMAIN-SUFFIX,+.dmcdn.net
 DOMAIN-SUFFIX,+.dmhy.org
 DOMAIN-SUFFIX,+.dmm.co.jp
 DOMAIN-SUFFIX,+.dnp
+DOMAIN-SUFFIX,+.dns.cloudflare.com
 DOMAIN-SUFFIX,+.dns2go.com
 DOMAIN-SUFFIX,+.dnscrypt.org
 DOMAIN-SUFFIX,+.dnssec.net
@@ -1838,6 +1839,7 @@ DOMAIN-SUFFIX,+.google.com.vn
 DOMAIN-SUFFIX,+.google.cv
 DOMAIN-SUFFIX,+.google.cz
 DOMAIN-SUFFIX,+.google.de
+DOMAIN-SUFFIX,+.google.dev
 DOMAIN-SUFFIX,+.google.dj
 DOMAIN-SUFFIX,+.google.dk
 DOMAIN-SUFFIX,+.google.dm
@@ -2305,6 +2307,7 @@ DOMAIN-SUFFIX,+.interseclab.org
 DOMAIN-SUFFIX,+.inthenameofconfuciusmovie.com
 DOMAIN-SUFFIX,+.intuit
 DOMAIN-SUFFIX,+.investigating.wordpress.com
+DOMAIN-SUFFIX,+.investing.com
 DOMAIN-SUFFIX,+.invidio.us
 DOMAIN-SUFFIX,+.inxian.com
 DOMAIN-SUFFIX,+.io
@@ -14006,6 +14009,7 @@ DOMAIN-SUFFIX,dowjones.com
 DOMAIN-SUFFIX,dowjones.io
 DOMAIN-SUFFIX,dowjoneson.com
 DOMAIN-SUFFIX,download.com
+DOMAIN-SUFFIX,download.dappcdn.com
 DOMAIN-SUFFIX,download.qatp1.net
 DOMAIN-SUFFIX,download.qcpp1.net
 DOMAIN-SUFFIX,download.qpdp1.net
@@ -25104,6 +25108,7 @@ DOMAIN-SUFFIX,muslimvideo.com
 DOMAIN-SUFFIX,mut.ch
 DOMAIN-SUFFIX,muthead.com
 DOMAIN-SUFFIX,muther.ac.uk
+DOMAIN-SUFFIX,muvluv-girls-garden.com
 DOMAIN-SUFFIX,muycerdas.xxx
 DOMAIN-SUFFIX,muyzorras.com
 DOMAIN-SUFFIX,muzi.com
@@ -27073,6 +27078,7 @@ DOMAIN-SUFFIX,only3x.com
 DOMAIN-SUFFIX,onlyams.com
 DOMAIN-SUFFIX,onlycartoonsex.com
 DOMAIN-SUFFIX,onlydudes.com
+DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,onlyfanspw.com
 DOMAIN-SUFFIX,onlyfreelatinaporn.com
 DOMAIN-SUFFIX,onlygayvideo.com
@@ -28190,6 +28196,10 @@ DOMAIN-SUFFIX,pleasefuck.org
 DOMAIN-SUFFIX,pleasurebabe.com
 DOMAIN-SUFFIX,pleasuregirl.net
 DOMAIN-SUFFIX,pleasuremore.com
+DOMAIN-SUFFIX,plex.com
+DOMAIN-SUFFIX,plex.services
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plexapp.com
 DOMAIN-SUFFIX,plexvpn.pro
 DOMAIN-SUFFIX,plixi.com
 DOMAIN-SUFFIX,plm.org.hk
@@ -30671,6 +30681,7 @@ DOMAIN-SUFFIX,sena.co.kr
 DOMAIN-SUFFIX,senatehouselibrary.ac.uk
 DOMAIN-SUFFIX,sendsmtp.com
 DOMAIN-SUFFIX,sendspace.com
+DOMAIN-SUFFIX,sendvid.com
 DOMAIN-SUFFIX,seneporno.com
 DOMAIN-SUFFIX,seniortgp.com
 DOMAIN-SUFFIX,senpaiheat.com
@@ -34834,6 +34845,7 @@ DOMAIN-SUFFIX,utcnist.colorado.edu
 DOMAIN-SUFFIX,utcnist2.colorado.edu
 DOMAIN-SUFFIX,utcnist3.colorado.edu
 DOMAIN-SUFFIX,utcreading.ac.uk
+DOMAIN-SUFFIX,utdstc.com
 DOMAIN-SUFFIX,utopianpal.com
 DOMAIN-SUFFIX,uu-gg.com
 DOMAIN-SUFFIX,uug22.com
@@ -37725,6 +37737,9 @@ DOMAIN-SUFFIX,youflix.is
 DOMAIN-SUFFIX,youjism.com
 DOMAIN-SUFFIX,youjizz.com
 DOMAIN-SUFFIX,youjizz.sex
+DOMAIN-SUFFIX,youla-web-static.mrgcdn.ru
+DOMAIN-SUFFIX,youla.io
+DOMAIN-SUFFIX,youla.ru
 DOMAIN-SUFFIX,youlucky.com
 DOMAIN-SUFFIX,youmaker.com
 DOMAIN-SUFFIX,youmind.ai
