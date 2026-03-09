@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 25658
+# COUNT: 25660
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -7047,6 +7047,7 @@ DOMAIN-SUFFIX,+.dynamics.com
 DOMAIN-SUFFIX,+.dynamobuilds.com
 DOMAIN-SUFFIX,+.dynamopackages.com
 DOMAIN-SUFFIX,+.dynamoreach.com
+DOMAIN-SUFFIX,+.dynatrace.com
 DOMAIN-SUFFIX,+.dynawebinc.com
 DOMAIN-SUFFIX,+.dyncdn.me
 DOMAIN-SUFFIX,+.dynu.com
@@ -8095,6 +8096,7 @@ DOMAIN-SUFFIX,+.familymart.com.ph
 DOMAIN-SUFFIX,+.familypies.net
 DOMAIN-SUFFIX,+.familyporn.tv
 DOMAIN-SUFFIX,+.familypornhd.com
+DOMAIN-SUFFIX,+.familysearch.org
 DOMAIN-SUFFIX,+.familysexsimulator.com
 DOMAIN-SUFFIX,+.familysimulator.com
 DOMAIN-SUFFIX,+.familysimulator.io
@@ -19188,6 +19190,7 @@ DOMAIN-SUFFIX,+.shishijump001.com
 DOMAIN-SUFFIX,+.shit-porn.net
 DOMAIN-SUFFIX,+.shithd.com
 DOMAIN-SUFFIX,+.shitjav.com
+DOMAIN-SUFFIX,+.shitjournal.org
 DOMAIN-SUFFIX,+.shittytube.com
 DOMAIN-SUFFIX,+.shixiao.org
 DOMAIN-SUFFIX,+.shizhao.org
@@ -24750,7 +24753,6 @@ DOMAIN-SUFFIX,cbsplaylistserver.aws.syncbak.com
 DOMAIN-SUFFIX,cbsservice.aws.syncbak.com
 DOMAIN-SUFFIX,cdn-spotify-experiments.conductrics.com
 DOMAIN-SUFFIX,cdn.js7k.com
-DOMAIN-SUFFIX,cdn.jsdelivr.net
 DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,cdnst.net
