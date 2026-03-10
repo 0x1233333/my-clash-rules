@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 25660
+# COUNT: 25661
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -5865,6 +5865,7 @@ DOMAIN-SUFFIX,+.customnikeshoes.com
 DOMAIN-SUFFIX,+.cutout.pro
 DOMAIN-SUFFIX,+.cutscenes.net
 DOMAIN-SUFFIX,+.cutt.ly
+DOMAIN-SUFFIX,+.cve.org
 DOMAIN-SUFFIX,+.cw.com.tw
 DOMAIN-SUFFIX,+.cwcams.com
 DOMAIN-SUFFIX,+.cxacg.com
