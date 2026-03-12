@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 25661
+# COUNT: 25662
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -19355,6 +19355,7 @@ DOMAIN-SUFFIX,+.sinoants.com
 DOMAIN-SUFFIX,+.sinoca.com
 DOMAIN-SUFFIX,+.sinocast.com
 DOMAIN-SUFFIX,+.sinoinsider.com
+DOMAIN-SUFFIX,+.sinyalee.com
 DOMAIN-SUFFIX,+.sipml5.org
 DOMAIN-SUFFIX,+.siport.com
 DOMAIN-SUFFIX,+.sipriyearbook.org
