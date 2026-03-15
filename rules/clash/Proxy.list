@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 38357
+# COUNT: 38358
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -4752,6 +4752,7 @@ DOMAIN-SUFFIX,+.xbtce.com
 DOMAIN-SUFFIX,+.xcafe.in
 DOMAIN-SUFFIX,+.xcancel.com
 DOMAIN-SUFFIX,+.xcity.jp
+DOMAIN-SUFFIX,+.xdaforums.com
 DOMAIN-SUFFIX,+.xerotica.com
 DOMAIN-SUFFIX,+.xerox
 DOMAIN-SUFFIX,+.xfinity.com
