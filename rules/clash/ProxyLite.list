@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 25670
+# COUNT: 25671
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -23052,6 +23052,7 @@ DOMAIN-SUFFIX,+.woolyss.com
 DOMAIN-SUFFIX,+.woopie.jp
 DOMAIN-SUFFIX,+.woopie.tv
 DOMAIN-SUFFIX,+.wordpress.com
+DOMAIN-SUFFIX,+.wordpress.net
 DOMAIN-SUFFIX,+.wordpress.org
 DOMAIN-SUFFIX,+.wordpress.tv
 DOMAIN-SUFFIX,+.work2icu.org
