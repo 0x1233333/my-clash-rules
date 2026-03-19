@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 38362
+# COUNT: 38368
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -81,6 +81,7 @@ DOMAIN-SUFFIX,+.a248.e.akamai.net
 DOMAIN-SUFFIX,+.aaa
 DOMAIN-SUFFIX,+.aamacau.com
 DOMAIN-SUFFIX,+.aarp
+DOMAIN-SUFFIX,+.aave.com
 DOMAIN-SUFFIX,+.abb
 DOMAIN-SUFFIX,+.abbott
 DOMAIN-SUFFIX,+.abbvie
@@ -33621,6 +33622,11 @@ DOMAIN-SUFFIX,tiktokv.eu
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,tiktokw.eu
 DOMAIN-SUFFIX,tiktokw.us
+DOMAIN-SUFFIX,tilda.cc
+DOMAIN-SUFFIX,tilda.ru
+DOMAIN-SUFFIX,tilda.ws
+DOMAIN-SUFFIX,tildaapi.com
+DOMAIN-SUFFIX,tildacdn.com
 DOMAIN-SUFFIX,tilehill.ac.uk
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,timdir.com
