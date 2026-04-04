@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 38536
+# COUNT: 38537
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -3175,6 +3175,7 @@ DOMAIN-SUFFIX,+.origins
 DOMAIN-SUFFIX,+.orn.jp
 DOMAIN-SUFFIX,+.osaka
 DOMAIN-SUFFIX,+.osfoora.com
+DOMAIN-SUFFIX,+.osmand.net
 DOMAIN-SUFFIX,+.otcbtc.com
 DOMAIN-SUFFIX,+.otsuka
 DOMAIN-SUFFIX,+.otto.de
