@@ -1,6 +1,6 @@
 # NAME: Direct
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 340
+# COUNT: 338
 
 DOMAIN-SUFFIX,+.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,+.10.in-addr.arpa
@@ -116,7 +116,6 @@ DOMAIN-SUFFIX,+.plex.direct
 DOMAIN-SUFFIX,+.router.ctc
 DOMAIN-SUFFIX,+.tendawifi.com
 DOMAIN-SUFFIX,+.test
-DOMAIN-SUFFIX,+.test.steampowered.com
 DOMAIN-SUFFIX,+.tplinkwifi.net
 DOMAIN-SUFFIX,+.ts.net
 DOMAIN-SUFFIX,+.zte.home
@@ -321,7 +320,6 @@ DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com.8686c.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,tendawifi.com
-DOMAIN-SUFFIX,test.steampowered.com
 DOMAIN-SUFFIX,thunder
 DOMAIN-SUFFIX,toolbarqueries.google.com
 DOMAIN-SUFFIX,tools.google.com
