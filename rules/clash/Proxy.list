@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 38647
+# COUNT: 38648
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -1004,6 +1004,7 @@ DOMAIN-SUFFIX,+.cpu-monkey.com
 DOMAIN-SUFFIX,+.cq99.us
 DOMAIN-SUFFIX,+.cr
 DOMAIN-SUFFIX,+.crackle.com
+DOMAIN-SUFFIX,+.crashlytics.com
 DOMAIN-SUFFIX,+.crazypool.org
 DOMAIN-SUFFIX,+.crazyshit.com
 DOMAIN-SUFFIX,+.crbug.com
