@@ -2739,7 +2739,6 @@ DOMAIN-SUFFIX,+.mediafreakcity.com
 DOMAIN-SUFFIX,+.mediawiki.org
 DOMAIN-SUFFIX,+.medium.com
 DOMAIN-SUFFIX,+.meee.com.tw
-DOMAIN-SUFFIX,+.meetup.com
 DOMAIN-SUFFIX,+.mega.co.nz
 DOMAIN-SUFFIX,+.mega.io
 DOMAIN-SUFFIX,+.mega.nz
@@ -2817,6 +2816,7 @@ DOMAIN-SUFFIX,+.mirrorbooks.com
 DOMAIN-SUFFIX,+.mirrormedia.mg
 DOMAIN-SUFFIX,+.missav.com
 DOMAIN-SUFFIX,+.missav.ws
+DOMAIN-SUFFIX,+.mistral.ai
 DOMAIN-SUFFIX,+.mit
 DOMAIN-SUFFIX,+.mitbbs.com
 DOMAIN-SUFFIX,+.mitsubishi
@@ -3436,7 +3436,6 @@ DOMAIN-SUFFIX,+.pwc
 DOMAIN-SUFFIX,+.pximg.net
 DOMAIN-SUFFIX,+.py
 DOMAIN-SUFFIX,+.python.com.tw
-DOMAIN-SUFFIX,+.pytorch.org
 DOMAIN-SUFFIX,+.qa
 DOMAIN-SUFFIX,+.qbittorrent.org
 DOMAIN-SUFFIX,+.qgirl.com.tw
@@ -12600,6 +12599,7 @@ DOMAIN-SUFFIX,cran.ac.uk
 DOMAIN-SUFFIX,cranfield.ac.uk
 DOMAIN-SUFFIX,crankplayer.com
 DOMAIN-SUFFIX,crash.ac.uk
+DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,crates.io
 DOMAIN-SUFFIX,craven-college.ac.uk
 DOMAIN-SUFFIX,crawley-college.ac.uk

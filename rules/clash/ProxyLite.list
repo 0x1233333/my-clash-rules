@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 25948
+# COUNT: 25946
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -14174,7 +14174,6 @@ DOMAIN-SUFFIX,+.meetandfuck.games
 DOMAIN-SUFFIX,+.meetandfuckgames.com
 DOMAIN-SUFFIX,+.meetfasttrack.com
 DOMAIN-SUFFIX,+.meetsmartbook.com
-DOMAIN-SUFFIX,+.meetup.com
 DOMAIN-SUFFIX,+.meetyourdevices.com
 DOMAIN-SUFFIX,+.mega.co.nz
 DOMAIN-SUFFIX,+.mega.io
@@ -18087,7 +18086,6 @@ DOMAIN-SUFFIX,+.pyrobot.org
 DOMAIN-SUFFIX,+.python.com.tw
 DOMAIN-SUFFIX,+.python.org
 DOMAIN-SUFFIX,+.pythonhosted.org
-DOMAIN-SUFFIX,+.pytorch.org
 DOMAIN-SUFFIX,+.pzforever.skin
 DOMAIN-SUFFIX,+.pzforever01.homes
 DOMAIN-SUFFIX,+.pzhanfor.today
