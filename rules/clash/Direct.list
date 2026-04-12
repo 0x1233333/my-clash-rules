@@ -1,6 +1,6 @@
 # NAME: Direct
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 338
+# COUNT: 340
 
 DOMAIN-SUFFIX,+.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,+.10.in-addr.arpa
@@ -102,6 +102,7 @@ DOMAIN-SUFFIX,+.hiwifi.com
 DOMAIN-SUFFIX,+.home.arpa
 DOMAIN-SUFFIX,+.internal
 DOMAIN-SUFFIX,+.invalid
+DOMAIN-SUFFIX,+.kis.v2.scr.kaspersky-labs.com
 DOMAIN-SUFFIX,+.lan
 DOMAIN-SUFFIX,+.leike.cc
 DOMAIN-SUFFIX,+.local
@@ -287,6 +288,7 @@ DOMAIN-SUFFIX,hiwifi.com
 DOMAIN-SUFFIX,home.arpa
 DOMAIN-SUFFIX,instant.arubanetworks.com
 DOMAIN-SUFFIX,leike.cc
+DOMAIN-SUFFIX,local.adguard.org
 DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
 DOMAIN-SUFFIX,localhost.sec.qq.com
 DOMAIN-SUFFIX,miwifi.com

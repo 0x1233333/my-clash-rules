@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 38694
+# COUNT: 38695
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -3627,6 +3627,7 @@ DOMAIN-SUFFIX,+.sb
 DOMAIN-SUFFIX,+.sbi
 DOMAIN-SUFFIX,+.sbme.me
 DOMAIN-SUFFIX,+.sbs
+DOMAIN-SUFFIX,+.sbti.unun.dev
 DOMAIN-SUFFIX,+.sc
 DOMAIN-SUFFIX,+.scache.vzw.com
 DOMAIN-SUFFIX,+.scache1.vzw.com
