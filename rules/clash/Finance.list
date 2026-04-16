@@ -1,6 +1,6 @@
 # NAME: Finance
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 381
+# COUNT: 386
 
 DOMAIN-SUFFIX,213.95.145.10/32
 DOMAIN-SUFFIX,3ds-challenge.n26.com
@@ -32,6 +32,10 @@ DOMAIN-SUFFIX,appointment.hsbc.com.hk
 DOMAIN-SUFFIX,assets.adobedtm.com
 DOMAIN-SUFFIX,assets.ctfassets.net
 DOMAIN-SUFFIX,au1.qualtrics.com
+DOMAIN-SUFFIX,ause1.idp.liveperson.net
+DOMAIN-SUFFIX,ause1.msg.liveperson.net
+DOMAIN-SUFFIX,ause1.msghist.liveperson.net
+DOMAIN-SUFFIX,ause1.pusher.liveperson.net
 DOMAIN-SUFFIX,baldeagle.ocbc.com
 DOMAIN-SUFFIX,beibao.cn
 DOMAIN-SUFFIX,beibao.com
@@ -108,6 +112,7 @@ DOMAIN-SUFFIX,log-58144bf0.we-stats.com
 DOMAIN-SUFFIX,login-paypal.com
 DOMAIN-SUFFIX,login-paypal.info
 DOMAIN-SUFFIX,loki-v42zc5nx3sj7swjbm6zacmssmtcs2gck.wise.com
+DOMAIN-SUFFIX,lpcdn-vip.lpsnmedia.net
 DOMAIN-SUFFIX,lpcdn.lpsnmedia.net
 DOMAIN-SUFFIX,lptag.liveperson.net
 DOMAIN-SUFFIX,m-n26.kontenwechsel.de
