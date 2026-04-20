@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26485
+# COUNT: 26486
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -756,6 +756,7 @@ DOMAIN-SUFFIX,+.adguard.info
 DOMAIN-SUFFIX,+.adguard.io
 DOMAIN-SUFFIX,+.adguard.org
 DOMAIN-SUFFIX,+.adguardaccount.com
+DOMAIN-SUFFIX,+.adguardcdn.com
 DOMAIN-SUFFIX,+.adguardvpn.com
 DOMAIN-SUFFIX,+.adhelpnews.com
 DOMAIN-SUFFIX,+.adidas-archive.org
