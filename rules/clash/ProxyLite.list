@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26500
+# COUNT: 26501
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -21029,6 +21029,7 @@ DOMAIN-SUFFIX,+.teatroporno.com
 DOMAIN-SUFFIX,+.tech-mail.ru
 DOMAIN-SUFFIX,+.tech26.de
 DOMAIN-SUFFIX,+.techatbloomberg.com
+DOMAIN-SUFFIX,+.techbang.com
 DOMAIN-SUFFIX,+.techcrunch.com
 DOMAIN-SUFFIX,+.techhub.ms
 DOMAIN-SUFFIX,+.techliquidators.com
