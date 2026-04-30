@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26502
+# COUNT: 26503
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -26275,6 +26275,7 @@ DOMAIN-SUFFIX,time4.facebook.com
 DOMAIN-SUFFIX,time4.google.com
 DOMAIN-SUFFIX,time5.facebook.com
 DOMAIN-SUFFIX,tmdb-image-prod.b-cdn.net
+DOMAIN-SUFFIX,tmdb-web-image-prod.b-cdn.net
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,transparencyreport.uber.com
 DOMAIN-SUFFIX,trustasiassl.com
