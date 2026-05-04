@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26504
+# COUNT: 26505
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -6509,6 +6509,7 @@ DOMAIN-SUFFIX,+.digitalcertvalidation.com
 DOMAIN-SUFFIX,+.digitaldesire.com
 DOMAIN-SUFFIX,+.digitalhub.com
 DOMAIN-SUFFIX,+.digitalid.ch
+DOMAIN-SUFFIX,+.digitalocean-ui.com
 DOMAIN-SUFFIX,+.digitalocean.com
 DOMAIN-SUFFIX,+.digitaloceanspaces.com
 DOMAIN-SUFFIX,+.digitalpack.com

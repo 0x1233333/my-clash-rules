@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39222
+# COUNT: 39218
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -3627,9 +3627,6 @@ DOMAIN-SUFFIX,+.sbme.me
 DOMAIN-SUFFIX,+.sbs
 DOMAIN-SUFFIX,+.sbti.unun.dev
 DOMAIN-SUFFIX,+.sc
-DOMAIN-SUFFIX,+.scache.vzw.com
-DOMAIN-SUFFIX,+.scache1.vzw.com
-DOMAIN-SUFFIX,+.scache2.vzw.com
 DOMAIN-SUFFIX,+.scb
 DOMAIN-SUFFIX,+.schaeffler
 DOMAIN-SUFFIX,+.schema.org
@@ -3849,7 +3846,6 @@ DOMAIN-SUFFIX,+.squirrelvpn.com
 DOMAIN-SUFFIX,+.sr
 DOMAIN-SUFFIX,+.ss
 DOMAIN-SUFFIX,+.ss-link.com
-DOMAIN-SUFFIX,+.ss7.vzw.com
 DOMAIN-SUFFIX,+.ssglobal.co
 DOMAIN-SUFFIX,+.ssl.webpack.de
 DOMAIN-SUFFIX,+.sspanel.net
