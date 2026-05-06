@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26597
+# COUNT: 26598
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -25710,6 +25710,7 @@ DOMAIN-SUFFIX,d1g1f25tn8m2e6.cloudfront.net
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
 DOMAIN-SUFFIX,d1m7jfoe9zdc1j.cloudfront.net
 DOMAIN-SUFFIX,d1mhjrowxxagfy.cloudfront.net
+DOMAIN-SUFFIX,d1ndex63qxojbr.cloudfront.net
 DOMAIN-SUFFIX,d1oca24q5dwo6d.cloudfront.net
 DOMAIN-SUFFIX,d1q6f0aelx0por.cloudfront.net
 DOMAIN-SUFFIX,d1unuk07s6td74.cloudfront.net
