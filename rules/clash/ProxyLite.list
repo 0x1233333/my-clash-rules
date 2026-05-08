@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26658
+# COUNT: 26659
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -22290,6 +22290,7 @@ DOMAIN-SUFFIX,+.ultravpn.com
 DOMAIN-SUFFIX,+.ultravpn.fr
 DOMAIN-SUFFIX,+.uma.media
 DOMAIN-SUFFIX,+.umagazine.com.hk
+DOMAIN-SUFFIX,+.umap.openstreetmap.fr
 DOMAIN-SUFFIX,+.umass.edu
 DOMAIN-SUFFIX,+.umbrella.com
 DOMAIN-SUFFIX,+.umschool.net
