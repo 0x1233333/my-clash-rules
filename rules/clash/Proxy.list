@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39370
+# COUNT: 39372
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -35460,6 +35460,7 @@ DOMAIN-SUFFIX,ultrayoungsex.com
 DOMAIN-SUFFIX,ulyssesapp.com
 DOMAIN-SUFFIX,uma.media
 DOMAIN-SUFFIX,umagazine.com.hk
+DOMAIN-SUFFIX,umap.openstreetmap.fr
 DOMAIN-SUFFIX,umass.edu
 DOMAIN-SUFFIX,umbrella.com
 DOMAIN-SUFFIX,umds.ac.uk
@@ -36521,6 +36522,7 @@ DOMAIN-SUFFIX,vodafone.com.au
 DOMAIN-SUFFIX,vodafone.com.tr
 DOMAIN-SUFFIX,vodafone.de
 DOMAIN-SUFFIX,vodafone.it
+DOMAIN-SUFFIX,vodafone.nl
 DOMAIN-SUFFIX,voddazn
 DOMAIN-SUFFIX,voice.telephony.goog
 DOMAIN-SUFFIX,voicettank.org
