@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39478
+# COUNT: 39479
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -885,6 +885,7 @@ DOMAIN-SUFFIX,+.chingcheong.com
 DOMAIN-SUFFIX,+.chinman.net
 DOMAIN-SUFFIX,+.chintai
 DOMAIN-SUFFIX,+.chobit.cc
+DOMAIN-SUFFIX,+.chonglangtv.org
 DOMAIN-SUFFIX,+.chrdnet.com
 DOMAIN-SUFFIX,+.christianfreedom.org
 DOMAIN-SUFFIX,+.christianstudy.com

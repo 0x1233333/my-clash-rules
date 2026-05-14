@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26756
+# COUNT: 26757
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -5301,6 +5301,7 @@ DOMAIN-SUFFIX,+.chocam.com
 DOMAIN-SUFFIX,+.chocolatey.org
 DOMAIN-SUFFIX,+.choicereviews.org
 DOMAIN-SUFFIX,+.chomp.com
+DOMAIN-SUFFIX,+.chonglangtv.org
 DOMAIN-SUFFIX,+.chrdnet.com
 DOMAIN-SUFFIX,+.christianfreedom.org
 DOMAIN-SUFFIX,+.christianstudy.com
