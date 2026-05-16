@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26757
+# COUNT: 26758
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -23487,6 +23487,7 @@ DOMAIN-SUFFIX,+.vulgarx.com
 DOMAIN-SUFFIX,+.vultr.com
 DOMAIN-SUFFIX,+.vultryhw.com
 DOMAIN-SUFFIX,+.vuvuzela.io
+DOMAIN-SUFFIX,+.vv1865.com
 DOMAIN-SUFFIX,+.vzw.com
 DOMAIN-SUFFIX,+.w-mt.co
 DOMAIN-SUFFIX,+.w-pool.com
