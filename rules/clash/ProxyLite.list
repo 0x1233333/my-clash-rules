@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26758
+# COUNT: 26759
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -2214,6 +2214,7 @@ DOMAIN-SUFFIX,+.archives.gov
 DOMAIN-SUFFIX,+.archivx.to
 DOMAIN-SUFFIX,+.archlinux.de
 DOMAIN-SUFFIX,+.archlinux.org
+DOMAIN-SUFFIX,+.archlinux.page
 DOMAIN-SUFFIX,+.archlinuxarm.org
 DOMAIN-SUFFIX,+.archlinuxcn.org
 DOMAIN-SUFFIX,+.arcraiders.com
