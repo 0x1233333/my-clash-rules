@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26759
+# COUNT: 26761
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -19986,6 +19986,7 @@ DOMAIN-SUFFIX,+.shywifeswap.com
 DOMAIN-SUFFIX,+.siam.org
 DOMAIN-SUFFIX,+.sibreal.org
 DOMAIN-SUFFIX,+.sidelinesnews.com
+DOMAIN-SUFFIX,+.sider.ai
 DOMAIN-SUFFIX,+.siege-amazon.com
 DOMAIN-SUFFIX,+.sifangclub.com
 DOMAIN-SUFFIX,+.sigcomm.org
@@ -25440,6 +25441,7 @@ DOMAIN-SUFFIX,+.zhainanjidi.xyz
 DOMAIN-SUFFIX,+.zhainanjidid.top
 DOMAIN-SUFFIX,+.zhangboz1.xyz
 DOMAIN-SUFFIX,+.zhangtianliang.com
+DOMAIN-SUFFIX,+.zhangzhehan.net
 DOMAIN-SUFFIX,+.zhanlve.org
 DOMAIN-SUFFIX,+.zhao.1984.city
 DOMAIN-SUFFIX,+.zhengjian.org
