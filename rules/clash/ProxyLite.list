@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26781
+# COUNT: 26790
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -1290,6 +1290,7 @@ DOMAIN-SUFFIX,+.alchemysynth.com
 DOMAIN-SUFFIX,+.alefbank.com
 DOMAIN-SUFFIX,+.alexa.com
 DOMAIN-SUFFIX,+.alexanderstreet.com
+DOMAIN-SUFFIX,+.alfa.me
 DOMAIN-SUFFIX,+.alfabank.oavdo.amc
 DOMAIN-SUFFIX,+.alfabank.ru
 DOMAIN-SUFFIX,+.alfabank.st
@@ -15726,6 +15727,7 @@ DOMAIN-SUFFIX,+.mysocialworklab.com
 DOMAIN-SUFFIX,+.myspacecdn.com
 DOMAIN-SUFFIX,+.mysql.com
 DOMAIN-SUFFIX,+.mystrikingly.com
+DOMAIN-SUFFIX,+.myteamspeak.com
 DOMAIN-SUFFIX,+.myteenwebcam.com
 DOMAIN-SUFFIX,+.mythicentertainment.com
 DOMAIN-SUFFIX,+.mythicentertainment.net
@@ -21223,6 +21225,8 @@ DOMAIN-SUFFIX,+.teachmyass.com
 DOMAIN-SUFFIX,+.teachparentstech.org
 DOMAIN-SUFFIX,+.teamneedforspeed.com
 DOMAIN-SUFFIX,+.teamskeet.com
+DOMAIN-SUFFIX,+.teamspeak-services.com
+DOMAIN-SUFFIX,+.teamspeak.com
 DOMAIN-SUFFIX,+.teamviewer.com
 DOMAIN-SUFFIX,+.teamviewer.us
 DOMAIN-SUFFIX,+.tearapeak.com
@@ -25988,6 +25992,7 @@ DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,fandom.zendesk.com
 DOMAIN-SUFFIX,faronics.kayako.com
 DOMAIN-SUFFIX,fastmail.com
+DOMAIN-SUFFIX,favoritescc-hamivideo2.cdn.hinet.net
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn
@@ -26117,6 +26122,7 @@ DOMAIN-SUFFIX,kr
 DOMAIN-SUFFIX,lastfm.freetls.fastly.net
 DOMAIN-SUFFIX,lazer.ppy.sh
 DOMAIN-SUFFIX,lert.uber.com
+DOMAIN-SUFFIX,lgcscc-hamivideo2.cdn.hinet.net
 DOMAIN-SUFFIX,lgelectronics.122.2o7.net
 DOMAIN-SUFFIX,licdn.cn.cdn20.com
 DOMAIN-SUFFIX,licdn.com
@@ -26519,6 +26525,7 @@ DOMAIN-SUFFIX,textnow.com
 DOMAIN-SUFFIX,textnow.me
 DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,thepiratebay.org
+DOMAIN-SUFFIX,thumbnail-hamivideo.cdn.hinet.net
 DOMAIN-SUFFIX,time-a-b.nist.gov
 DOMAIN-SUFFIX,time-a-g.nist.gov
 DOMAIN-SUFFIX,time-a-wwv.nist.gov
@@ -26552,6 +26559,7 @@ DOMAIN-SUFFIX,time3.google.com
 DOMAIN-SUFFIX,time4.facebook.com
 DOMAIN-SUFFIX,time4.google.com
 DOMAIN-SUFFIX,time5.facebook.com
+DOMAIN-SUFFIX,tlmr-hamivideo2.cdn.hinet.net
 DOMAIN-SUFFIX,tmdb-image-prod.b-cdn.net
 DOMAIN-SUFFIX,tmdb-web-image-prod.b-cdn.net
 DOMAIN-SUFFIX,torproject.org
@@ -26646,6 +26654,7 @@ DOMAIN-SUFFIX,vsmarketplacebadge.apphb.com
 DOMAIN-SUFFIX,wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 DOMAIN-SUFFIX,webchannel-alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,weblive-hamivideo.cdn.hinet.net
+DOMAIN-SUFFIX,webvodad-hamivideo.cdn.hinet.net
 DOMAIN-SUFFIX,whatsapp
 DOMAIN-SUFFIX,widgets.stripst.com
 DOMAIN-SUFFIX,wikibooks.org
