@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26802
+# COUNT: 26803
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -14741,6 +14741,7 @@ DOMAIN-SUFFIX,+.microvpn.com
 DOMAIN-SUFFIX,+.micstl.com
 DOMAIN-SUFFIX,+.midatlanticbmwmotorcycles.com
 DOMAIN-SUFFIX,+.midentsolutions.com
+DOMAIN-SUFFIX,+.midjourney.com
 DOMAIN-SUFFIX,+.midoushe.com
 DOMAIN-SUFFIX,+.mie.co.jp
 DOMAIN-SUFFIX,+.miexnoviadesnuda.com

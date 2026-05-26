@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39533
+# COUNT: 39534
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -2896,6 +2896,7 @@ DOMAIN-SUFFIX,+.motherless.com
 DOMAIN-SUFFIX,+.mov
 DOMAIN-SUFFIX,+.movements.org
 DOMAIN-SUFFIX,+.moviefap.com
+DOMAIN-SUFFIX,+.mozilla.ai
 DOMAIN-SUFFIX,+.mp
 DOMAIN-SUFFIX,+.mpettis.com
 DOMAIN-SUFFIX,+.mpfinance.com
