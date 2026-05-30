@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26836
+# COUNT: 26838
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -2262,6 +2262,7 @@ DOMAIN-SUFFIX,+.arweave.org
 DOMAIN-SUFFIX,+.arxiv.org
 DOMAIN-SUFFIX,+.arzon.jp
 DOMAIN-SUFFIX,+.as-hp.ca
+DOMAIN-SUFFIX,+.as.mr
 DOMAIN-SUFFIX,+.asacp.org
 DOMAIN-SUFFIX,+.asagaku.com
 DOMAIN-SUFFIX,+.asahi.com
@@ -9493,6 +9494,7 @@ DOMAIN-SUFFIX,+.gemfire.net
 DOMAIN-SUFFIX,+.gemfury.com
 DOMAIN-SUFFIX,+.gemini.com
 DOMAIN-SUFFIX,+.gen.lib.rus.ec
+DOMAIN-SUFFIX,+.gencraft.com
 DOMAIN-SUFFIX,+.gendai.net
 DOMAIN-SUFFIX,+.generated.photos
 DOMAIN-SUFFIX,+.genetic-technologies.am
@@ -22702,6 +22704,7 @@ DOMAIN-SUFFIX,+.vday.io
 DOMAIN-SUFFIX,+.vdoav.com
 DOMAIN-SUFFIX,+.vecchiescopate.casa
 DOMAIN-SUFFIX,+.vector.im
+DOMAIN-SUFFIX,+.veed.io
 DOMAIN-SUFFIX,+.veet.at
 DOMAIN-SUFFIX,+.veet.be
 DOMAIN-SUFFIX,+.veet.ca
@@ -25086,7 +25089,6 @@ DOMAIN-SUFFIX,+.yho.com
 DOMAIN-SUFFIX,+.yhy.cool
 DOMAIN-SUFFIX,+.yibaochina.com
 DOMAIN-SUFFIX,+.yibei.org
-DOMAIN-SUFFIX,+.yidio.com
 DOMAIN-SUFFIX,+.yigeni.com
 DOMAIN-SUFFIX,+.yimg.com
 DOMAIN-SUFFIX,+.yimg.jp

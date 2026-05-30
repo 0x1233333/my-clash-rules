@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39570
+# COUNT: 39574
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -317,6 +317,7 @@ DOMAIN-SUFFIX,+.artstation.com
 DOMAIN-SUFFIX,+.arvanstorage.ir
 DOMAIN-SUFFIX,+.arweave.org
 DOMAIN-SUFFIX,+.as
+DOMAIN-SUFFIX,+.as.mr
 DOMAIN-SUFFIX,+.asacp.org
 DOMAIN-SUFFIX,+.asda
 DOMAIN-SUFFIX,+.asiaharvest.org
@@ -395,6 +396,7 @@ DOMAIN-SUFFIX,+.bangchen.net
 DOMAIN-SUFFIX,+.bangdream.space
 DOMAIN-SUFFIX,+.bangkokpost.com
 DOMAIN-SUFFIX,+.bangumi.moe
+DOMAIN-SUFFIX,+.bangumi.tv
 DOMAIN-SUFFIX,+.bangyoulater.com
 DOMAIN-SUFFIX,+.bankmobilevibe.com
 DOMAIN-SUFFIX,+.bannedbook.org
@@ -470,6 +472,7 @@ DOMAIN-SUFFIX,+.bf
 DOMAIN-SUFFIX,+.bfnn.org
 DOMAIN-SUFFIX,+.bfsh.hk
 DOMAIN-SUFFIX,+.bg
+DOMAIN-SUFFIX,+.bgm.tv
 DOMAIN-SUFFIX,+.bgme.me
 DOMAIN-SUFFIX,+.bgvpn.com
 DOMAIN-SUFFIX,+.bh
@@ -841,6 +844,7 @@ DOMAIN-SUFFIX,+.chenpokongvip.com
 DOMAIN-SUFFIX,+.chenshan20042005.wordpress.com
 DOMAIN-SUFFIX,+.cherrysave.com
 DOMAIN-SUFFIX,+.chhongbi.org
+DOMAIN-SUFFIX,+.chii.in
 DOMAIN-SUFFIX,+.china-mmm.net
 DOMAIN-SUFFIX,+.china-review.com.ua
 DOMAIN-SUFFIX,+.china-week.com
@@ -954,7 +958,6 @@ DOMAIN-SUFFIX,+.cn.theaustralian.com.au
 DOMAIN-SUFFIX,+.cn.uptodown.com
 DOMAIN-SUFFIX,+.cna.com.tw
 DOMAIN-SUFFIX,+.cnbbnews.wordpress.com
-DOMAIN-SUFFIX,+.cnbc.com
 DOMAIN-SUFFIX,+.cnbeta.com.tw
 DOMAIN-SUFFIX,+.cnd.org
 DOMAIN-SUFFIX,+.cnnews.chosun.com
@@ -1628,6 +1631,7 @@ DOMAIN-SUFFIX,+.gea
 DOMAIN-SUFFIX,+.geek-art.net
 DOMAIN-SUFFIX,+.gekikame.com
 DOMAIN-SUFFIX,+.gelbooru.com
+DOMAIN-SUFFIX,+.gencraft.com
 DOMAIN-SUFFIX,+.generated.photos
 DOMAIN-SUFFIX,+.genius.com
 DOMAIN-SUFFIX,+.gent
@@ -2082,6 +2086,7 @@ DOMAIN-SUFFIX,+.heyuedi.com
 DOMAIN-SUFFIX,+.hicairo.com
 DOMAIN-SUFFIX,+.hiccears.com
 DOMAIN-SUFFIX,+.hidden-advent.org
+DOMAIN-SUFFIX,+.hiddify.com
 DOMAIN-SUFFIX,+.hide.me
 DOMAIN-SUFFIX,+.hideipvpn.com
 DOMAIN-SUFFIX,+.hideman.net
@@ -3818,7 +3823,6 @@ DOMAIN-SUFFIX,+.socks-proxy.net
 DOMAIN-SUFFIX,+.sockslist.net
 DOMAIN-SUFFIX,+.socrec.org
 DOMAIN-SUFFIX,+.softbank
-DOMAIN-SUFFIX,+.softether-download.com
 DOMAIN-SUFFIX,+.softether.co.jp
 DOMAIN-SUFFIX,+.softether.org
 DOMAIN-SUFFIX,+.softfamous.com
@@ -4474,6 +4478,7 @@ DOMAIN-SUFFIX,+.vc
 DOMAIN-SUFFIX,+.vcf-online.org
 DOMAIN-SUFFIX,+.vcfbuilder.org
 DOMAIN-SUFFIX,+.ve
+DOMAIN-SUFFIX,+.veed.io
 DOMAIN-SUFFIX,+.vegas
 DOMAIN-SUFFIX,+.vegas.williamhill.com
 DOMAIN-SUFFIX,+.vegasred.com
@@ -4969,7 +4974,6 @@ DOMAIN-SUFFIX,+.yeyeclub.com
 DOMAIN-SUFFIX,+.yfsp.tv
 DOMAIN-SUFFIX,+.yhcw.net
 DOMAIN-SUFFIX,+.yibaochina.com
-DOMAIN-SUFFIX,+.yidio.com
 DOMAIN-SUFFIX,+.yigeni.com
 DOMAIN-SUFFIX,+.yipub.com
 DOMAIN-SUFFIX,+.yizhihongxing.com
