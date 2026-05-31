@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26838
+# COUNT: 26840
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -13787,6 +13787,7 @@ DOMAIN-SUFFIX,+.livevideo.com
 DOMAIN-SUFFIX,+.livexxx.me
 DOMAIN-SUFFIX,+.livingstream.com
 DOMAIN-SUFFIX,+.livingyourambition.com
+DOMAIN-SUFFIX,+.livinno.org
 DOMAIN-SUFFIX,+.livrariart.com.br
 DOMAIN-SUFFIX,+.lizardporn.com
 DOMAIN-SUFFIX,+.lizol.co.in
@@ -16969,6 +16970,7 @@ DOMAIN-SUFFIX,+.ooni.org
 DOMAIN-SUFFIX,+.ootbstudio.co.kr
 DOMAIN-SUFFIX,+.op.gg
 DOMAIN-SUFFIX,+.op7979.com
+DOMAIN-SUFFIX,+.opac-project.eu
 DOMAIN-SUFFIX,+.open.firstory.me
 DOMAIN-SUFFIX,+.openai.com
 DOMAIN-SUFFIX,+.openamt.com
