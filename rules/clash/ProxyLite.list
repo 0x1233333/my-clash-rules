@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26840
+# COUNT: 26846
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -6758,6 +6758,7 @@ DOMAIN-SUFFIX,+.disneyturkiye.com.tr
 DOMAIN-SUFFIX,+.disneytvajobs.com
 DOMAIN-SUFFIX,+.disneyworld-go.com
 DOMAIN-SUFFIX,+.disp.cc
+DOMAIN-SUFFIX,+.disq.us
 DOMAIN-SUFFIX,+.disqus.com
 DOMAIN-SUFFIX,+.disquscdn.com
 DOMAIN-SUFFIX,+.disqusservice.com
@@ -24359,11 +24360,15 @@ DOMAIN-SUFFIX,+.xhamster.xxx
 DOMAIN-SUFFIX,+.xhamster18.com
 DOMAIN-SUFFIX,+.xhamster18.desi
 DOMAIN-SUFFIX,+.xhamster19.com
+DOMAIN-SUFFIX,+.xhamster2.com
 DOMAIN-SUFFIX,+.xhamster3.com
 DOMAIN-SUFFIX,+.xhamsterlive.com
 DOMAIN-SUFFIX,+.xhcdn.com
+DOMAIN-SUFFIX,+.xhnews.live
 DOMAIN-SUFFIX,+.xhot.pro
+DOMAIN-SUFFIX,+.xhpingcdn.com
 DOMAIN-SUFFIX,+.xhpjc6-cdn-settings.appsflyersdk.com
+DOMAIN-SUFFIX,+.xhreal5.com
 DOMAIN-SUFFIX,+.xhub.tv
 DOMAIN-SUFFIX,+.xiangrikui-app.com
 DOMAIN-SUFFIX,+.xianir.xyz
@@ -26217,6 +26222,7 @@ DOMAIN-SUFFIX,misa-prod.s3.ap-northeast-1.amazonaws.com
 DOMAIN-SUFFIX,mobilelive-hamivideo.cdn.hinet.net
 DOMAIN-SUFFIX,mof.moca.vn
 DOMAIN-SUFFIX,movement.uber.com
+DOMAIN-SUFFIX,mozilla-ohttp.fastly-edge.com
 DOMAIN-SUFFIX,mscrl.microsoft.com
 DOMAIN-SUFFIX,msh.amazon.co.uk
 DOMAIN-SUFFIX,mtalk-dev.google.com
