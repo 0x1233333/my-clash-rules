@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 26848
+# COUNT: 26849
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -21865,6 +21865,7 @@ DOMAIN-SUFFIX,+.tomonews.net
 DOMAIN-SUFFIX,+.tomp3.cc
 DOMAIN-SUFFIX,+.tomsguide.com
 DOMAIN-SUFFIX,+.ton.org
+DOMAIN-SUFFIX,+.toncenter.com
 DOMAIN-SUFFIX,+.tonec.com
 DOMAIN-SUFFIX,+.tonicmovies.com
 DOMAIN-SUFFIX,+.toolforge.org
