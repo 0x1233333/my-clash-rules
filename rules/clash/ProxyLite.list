@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27071
+# COUNT: 27072
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -16557,6 +16557,7 @@ DOMAIN-SUFFIX,+.notepad-plus-plus.org
 DOMAIN-SUFFIX,+.noticias-rt.com
 DOMAIN-SUFFIX,+.notimundo.press
 DOMAIN-SUFFIX,+.notion-static.com
+DOMAIN-SUFFIX,+.notion-status.com
 DOMAIN-SUFFIX,+.notion.com
 DOMAIN-SUFFIX,+.notion.new
 DOMAIN-SUFFIX,+.notion.site
