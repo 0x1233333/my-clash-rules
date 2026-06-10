@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27072
+# COUNT: 27077
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -12060,6 +12060,7 @@ DOMAIN-SUFFIX,+.infocert.digital
 DOMAIN-SUFFIX,+.infocert.it
 DOMAIN-SUFFIX,+.infoglobo.com.br
 DOMAIN-SUFFIX,+.infolinker.com.tw
+DOMAIN-SUFFIX,+.infoq.com
 DOMAIN-SUFFIX,+.infoq.jp
 DOMAIN-SUFFIX,+.informs.org
 DOMAIN-SUFFIX,+.infosec.exchange
@@ -16800,6 +16801,7 @@ DOMAIN-SUFFIX,+.nwxs8.com
 DOMAIN-SUFFIX,+.nxta.org
 DOMAIN-SUFFIX,+.nxtdig.com.hk
 DOMAIN-SUFFIX,+.nxtdig.com.tw
+DOMAIN-SUFFIX,+.nxtv.jp
 DOMAIN-SUFFIX,+.nyaa.eu
 DOMAIN-SUFFIX,+.nyaa.net
 DOMAIN-SUFFIX,+.nyaa.si
@@ -22657,6 +22659,9 @@ DOMAIN-SUFFIX,+.uncyclopedia.tw
 DOMAIN-SUFFIX,+.underhentai.net
 DOMAIN-SUFFIX,+.underlords.com
 DOMAIN-SUFFIX,+.underwoodammo.com
+DOMAIN-SUFFIX,+.unext-info.jp
+DOMAIN-SUFFIX,+.unext.co.jp
+DOMAIN-SUFFIX,+.unext.jp
 DOMAIN-SUFFIX,+.unfiltered.news
 DOMAIN-SUFFIX,+.unholyknight.com
 DOMAIN-SUFFIX,+.unidraw.io
