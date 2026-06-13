@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27133
+# COUNT: 27134
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -16635,6 +16635,7 @@ DOMAIN-SUFFIX,+.nsfw.xxx
 DOMAIN-SUFFIX,+.nsfw247.to
 DOMAIN-SUFFIX,+.nsfwmemes.com
 DOMAIN-SUFFIX,+.nsimg.net
+DOMAIN-SUFFIX,+.nspk.ru
 DOMAIN-SUFFIX,+.ntc.party
 DOMAIN-SUFFIX,+.ntd.com
 DOMAIN-SUFFIX,+.ntd.tv
