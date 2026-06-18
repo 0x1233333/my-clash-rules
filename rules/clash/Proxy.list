@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 39916
+# COUNT: 39917
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -3775,6 +3775,7 @@ DOMAIN-SUFFIX,+.sinoants.com
 DOMAIN-SUFFIX,+.sinoca.com
 DOMAIN-SUFFIX,+.sinocast.com
 DOMAIN-SUFFIX,+.sinoinsider.com
+DOMAIN-SUFFIX,+.sinyalee.com
 DOMAIN-SUFFIX,+.sipml5.org
 DOMAIN-SUFFIX,+.sis001.com
 DOMAIN-SUFFIX,+.site.new
