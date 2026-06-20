@@ -1,6 +1,6 @@
 # NAME: Apple
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 1823
+# COUNT: 1824
 
 DOMAIN-SUFFIX,+.a1.mzstatic.com
 DOMAIN-SUFFIX,+.a2.mzstatic.com
@@ -155,6 +155,7 @@ DOMAIN-SUFFIX,+.itunes-apple.com.akadns.net
 DOMAIN-SUFFIX,+.itunes.apple.com
 DOMAIN-SUFFIX,+.itunesconnect.apple.com
 DOMAIN-SUFFIX,+.me.com
+DOMAIN-SUFFIX,+.mensura.cdn-apple.com
 DOMAIN-SUFFIX,+.mesu-cdn.apple.com.akadns.net
 DOMAIN-SUFFIX,+.mesu-china.apple.com.akadns.net
 DOMAIN-SUFFIX,+.mesu.apple.com
