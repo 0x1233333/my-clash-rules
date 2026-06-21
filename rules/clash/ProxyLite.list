@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27254
+# COUNT: 27256
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -26501,6 +26501,8 @@ DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,gmail
+DOMAIN-SUFFIX,gog-cdn-lumen.secure2.footprint.net
+DOMAIN-SUFFIX,gog-cdn.akamaized.net
 DOMAIN-SUFFIX,gongm.in
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,google
