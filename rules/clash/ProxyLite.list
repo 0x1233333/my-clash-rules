@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27256
+# COUNT: 27259
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -9980,8 +9980,10 @@ DOMAIN-SUFFIX,+.gofile.me
 DOMAIN-SUFFIX,+.gofucker.com
 DOMAIN-SUFFIX,+.gofuckmenow.com
 DOMAIN-SUFFIX,+.gofundme.com
+DOMAIN-SUFFIX,+.gog-services.com
 DOMAIN-SUFFIX,+.gog-statics.com
 DOMAIN-SUFFIX,+.gog.com
+DOMAIN-SUFFIX,+.gogalaxy.com
 DOMAIN-SUFFIX,+.gogettaxi.org
 DOMAIN-SUFFIX,+.gogle.com
 DOMAIN-SUFFIX,+.gogo-load.com
@@ -27235,6 +27237,7 @@ DOMAIN-SUFFIX,wwis-dubc1-vip97.adobe.com
 DOMAIN-SUFFIX,wwis-dubc1-vip98.adobe.com
 DOMAIN-SUFFIX,wwis-dubc1-vip99.adobe.com
 DOMAIN-SUFFIX,www-cdn.icloud.com.akadns.net
+DOMAIN-SUFFIX,www.microsoft.com
 DOMAIN-SUFFIX,www.quora.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,xhamster.com
