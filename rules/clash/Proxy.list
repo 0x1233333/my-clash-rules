@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40075
+# COUNT: 40077
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -18346,9 +18346,11 @@ DOMAIN-SUFFIX,gofucker.com
 DOMAIN-SUFFIX,gofuckmenow.com
 DOMAIN-SUFFIX,gofundme.com
 DOMAIN-SUFFIX,gog-cdn-lumen.secure2.footprint.net
+DOMAIN-SUFFIX,gog-services.com
 DOMAIN-SUFFIX,gog-statics.com
 DOMAIN-SUFFIX,gog.com
 DOMAIN-SUFFIX,gog.qtlglb.com
+DOMAIN-SUFFIX,gogalaxy.com
 DOMAIN-SUFFIX,gogeo.ac.uk
 DOMAIN-SUFFIX,gogettaxi.org
 DOMAIN-SUFFIX,gogle.com
