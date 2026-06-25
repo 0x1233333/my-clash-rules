@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27270
+# COUNT: 27271
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -9664,6 +9664,7 @@ DOMAIN-SUFFIX,+.geraldoatlarge.com
 DOMAIN-SUFFIX,+.gerritcodereview.com
 DOMAIN-SUFFIX,+.gesoten.com
 DOMAIN-SUFFIX,+.get.app
+DOMAIN-SUFFIX,+.get.dappcdn.com
 DOMAIN-SUFFIX,+.get.dev
 DOMAIN-SUFFIX,+.get.how
 DOMAIN-SUFFIX,+.get.new
