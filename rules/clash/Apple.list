@@ -1,6 +1,6 @@
 # NAME: Apple
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 1824
+# COUNT: 1825
 
 DOMAIN-SUFFIX,+.a1.mzstatic.com
 DOMAIN-SUFFIX,+.a2.mzstatic.com
@@ -85,6 +85,7 @@ DOMAIN-SUFFIX,+.guzzoni.smoot.apple.com
 DOMAIN-SUFFIX,+.iadsdk.apple.com
 DOMAIN-SUFFIX,+.icloud-apple.cn
 DOMAIN-SUFFIX,+.icloud-content.com
+DOMAIN-SUFFIX,+.icloud-content.com.cn
 DOMAIN-SUFFIX,+.icloud-isupport.com
 DOMAIN-SUFFIX,+.icloud-sandbox.com
 DOMAIN-SUFFIX,+.icloud.ch
