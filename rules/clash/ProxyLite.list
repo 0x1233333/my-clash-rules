@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27305
+# COUNT: 27308
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -5823,6 +5823,7 @@ DOMAIN-SUFFIX,+.coomer.su
 DOMAIN-SUFFIX,+.coova.com
 DOMAIN-SUFFIX,+.coova.net
 DOMAIN-SUFFIX,+.coova.org
+DOMAIN-SUFFIX,+.copilot.com
 DOMAIN-SUFFIX,+.copro.pw
 DOMAIN-SUFFIX,+.copy-manga.com
 DOMAIN-SUFFIX,+.copy20.com
@@ -24156,6 +24157,7 @@ DOMAIN-SUFFIX,+.webpass.net
 DOMAIN-SUFFIX,+.webpkgcache.com
 DOMAIN-SUFFIX,+.webrtc.org
 DOMAIN-SUFFIX,+.websdr.org
+DOMAIN-SUFFIX,+.webshare.io
 DOMAIN-SUFFIX,+.website.new
 DOMAIN-SUFFIX,+.webtoons.com
 DOMAIN-SUFFIX,+.webtoonscorp.com
@@ -26743,6 +26745,7 @@ DOMAIN-SUFFIX,oneocsp.microsoft.com
 DOMAIN-SUFFIX,ood.opsource.net
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaiassets.blob.core.windows.net
 DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
