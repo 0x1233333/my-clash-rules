@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40140
+# COUNT: 40143
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -145,7 +145,6 @@ DOMAIN-SUFFIX,+.afl
 DOMAIN-SUFFIX,+.afr.com
 DOMAIN-SUFFIX,+.afreecatv.com
 DOMAIN-SUFFIX,+.africa
-DOMAIN-SUFFIX,+.africamagic
 DOMAIN-SUFFIX,+.ag
 DOMAIN-SUFFIX,+.agakhan
 DOMAIN-SUFFIX,+.agnesb.fr
@@ -501,6 +500,7 @@ DOMAIN-SUFFIX,+.biliworld.com
 DOMAIN-SUFFIX,+.binance.com
 DOMAIN-SUFFIX,+.binance.org
 DOMAIN-SUFFIX,+.binancezh.cc
+DOMAIN-SUFFIX,+.bing
 DOMAIN-SUFFIX,+.bingo
 DOMAIN-SUFFIX,+.bird.so
 DOMAIN-SUFFIX,+.bit-z.com
@@ -7611,6 +7611,7 @@ DOMAIN-SUFFIX,apple-pay.rs
 DOMAIN-SUFFIX,apple-pay.wang
 DOMAIN-SUFFIX,apple-store.net
 DOMAIN-SUFFIX,apple-store.wang
+DOMAIN-SUFFIX,apple-studies.com
 DOMAIN-SUFFIX,apple-usa.net
 DOMAIN-SUFFIX,apple.ae
 DOMAIN-SUFFIX,apple.at
@@ -8221,6 +8222,7 @@ DOMAIN-SUFFIX,atlaspost.com
 DOMAIN-SUFFIX,atlassian-dev.net
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,atlassian.net
+DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,atnext.com
 DOMAIN-SUFFIX,atokara.jp
 DOMAIN-SUFFIX,atom.io
@@ -8639,6 +8641,7 @@ DOMAIN-SUFFIX,aziani.com
 DOMAIN-SUFFIX,azirevpn.com
 DOMAIN-SUFFIX,aznude.com
 DOMAIN-SUFFIX,azubu.tv
+DOMAIN-SUFFIX,azure-api.net
 DOMAIN-SUFFIX,azure-devices-int.net
 DOMAIN-SUFFIX,azure-devices.net
 DOMAIN-SUFFIX,azure-dns.com
@@ -8676,6 +8679,7 @@ DOMAIN-SUFFIX,azureplanetscale.net
 DOMAIN-SUFFIX,azureserviceprofiler.com
 DOMAIN-SUFFIX,azuresmartspaces.net
 DOMAIN-SUFFIX,azurestackvalidation.com
+DOMAIN-SUFFIX,azurestaticapps.net
 DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,b-cdn.net
 DOMAIN-SUFFIX,b-eroland.net
@@ -21222,7 +21226,6 @@ DOMAIN-SUFFIX,infrapedia.com
 DOMAIN-SUFFIX,infraworks.com
 DOMAIN-SUFFIX,infura.io
 DOMAIN-SUFFIX,ingads.com
-DOMAIN-SUFFIX,ingest.apple-studies.com
 DOMAIN-SUFFIX,ingka.com
 DOMAIN-SUFFIX,ingka.dev
 DOMAIN-SUFFIX,ingkacentres.com
