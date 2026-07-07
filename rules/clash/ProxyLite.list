@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27311
+# COUNT: 27313
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -17538,6 +17538,8 @@ DOMAIN-SUFFIX,+.patreoncommunity.com
 DOMAIN-SUFFIX,+.patreonusercontent.com
 DOMAIN-SUFFIX,+.paulsimon-music.com
 DOMAIN-SUFFIX,+.pavpal.com
+DOMAIN-SUFFIX,+.pawchive.pw
+DOMAIN-SUFFIX,+.pawchive.st
 DOMAIN-SUFFIX,+.pawoo.net
 DOMAIN-SUFFIX,+.paxful.com
 DOMAIN-SUFFIX,+.paxlicense.org

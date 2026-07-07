@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40143
+# COUNT: 40145
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -28629,6 +28629,8 @@ DOMAIN-SUFFIX,paul-mellon-centre.ac.uk
 DOMAIN-SUFFIX,paulmelloncentre.ac.uk
 DOMAIN-SUFFIX,paulsimon-music.com
 DOMAIN-SUFFIX,pavpal.com
+DOMAIN-SUFFIX,pawchive.pw
+DOMAIN-SUFFIX,pawchive.st
 DOMAIN-SUFFIX,pawoo.net
 DOMAIN-SUFFIX,paxful.com
 DOMAIN-SUFFIX,paxlicense.org
