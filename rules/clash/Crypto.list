@@ -1,6 +1,6 @@
 # NAME: Crypto
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 576
+# COUNT: 567
 
 DOMAIN-SUFFIX,1inch.io
 DOMAIN-SUFFIX,1ml.com
@@ -317,7 +317,6 @@ DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,alchemypay.org
 DOMAIN-SUFFIX,alchemywalletdownload.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,app.pokepay.cc
-DOMAIN-SUFFIX,appsflayer.com
 DOMAIN-SUFFIX,apy999.com
 DOMAIN-SUFFIX,arbitrum.io
 DOMAIN-SUFFIX,arkhamintelligence.com
@@ -329,11 +328,6 @@ DOMAIN-SUFFIX,basescan.org
 DOMAIN-SUFFIX,bestswap.net
 DOMAIN-SUFFIX,bibox.com
 DOMAIN-SUFFIX,binance
-DOMAIN-SUFFIX,binance.cloud
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binancecnt.com
-DOMAIN-SUFFIX,binancefuture.com
 DOMAIN-SUFFIX,bisq.io
 DOMAIN-SUFFIX,bisq.network
 DOMAIN-SUFFIX,bitbank.cc
@@ -367,7 +361,6 @@ DOMAIN-SUFFIX,bnappzh.co
 DOMAIN-SUFFIX,bnappzh.com
 DOMAIN-SUFFIX,bnappzh.mobi
 DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bnbzh.ac
 DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,boba.network
 DOMAIN-SUFFIX,bsc.getblock.io
@@ -531,8 +524,6 @@ DOMAIN-SUFFIX,pump.fun
 DOMAIN-SUFFIX,query.thegraph.kiln.fi
 DOMAIN-SUFFIX,raydium.io
 DOMAIN-SUFFIX,rootdata.com
-DOMAIN-SUFFIX,saasexch.cc
-DOMAIN-SUFFIX,saasexch.com
 DOMAIN-SUFFIX,safe-walletconnect.gnosis.io
 DOMAIN-SUFFIX,solana.com
 DOMAIN-SUFFIX,stateofthedapps.com
