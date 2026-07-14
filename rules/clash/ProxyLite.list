@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27336
+# COUNT: 27330
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -1299,7 +1299,6 @@ DOMAIN-SUFFIX,+.alefbank.com
 DOMAIN-SUFFIX,+.alexa.com
 DOMAIN-SUFFIX,+.alexanderstreet.com
 DOMAIN-SUFFIX,+.alfa.me
-DOMAIN-SUFFIX,+.alfabank.oavdo.amc
 DOMAIN-SUFFIX,+.alfabank.ru
 DOMAIN-SUFFIX,+.alfabank.st
 DOMAIN-SUFFIX,+.alfadirect.ru
@@ -5194,6 +5193,7 @@ DOMAIN-SUFFIX,+.chat.lmsys.org
 DOMAIN-SUFFIX,+.chatango.com
 DOMAIN-SUFFIX,+.chatgpt.com
 DOMAIN-SUFFIX,+.chatgpt.livekit.cloud
+DOMAIN-SUFFIX,+.chatgpt.site
 DOMAIN-SUFFIX,+.chatgptvideo.xyz
 DOMAIN-SUFFIX,+.chatgptvideob.buzz
 DOMAIN-SUFFIX,+.chatpdf.com
@@ -10054,7 +10054,6 @@ DOMAIN-SUFFIX,+.gongyichuangyi.net
 DOMAIN-SUFFIX,+.gonike.com
 DOMAIN-SUFFIX,+.gonzo-movies.com
 DOMAIN-SUFFIX,+.gonzo.com
-DOMAIN-SUFFIX,+.goo
 DOMAIN-SUFFIX,+.goo.gl
 DOMAIN-SUFFIX,+.goo.ne.jp
 DOMAIN-SUFFIX,+.gooblox.com
@@ -12292,7 +12291,6 @@ DOMAIN-SUFFIX,+.intagram.com
 DOMAIN-SUFFIX,+.intagrm.com
 DOMAIN-SUFFIX,+.intc.com
 DOMAIN-SUFFIX,+.integral7.com
-DOMAIN-SUFFIX,+.intel
 DOMAIN-SUFFIX,+.intel-research.net
 DOMAIN-SUFFIX,+.intel-university-collaboration.net
 DOMAIN-SUFFIX,+.intel.ac
@@ -13467,6 +13465,7 @@ DOMAIN-SUFFIX,+.khatrimaza.org
 DOMAIN-SUFFIX,+.khotruyentranhx.com
 DOMAIN-SUFFIX,+.kichiku-doujinko.com
 DOMAIN-SUFFIX,+.kichikuou.com
+DOMAIN-SUFFIX,+.kick.com
 DOMAIN-SUFFIX,+.kickporn.com
 DOMAIN-SUFFIX,+.kickshatchannel.com
 DOMAIN-SUFFIX,+.kicksnike1.com
@@ -13593,7 +13592,6 @@ DOMAIN-SUFFIX,+.kompozer.net
 DOMAIN-SUFFIX,+.konachan.com
 DOMAIN-SUFFIX,+.konachan.net
 DOMAIN-SUFFIX,+.konachan.wjcodes.com
-DOMAIN-SUFFIX,+.konami
 DOMAIN-SUFFIX,+.konami-igaming.online
 DOMAIN-SUFFIX,+.konami.co.jp
 DOMAIN-SUFFIX,+.konami.com
@@ -26813,11 +26811,7 @@ DOMAIN-SUFFIX,poshtestgallery.cloudapp.net
 DOMAIN-SUFFIX,potato.im
 DOMAIN-SUFFIX,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN-SUFFIX,pplx-res.cloudinary.com
-DOMAIN-SUFFIX,practivate.adobe
 DOMAIN-SUFFIX,practivate.adobe.com
-DOMAIN-SUFFIX,practivate.adobe.ipp
-DOMAIN-SUFFIX,practivate.adobe.newoa
-DOMAIN-SUFFIX,practivate.adobe.ntp
 DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net
 DOMAIN-SUFFIX,preprod-publicca.googleapis.com
 DOMAIN-SUFFIX,prfct.co
