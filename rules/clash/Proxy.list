@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40188
+# COUNT: 40190
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,+.1688.com.au
 DOMAIN-SUFFIX,+.173ng.com
 DOMAIN-SUFFIX,+.18board.com
 DOMAIN-SUFFIX,+.18comic.org
+DOMAIN-SUFFIX,+.18comic.vip
 DOMAIN-SUFFIX,+.18mh.net
 DOMAIN-SUFFIX,+.1984bbs.com
 DOMAIN-SUFFIX,+.1991way.com
@@ -30317,6 +30318,7 @@ DOMAIN-SUFFIX,qmul.ac.uk
 DOMAIN-SUFFIX,qmw.ac.uk
 DOMAIN-SUFFIX,qmzdd.com
 DOMAIN-SUFFIX,qnap.com
+DOMAIN-SUFFIX,qnapsupport.net
 DOMAIN-SUFFIX,qobuz.com
 DOMAIN-SUFFIX,qombol.com
 DOMAIN-SUFFIX,qoo-app.com
