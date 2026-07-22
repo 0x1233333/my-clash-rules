@@ -1,6 +1,6 @@
 # NAME: Finance
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 386
+# COUNT: 387
 
 DOMAIN-SUFFIX,213.95.145.10/32
 DOMAIN-SUFFIX,3ds-challenge.n26.com
@@ -98,6 +98,7 @@ DOMAIN-SUFFIX,h.online-metrix.net
 DOMAIN-SUFFIX,h64.online-metrix.net
 DOMAIN-SUFFIX,hsbc.com
 DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.edge.sdk.awswaf.com
 DOMAIN-SUFFIX,hsbchk
 DOMAIN-SUFFIX,hsbchk.jrni.com
 DOMAIN-SUFFIX,i-o-u.info

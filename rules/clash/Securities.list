@@ -1,10 +1,11 @@
 # NAME: Securities
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 90
+# COUNT: 96
 
 DOMAIN-SUFFIX,activity.lbkrs.com
 DOMAIN-SUFFIX,activity.longbridge.global
 DOMAIN-SUFFIX,activity.longbridgehk.com
+DOMAIN-SUFFIX,api-gl.lbkrs.com
 DOMAIN-SUFFIX,api-status.longbridgeapp.com
 DOMAIN-SUFFIX,api.geetest.com
 DOMAIN-SUFFIX,api.ibkr.com
@@ -52,17 +53,20 @@ DOMAIN-SUFFIX,longbridge.sg
 DOMAIN-SUFFIX,longbridgeapp.com
 DOMAIN-SUFFIX,longbridgehk.com
 DOMAIN-SUFFIX,longportapp.com
+DOMAIN-SUFFIX,m-gl.lbkrs.com
 DOMAIN-SUFFIX,m.lbctrl.com
 DOMAIN-SUFFIX,m.lbkrs.com
 DOMAIN-SUFFIX,m.longbridge.global
 DOMAIN-SUFFIX,ndcdyn.interactivebrokers.com
 DOMAIN-SUFFIX,nexus.interactivebrokers.com
+DOMAIN-SUFFIX,order-connect-gl.lbkrs.com
 DOMAIN-SUFFIX,order-connect.lbkrs.com
 DOMAIN-SUFFIX,order-connect.longbridge.global
 DOMAIN-SUFFIX,paper.ibkr.com
 DOMAIN-SUFFIX,pbkrs.com
 DOMAIN-SUFFIX,pdf.ibkr.com
 DOMAIN-SUFFIX,performance-data.lbkrs.com
+DOMAIN-SUFFIX,ping-gl.lbkrs.com
 DOMAIN-SUFFIX,ping.lbkrs.com
 DOMAIN-SUFFIX,ping.longbridge.global
 DOMAIN-SUFFIX,prod-lb-geotest.oss-cn-shenzhen.aliyuncs.com
@@ -70,6 +74,7 @@ DOMAIN-SUFFIX,pub.lbctrl.com
 DOMAIN-SUFFIX,pub.lbkrs.com
 DOMAIN-SUFFIX,pub.pbkrs.com
 DOMAIN-SUFFIX,push.ibkr.com
+DOMAIN-SUFFIX,quote-gl.lbkrs.com
 DOMAIN-SUFFIX,quote.lbkrs.com
 DOMAIN-SUFFIX,quote.lbkrs.com-test
 DOMAIN-SUFFIX,quote.longbridge.global
@@ -88,6 +93,7 @@ DOMAIN-SUFFIX,vcdn.lbctrl.com
 DOMAIN-SUFFIX,vcdn.lbkrs.com
 DOMAIN-SUFFIX,vcdn.pbkrs.com
 DOMAIN-SUFFIX,wbrks.com
+DOMAIN-SUFFIX,ws-gl.lbkrs.com
 DOMAIN-SUFFIX,ws.lbkrs.com
 DOMAIN-SUFFIX,ws.longbridge.global
 DOMAIN-SUFFIX,www.interactivebrokers.com

@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27381
+# COUNT: 27382
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -25998,6 +25998,7 @@ DOMAIN-SUFFIX,+.zenit.ru
 DOMAIN-SUFFIX,+.zenlesszonezero.com
 DOMAIN-SUFFIX,+.zenmate.com
 DOMAIN-SUFFIX,+.zenmate.com.ru
+DOMAIN-SUFFIX,+.zenmux.ai
 DOMAIN-SUFFIX,+.zenodo.org
 DOMAIN-SUFFIX,+.zeplin.dev
 DOMAIN-SUFFIX,+.zeplin.io

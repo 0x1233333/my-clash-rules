@@ -1,6 +1,6 @@
 # NAME: Crypto
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 576
+# COUNT: 580
 
 DOMAIN-SUFFIX,1inch.io
 DOMAIN-SUFFIX,1ml.com
@@ -400,6 +400,7 @@ DOMAIN-SUFFIX,coinowo.com
 DOMAIN-SUFFIX,cointrendz.com
 DOMAIN-SUFFIX,compound.finance
 DOMAIN-SUFFIX,crunchbase.com
+DOMAIN-SUFFIX,crypto.com
 DOMAIN-SUFFIX,crypto51.app
 DOMAIN-SUFFIX,cryptoart.io
 DOMAIN-SUFFIX,cryptocompare.com
@@ -469,6 +470,7 @@ DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,hyperfoundation.org
 DOMAIN-SUFFIX,hyperliquid.xyz
 DOMAIN-SUFFIX,hyperpay-website.oss-cn-hongkong.aliyuncs.com
+DOMAIN-SUFFIX,hyperunit.xyz
 DOMAIN-SUFFIX,icodrops.com
 DOMAIN-SUFFIX,infini.money
 DOMAIN-SUFFIX,intotheblock.com
@@ -500,6 +502,7 @@ DOMAIN-SUFFIX,mexc.com
 DOMAIN-SUFFIX,misttrack.io
 DOMAIN-SUFFIX,moneroworld.com
 DOMAIN-SUFFIX,moonpay.com
+DOMAIN-SUFFIX,morpho.org
 DOMAIN-SUFFIX,musepay.io
 DOMAIN-SUFFIX,myetherwallet.com
 DOMAIN-SUFFIX,nansen.ai
@@ -550,6 +553,7 @@ DOMAIN-SUFFIX,token.im
 DOMAIN-SUFFIX,tokenpocket.pro
 DOMAIN-SUFFIX,tokenterminal.com
 DOMAIN-SUFFIX,tokenview.com
+DOMAIN-SUFFIX,trade.xyz
 DOMAIN-SUFFIX,tradeblock.com
 DOMAIN-SUFFIX,traderjoexyz.com
 DOMAIN-SUFFIX,tradingview.com
