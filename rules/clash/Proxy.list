@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40202
+# COUNT: 40205
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -4319,6 +4319,7 @@ DOMAIN-SUFFIX,+.to-porno.com
 DOMAIN-SUFFIX,+.togetter.com
 DOMAIN-SUFFIX,+.token.im
 DOMAIN-SUFFIX,+.tokenlon.im
+DOMAIN-SUFFIX,+.tokenplus.app
 DOMAIN-SUFFIX,+.tokyo
 DOMAIN-SUFFIX,+.tokyo-porn-tube.com
 DOMAIN-SUFFIX,+.tokyocn.com
@@ -35218,6 +35219,7 @@ DOMAIN-SUFFIX,tohoku-bank.co.jp
 DOMAIN-SUFFIX,tok.media
 DOMAIN-SUFFIX,token.im
 DOMAIN-SUFFIX,tokenlon.im
+DOMAIN-SUFFIX,tokenplus.app
 DOMAIN-SUFFIX,tokyo-247.com
 DOMAIN-SUFFIX,tokyo-hot.com
 DOMAIN-SUFFIX,tokyo-porn-tube.com
@@ -40012,6 +40014,7 @@ DOMAIN-SUFFIX,zenit-card.ru
 DOMAIN-SUFFIX,zenit.ru
 DOMAIN-SUFFIX,zenmate.com
 DOMAIN-SUFFIX,zenmate.com.ru
+DOMAIN-SUFFIX,zenmux.ai
 DOMAIN-SUFFIX,zenodo.org
 DOMAIN-SUFFIX,zeplerinstitute.ac.uk
 DOMAIN-SUFFIX,zeplin.dev

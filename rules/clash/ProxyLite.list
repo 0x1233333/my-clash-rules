@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27382
+# COUNT: 27383
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -22268,6 +22268,7 @@ DOMAIN-SUFFIX,+.tohoku-bank.co.jp
 DOMAIN-SUFFIX,+.tok.media
 DOMAIN-SUFFIX,+.token.im
 DOMAIN-SUFFIX,+.tokenlon.im
+DOMAIN-SUFFIX,+.tokenplus.app
 DOMAIN-SUFFIX,+.tokyo-hot.com
 DOMAIN-SUFFIX,+.tokyo-porn-tube.com
 DOMAIN-SUFFIX,+.tokyo-sports.co.jp
