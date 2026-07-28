@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40212
+# COUNT: 40213
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -4372,6 +4372,7 @@ DOMAIN-SUFFIX,+.truebuddha-md.org
 DOMAIN-SUFFIX,+.trustwallet.com
 DOMAIN-SUFFIX,+.truthsocial.com
 DOMAIN-SUFFIX,+.trv
+DOMAIN-SUFFIX,+.tryai.dev
 DOMAIN-SUFFIX,+.tryheart.jp
 DOMAIN-SUFFIX,+.tsdr.uspto.gov
 DOMAIN-SUFFIX,+.tt
