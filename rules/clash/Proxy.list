@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40304
+# COUNT: 40308
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -155,6 +155,7 @@ DOMAIN-SUFFIX,+.ai
 DOMAIN-SUFFIX,+.ai.dev
 DOMAIN-SUFFIX,+.ai.studio
 DOMAIN-SUFFIX,+.aig
+DOMAIN-SUFFIX,+.aihub.top
 DOMAIN-SUFFIX,+.aiosearch.com
 DOMAIN-SUFFIX,+.aiph.net
 DOMAIN-SUFFIX,+.airbus
@@ -418,6 +419,7 @@ DOMAIN-SUFFIX,+.barefoot
 DOMAIN-SUFFIX,+.barnabu.co.uk
 DOMAIN-SUFFIX,+.bartender.dowjones.com
 DOMAIN-SUFFIX,+.barton.de
+DOMAIN-SUFFIX,+.basemaps.arcgis.com
 DOMAIN-SUFFIX,+.bastillepost.com
 DOMAIN-SUFFIX,+.bauhaus
 DOMAIN-SUFFIX,+.bayern
@@ -1353,6 +1355,7 @@ DOMAIN-SUFFIX,+.eromangadouzin.com
 DOMAIN-SUFFIX,+.eromon.net
 DOMAIN-SUFFIX,+.es
 DOMAIN-SUFFIX,+.esg.t91y.com
+DOMAIN-SUFFIX,+.esim.redteago.com
 DOMAIN-SUFFIX,+.eslite.com
 DOMAIN-SUFFIX,+.esq
 DOMAIN-SUFFIX,+.esurance.com
@@ -1380,6 +1383,7 @@ DOMAIN-SUFFIX,+.exmormon.org
 DOMAIN-SUFFIX,+.expatshield.com
 DOMAIN-SUFFIX,+.expecthim.com
 DOMAIN-SUFFIX,+.expekt.com
+DOMAIN-SUFFIX,+.experience.arcgis.com
 DOMAIN-SUFFIX,+.exploader.net
 DOMAIN-SUFFIX,+.expressnews.com
 DOMAIN-SUFFIX,+.expressvpn.com
