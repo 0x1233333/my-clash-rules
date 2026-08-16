@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27530
+# COUNT: 27531
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -19753,6 +19753,7 @@ DOMAIN-SUFFIX,+.rutracker.me
 DOMAIN-SUFFIX,+.rutracker.net
 DOMAIN-SUFFIX,+.rutracker.nl
 DOMAIN-SUFFIX,+.rutracker.org
+DOMAIN-SUFFIX,+.rutracker.wiki
 DOMAIN-SUFFIX,+.rutrk.org
 DOMAIN-SUFFIX,+.rutube.ru
 DOMAIN-SUFFIX,+.rutube.sport
