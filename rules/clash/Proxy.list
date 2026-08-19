@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40357
+# COUNT: 40359
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -3717,6 +3717,7 @@ DOMAIN-SUFFIX,+.ryukyu
 DOMAIN-SUFFIX,+.s-cute.com
 DOMAIN-SUFFIX,+.s.yimg.com
 DOMAIN-SUFFIX,+.s3-ap-northeast-1.amazonaws.com
+DOMAIN-SUFFIX,+.s3.dualstack.us-west-2.amazonaws.com
 DOMAIN-SUFFIX,+.sa
 DOMAIN-SUFFIX,+.saarland
 DOMAIN-SUFFIX,+.sacks.com
@@ -4815,6 +4816,7 @@ DOMAIN-SUFFIX,+.willw.net
 DOMAIN-SUFFIX,+.wilsoncenter.org
 DOMAIN-SUFFIX,+.windows
 DOMAIN-SUFFIX,+.windscribe.com
+DOMAIN-SUFFIX,+.windy.com
 DOMAIN-SUFFIX,+.wine
 DOMAIN-SUFFIX,+.wingamestore.com
 DOMAIN-SUFFIX,+.wingy.site
@@ -12744,7 +12746,6 @@ DOMAIN-SUFFIX,commerzbank.ru
 DOMAIN-SUFFIX,commnet.ac.uk
 DOMAIN-SUFFIX,communistcrimes.org
 DOMAIN-SUFFIX,community.oneplus.com
-DOMAIN-SUFFIX,community.windy.com
 DOMAIN-SUFFIX,communitychoicecu.com
 DOMAIN-SUFFIX,como-hackearfacebook.com
 DOMAIN-SUFFIX,comodo.com
@@ -27488,6 +27489,7 @@ DOMAIN-SUFFIX,noodlemagazine.com
 DOMAIN-SUFFIX,noodlevpn.com
 DOMAIN-SUFFIX,noosferabank.ru
 DOMAIN-SUFFIX,norbulingka.org
+DOMAIN-SUFFIX,nordcdn.com
 DOMAIN-SUFFIX,nordstrom.com
 DOMAIN-SUFFIX,nordstromimage.com
 DOMAIN-SUFFIX,nordstrommedia.com
