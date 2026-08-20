@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40359
+# COUNT: 40360
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -3235,6 +3235,7 @@ DOMAIN-SUFFIX,+.okx.com
 DOMAIN-SUFFIX,+.olayan
 DOMAIN-SUFFIX,+.olayangroup
 DOMAIN-SUFFIX,+.old.honeynet.org
+DOMAIN-SUFFIX,+.oldmapsonline.org
 DOMAIN-SUFFIX,+.olehdtv.com
 DOMAIN-SUFFIX,+.olelive.com
 DOMAIN-SUFFIX,+.olevod.com
