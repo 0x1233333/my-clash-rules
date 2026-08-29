@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40387
+# COUNT: 40388
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -4871,6 +4871,7 @@ DOMAIN-SUFFIX,+.woyaolian.org
 DOMAIN-SUFFIX,+.wp.com
 DOMAIN-SUFFIX,+.wplace.live
 DOMAIN-SUFFIX,+.wpoforum.com
+DOMAIN-SUFFIX,+.write.as
 DOMAIN-SUFFIX,+.writesonic.com
 DOMAIN-SUFFIX,+.ws
 DOMAIN-SUFFIX,+.wsj.com
