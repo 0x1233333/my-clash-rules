@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27558
+# COUNT: 27559
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -9797,6 +9797,7 @@ DOMAIN-SUFFIX,+.geti2p.net
 DOMAIN-SUFFIX,+.getlantern.org
 DOMAIN-SUFFIX,+.getmalus.com
 DOMAIN-SUFFIX,+.getmdl.io
+DOMAIN-SUFFIX,+.getmonero.org
 DOMAIN-SUFFIX,+.getnews.jp
 DOMAIN-SUFFIX,+.getoutline.org
 DOMAIN-SUFFIX,+.getpaint.net

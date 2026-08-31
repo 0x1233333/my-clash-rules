@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40392
+# COUNT: 40395
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -1709,6 +1709,7 @@ DOMAIN-SUFFIX,+.geti2p.net
 DOMAIN-SUFFIX,+.getlantern.org
 DOMAIN-SUFFIX,+.getmalus.com
 DOMAIN-SUFFIX,+.getmdl.io
+DOMAIN-SUFFIX,+.getmonero.org
 DOMAIN-SUFFIX,+.getoutline.org
 DOMAIN-SUFFIX,+.getsession.org
 DOMAIN-SUFFIX,+.getsync.com
@@ -3134,6 +3135,7 @@ DOMAIN-SUFFIX,+.ni
 DOMAIN-SUFFIX,+.nic.cz.cc
 DOMAIN-SUFFIX,+.nic.gov
 DOMAIN-SUFFIX,+.nico
+DOMAIN-SUFFIX,+.nicoseiga.jp
 DOMAIN-SUFFIX,+.nicovideo.jp
 DOMAIN-SUFFIX,+.nightswatch.top
 DOMAIN-SUFFIX,+.nike
@@ -18100,6 +18102,7 @@ DOMAIN-SUFFIX,getjetso.com
 DOMAIN-SUFFIX,getlantern.org
 DOMAIN-SUFFIX,getmalus.com
 DOMAIN-SUFFIX,getmdl.io
+DOMAIN-SUFFIX,getmonero.org
 DOMAIN-SUFFIX,getnews.jp
 DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,getpaint.net
