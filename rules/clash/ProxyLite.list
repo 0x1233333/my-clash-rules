@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27566
+# COUNT: 27567
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -14053,6 +14053,7 @@ DOMAIN-SUFFIX,+.linseysworld.com
 DOMAIN-SUFFIX,+.linux.do
 DOMAIN-SUFFIX,+.linux.org
 DOMAIN-SUFFIX,+.linux.org.hk
+DOMAIN-SUFFIX,+.linux.sb
 DOMAIN-SUFFIX,+.linuxfoundation.org
 DOMAIN-SUFFIX,+.linuxfromscratch.org
 DOMAIN-SUFFIX,+.linuxmint.com
