@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27575
+# COUNT: 27576
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -19063,6 +19063,7 @@ DOMAIN-SUFFIX,+.qstatus.com
 DOMAIN-SUFFIX,+.qt-project.org
 DOMAIN-SUFFIX,+.qt.io
 DOMAIN-SUFFIX,+.qtrac.eu
+DOMAIN-SUFFIX,+.quakemachinex.com
 DOMAIN-SUFFIX,+.qualcomm-email.com
 DOMAIN-SUFFIX,+.qualcomm-inc.com
 DOMAIN-SUFFIX,+.qualcomm.co.id
