@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27580
+# COUNT: 27586
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -5724,6 +5724,7 @@ DOMAIN-SUFFIX,+.code-class.ru
 DOMAIN-SUFFIX,+.code.org
 DOMAIN-SUFFIX,+.codeberg.org
 DOMAIN-SUFFIX,+.codeberg.page
+DOMAIN-SUFFIX,+.codebuff.com
 DOMAIN-SUFFIX,+.codecademy.com
 DOMAIN-SUFFIX,+.codeforaliving.io
 DOMAIN-SUFFIX,+.codeforces.com
@@ -8841,10 +8842,12 @@ DOMAIN-SUFFIX,+.fiotolia.com
 DOMAIN-SUFFIX,+.fire-emblem-heroes.com
 DOMAIN-SUFFIX,+.firearmsworld.net
 DOMAIN-SUFFIX,+.firebase.com
+DOMAIN-SUFFIX,+.firebase.dev
 DOMAIN-SUFFIX,+.firebase.io
 DOMAIN-SUFFIX,+.firebaseapp.com
 DOMAIN-SUFFIX,+.firebaseio.com
 DOMAIN-SUFFIX,+.fireemblemawakening.com
+DOMAIN-SUFFIX,+.firefox-portal-detection.com
 DOMAIN-SUFFIX,+.firefox.com
 DOMAIN-SUFFIX,+.firefox.hu
 DOMAIN-SUFFIX,+.firefoxtweetmachine.com
@@ -9259,6 +9262,7 @@ DOMAIN-SUFFIX,+.freebigmovies.com
 DOMAIN-SUFFIX,+.freebrowser.org
 DOMAIN-SUFFIX,+.freebs.com
 DOMAIN-SUFFIX,+.freebsd.org
+DOMAIN-SUFFIX,+.freebuff.com
 DOMAIN-SUFFIX,+.freecamsfan.com
 DOMAIN-SUFFIX,+.freecartoons.biz
 DOMAIN-SUFFIX,+.freechatnow.com
@@ -22007,6 +22011,7 @@ DOMAIN-SUFFIX,+.textnow.com
 DOMAIN-SUFFIX,+.textnow.me
 DOMAIN-SUFFIX,+.texttobuy.org
 DOMAIN-SUFFIX,+.texture.com
+DOMAIN-SUFFIX,+.tfbnw.net
 DOMAIN-SUFFIX,+.tfc-taiwan.org.tw
 DOMAIN-SUFFIX,+.tferwq.com
 DOMAIN-SUFFIX,+.tfhub.dev
@@ -26768,9 +26773,10 @@ DOMAIN-SUFFIX,fbcdn
 DOMAIN-SUFFIX,fbcdn-a.akamaihd.net
 DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,firebase.google.com
 DOMAIN-SUFFIX,firebase.googleapis.com
 DOMAIN-SUFFIX,firebaseappcheck.googleapis.com
+DOMAIN-SUFFIX,firebaseappdistribution.googleapis.com
+DOMAIN-SUFFIX,firebaseapptesters.googleapis.com
 DOMAIN-SUFFIX,firebasedynamiclinks-ipv4.googleapis.com
 DOMAIN-SUFFIX,firebasedynamiclinks-ipv6.googleapis.com
 DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com
