@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27588
+# COUNT: 27590
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -4771,6 +4771,7 @@ DOMAIN-SUFFIX,+.c-ij.com
 DOMAIN-SUFFIX,+.c-msedge.net
 DOMAIN-SUFFIX,+.c-span.org
 DOMAIN-SUFFIX,+.c-spanvideo.org
+DOMAIN-SUFFIX,+.c.go-mpulse.net
 DOMAIN-SUFFIX,+.c.mi.com
 DOMAIN-SUFFIX,+.c0930.com
 DOMAIN-SUFFIX,+.c2cx.com
@@ -23315,6 +23316,7 @@ DOMAIN-SUFFIX,+.vaultify.com
 DOMAIN-SUFFIX,+.vaultify.info
 DOMAIN-SUFFIX,+.vaultify.net
 DOMAIN-SUFFIX,+.vaultproject.io
+DOMAIN-SUFFIX,+.vava8.com
 DOMAIN-SUFFIX,+.vbcdn.com
 DOMAIN-SUFFIX,+.vbcdn.net
 DOMAIN-SUFFIX,+.vbejeyv.shop
