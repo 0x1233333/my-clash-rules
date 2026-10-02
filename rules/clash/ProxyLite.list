@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27597
+# COUNT: 27598
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -5549,6 +5549,7 @@ DOMAIN-SUFFIX,+.classymomsex.com
 DOMAIN-SUFFIX,+.clau.de
 DOMAIN-SUFFIX,+.claude.ai
 DOMAIN-SUFFIX,+.claude.com
+DOMAIN-SUFFIX,+.claude.dev
 DOMAIN-SUFFIX,+.claudemcpclient.com
 DOMAIN-SUFFIX,+.claudemcpcontent.com
 DOMAIN-SUFFIX,+.claudeusercontent.com
