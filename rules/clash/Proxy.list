@@ -1,6 +1,6 @@
 # NAME: Proxy
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 40435
+# COUNT: 40438
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.0rz.tw
@@ -12417,6 +12417,7 @@ DOMAIN-SUFFIX,classymomsex.com
 DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.dev
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
@@ -38330,6 +38331,7 @@ DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
 DOMAIN-SUFFIX,wikidot.com
 DOMAIN-SUFFIX,wikifeet.com
+DOMAIN-SUFFIX,wikifunctions.org
 DOMAIN-SUFFIX,wikihow.com
 DOMAIN-SUFFIX,wikileaks
 DOMAIN-SUFFIX,wikileaks-forum.com
@@ -38354,6 +38356,7 @@ DOMAIN-SUFFIX,wikiquote.org
 DOMAIN-SUFFIX,wikis.tw
 DOMAIN-SUFFIX,wikisexguide.com
 DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikispecies.org
 DOMAIN-SUFFIX,wikiunblocked.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
