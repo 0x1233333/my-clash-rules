@@ -1,6 +1,6 @@
 # NAME: CN-IP
 # TYPE: IP-CIDR
-# COUNT: 19258
+# COUNT: 19257
 
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -1026,7 +1026,6 @@ IP-CIDR,103.144.136.0/23,no-resolve
 IP-CIDR,103.144.148.0/23,no-resolve
 IP-CIDR,103.144.158.0/23,no-resolve
 IP-CIDR,103.144.240.0/23,no-resolve
-IP-CIDR,103.144.244.0/23,no-resolve
 IP-CIDR,103.144.40.0/23,no-resolve
 IP-CIDR,103.144.41.0/24,no-resolve
 IP-CIDR,103.144.52.0/23,no-resolve
