@@ -1,6 +1,6 @@
 # NAME: Social
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 643
+# COUNT: 646
 
 DOMAIN-SUFFIX,108.168.176.192/26
 DOMAIN-SUFFIX,108.168.177.0/27
@@ -61,6 +61,9 @@ DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutapi.us
+DOMAIN-SUFFIX,capcutstatic.com
 DOMAIN-SUFFIX,careersatfb.com
 DOMAIN-SUFFIX,carstagram.com
 DOMAIN-SUFFIX,cdninstagram.com
