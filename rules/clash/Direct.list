@@ -1,6 +1,6 @@
 # NAME: Direct
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 341
+# COUNT: 343
 
 DOMAIN-SUFFIX,+.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,+.10.in-addr.arpa
@@ -292,6 +292,8 @@ DOMAIN-SUFFIX,leike.cc
 DOMAIN-SUFFIX,local.adguard.org
 DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
 DOMAIN-SUFFIX,localhost.sec.qq.com
+DOMAIN-SUFFIX,localhost.weixin.qq.com
+DOMAIN-SUFFIX,localhost.work.weixin.qq.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,my.router
