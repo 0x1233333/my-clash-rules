@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27733
+# COUNT: 27750
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -2372,7 +2372,6 @@ DOMAIN-SUFFIX,+.asminternational.org
 DOMAIN-SUFFIX,+.asmr.gay
 DOMAIN-SUFFIX,+.asmrbuluo.com
 DOMAIN-SUFFIX,+.asn-online.org
-DOMAIN-SUFFIX,+.asobostudio.com
 DOMAIN-SUFFIX,+.asp-cc.com
 DOMAIN-SUFFIX,+.asp.net
 DOMAIN-SUFFIX,+.aspbjournals.org
@@ -3358,8 +3357,15 @@ DOMAIN-SUFFIX,+.beevpn.com
 DOMAIN-SUFFIX,+.beforeigners.com
 DOMAIN-SUFFIX,+.befuck.com
 DOMAIN-SUFFIX,+.befuck.net
+DOMAIN-SUFFIX,+.beget.app
+DOMAIN-SUFFIX,+.beget.cloud
 DOMAIN-SUFFIX,+.beget.com
+DOMAIN-SUFFIX,+.beget.de
+DOMAIN-SUFFIX,+.beget.hosting
+DOMAIN-SUFFIX,+.beget.pro
 DOMAIN-SUFFIX,+.beget.ru
+DOMAIN-SUFFIX,+.beget.tech
+DOMAIN-SUFFIX,+.begetcdn.cloud
 DOMAIN-SUFFIX,+.begin-trade.com
 DOMAIN-SUFFIX,+.behance.net
 DOMAIN-SUFFIX,+.behindthescreenz.com
@@ -3392,6 +3398,7 @@ DOMAIN-SUFFIX,+.berlincompanions.com
 DOMAIN-SUFFIX,+.berlinerbericht.de
 DOMAIN-SUFFIX,+.berlintwitterwall.com
 DOMAIN-SUFFIX,+.beru.ru
+DOMAIN-SUFFIX,+.beserver.ru
 DOMAIN-SUFFIX,+.best-sex-games.com
 DOMAIN-SUFFIX,+.best2pay.net
 DOMAIN-SUFFIX,+.best4bim.com
@@ -3502,6 +3509,7 @@ DOMAIN-SUFFIX,+.bfads.net
 DOMAIN-SUFFIX,+.bffshd.com
 DOMAIN-SUFFIX,+.bfnn.org
 DOMAIN-SUFFIX,+.bfsh.hk
+DOMAIN-SUFFIX,+.bget.ru
 DOMAIN-SUFFIX,+.bgicdn.com
 DOMAIN-SUFFIX,+.bgm.tv
 DOMAIN-SUFFIX,+.bgme.me
@@ -8969,7 +8977,6 @@ DOMAIN-SUFFIX,+.flic.kr
 DOMAIN-SUFFIX,+.flickr
 DOMAIN-SUFFIX,+.flickr.com
 DOMAIN-SUFFIX,+.flickr.net
-DOMAIN-SUFFIX,+.flightsimulator.com
 DOMAIN-SUFFIX,+.flipboard.com
 DOMAIN-SUFFIX,+.flipfap.com
 DOMAIN-SUFFIX,+.flipkart.com
@@ -14485,6 +14492,7 @@ DOMAIN-SUFFIX,+.magentomobile.com
 DOMAIN-SUFFIX,+.magestic.com
 DOMAIN-SUFFIX,+.magicalmirai.com
 DOMAIN-SUFFIX,+.magicmovies.com
+DOMAIN-SUFFIX,+.magnific.com
 DOMAIN-SUFFIX,+.mahajantech.com
 DOMAIN-SUFFIX,+.mahjongsoul.com
 DOMAIN-SUFFIX,+.maidonanews.jp
@@ -15956,6 +15964,7 @@ DOMAIN-SUFFIX,+.mt.lv
 DOMAIN-SUFFIX,+.mt0011.site
 DOMAIN-SUFFIX,+.mtao.fun
 DOMAIN-SUFFIX,+.mthruf.com
+DOMAIN-SUFFIX,+.mts-link.ru
 DOMAIN-SUFFIX,+.mts-ws.net
 DOMAIN-SUFFIX,+.mts.ru
 DOMAIN-SUFFIX,+.mtsbank.ru
@@ -18804,6 +18813,7 @@ DOMAIN-SUFFIX,+.postgresql.org
 DOMAIN-SUFFIX,+.postimages.org
 DOMAIN-SUFFIX,+.postimg.cc
 DOMAIN-SUFFIX,+.postini.com
+DOMAIN-SUFFIX,+.postman.com
 DOMAIN-SUFFIX,+.posts.careerengine.us
 DOMAIN-SUFFIX,+.posty.kr
 DOMAIN-SUFFIX,+.postyourgirls.ws
@@ -19077,6 +19087,7 @@ DOMAIN-SUFFIX,+.pussyspace.com
 DOMAIN-SUFFIX,+.pussyspace.net
 DOMAIN-SUFFIX,+.putinho.net
 DOMAIN-SUFFIX,+.putty.org
+DOMAIN-SUFFIX,+.pv-cdn.net
 DOMAIN-SUFFIX,+.pvp.net
 DOMAIN-SUFFIX,+.pvp.tv
 DOMAIN-SUFFIX,+.pvt.sexy
@@ -21267,6 +21278,7 @@ DOMAIN-SUFFIX,+.springernature.com
 DOMAIN-SUFFIX,+.springwood.me
 DOMAIN-SUFFIX,+.sprinklesapp.com
 DOMAIN-SUFFIX,+.sproutcore.com
+DOMAIN-SUFFIX,+.sprut.io
 DOMAIN-SUFFIX,+.sptvbroadcast.com
 DOMAIN-SUFFIX,+.sputnikglobe.com
 DOMAIN-SUFFIX,+.sputnikimages.com
@@ -25249,6 +25261,7 @@ DOMAIN-SUFFIX,+.xn--8uq428d76d.tokyo
 DOMAIN-SUFFIX,+.xn--90ab.com
 DOMAIN-SUFFIX,+.xn--90ab2c.xn--p1ai
 DOMAIN-SUFFIX,+.xn--90absjljw3g.xn--p1ai
+DOMAIN-SUFFIX,+.xn--90aefb9d.xn--p1ai
 DOMAIN-SUFFIX,+.xn--90aifd0az.shop
 DOMAIN-SUFFIX,+.xn--90aifd0azb.xn--p1acf
 DOMAIN-SUFFIX,+.xn--90wwvt03e.com
@@ -26804,6 +26817,7 @@ DOMAIN-SUFFIX,d2wy8f7a9ursnm.cloudfront.net
 DOMAIN-SUFFIX,d2xmjdvx03ij56.cloudfront.net
 DOMAIN-SUFFIX,d31dormfno8pk4.cloudfront.net
 DOMAIN-SUFFIX,d33wubrfki0l68.cloudfront.net
+DOMAIN-SUFFIX,d348twzf7a8p5.cloudfront.net
 DOMAIN-SUFFIX,d36jcksde1wxzq.cloudfront.net
 DOMAIN-SUFFIX,d36nr0u3xmc4mm.cloudfront.net
 DOMAIN-SUFFIX,d3aqoihi2n8ty8.cloudfront.net
@@ -26833,6 +26847,7 @@ DOMAIN-SUFFIX,deutschewelle.h-cdn.com
 DOMAIN-SUFFIX,developer.microsoft.com
 DOMAIN-SUFFIX,developer.uber.com
 DOMAIN-SUFFIX,developers.facebook.com
+DOMAIN-SUFFIX,devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
 DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
 DOMAIN-SUFFIX,dgeft87wbj63p.cloudfront.net
 DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
@@ -26854,6 +26869,7 @@ DOMAIN-SUFFIX,docker-pinata-support.s3.amazonaws.com
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dockerhub.com
+DOMAIN-SUFFIX,doy2mn9upadnk.cloudfront.net
 DOMAIN-SUFFIX,dqd0jw5gvbchn.cloudfront.net
 DOMAIN-SUFFIX,dqrpb9wgowsf5.cloudfront.net
 DOMAIN-SUFFIX,drive.uber.com
@@ -26933,7 +26949,6 @@ DOMAIN-SUFFIX,firebaseperusertopics-pa.googleapis.com
 DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 DOMAIN-SUFFIX,firstsearch.oclc.org
 DOMAIN-SUFFIX,flickr.com
-DOMAIN-SUFFIX,flightsimulator.azureedge.net
 DOMAIN-SUFFIX,flipboard.com
 DOMAIN-SUFFIX,flzbcdn.xyz
 DOMAIN-SUFFIX,fontshop-prod-responsive-images.s3.amazonaws.com
@@ -27045,6 +27060,8 @@ DOMAIN-SUFFIX,kat.cr
 DOMAIN-SUFFIX,kik.com
 DOMAIN-SUFFIX,kobo.com
 DOMAIN-SUFFIX,kobobooks.com
+DOMAIN-SUFFIX,kp-config-smart-tv.akamaized.net
+DOMAIN-SUFFIX,kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,kr
 DOMAIN-SUFFIX,lastfm-img.freetls.fastly.net
 DOMAIN-SUFFIX,lastfm.freetls.fastly.net
