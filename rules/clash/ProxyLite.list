@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27800
+# COUNT: 27801
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -9632,6 +9632,7 @@ DOMAIN-SUFFIX,+.g.page
 DOMAIN-SUFFIX,+.g0v.social
 DOMAIN-SUFFIX,+.g1.com.br
 DOMAIN-SUFFIX,+.g6hentai.com
+DOMAIN-SUFFIX,+.ga.jspm.io
 DOMAIN-SUFFIX,+.gab.com
 DOMAIN-SUFFIX,+.gabocorp.com
 DOMAIN-SUFFIX,+.gacebook.com
