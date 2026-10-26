@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27805
+# COUNT: 27796
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -766,6 +766,7 @@ DOMAIN-SUFFIX,+.addthis.com
 DOMAIN-SUFFIX,+.addthiscdn.com
 DOMAIN-SUFFIX,+.addthisedge.com
 DOMAIN-SUFFIX,+.addtoany.com
+DOMAIN-SUFFIX,+.addtodropbox.com
 DOMAIN-SUFFIX,+.addyoutube.com
 DOMAIN-SUFFIX,+.adelaidenow.com.au
 DOMAIN-SUFFIX,+.adgoogle.net
@@ -6308,6 +6309,7 @@ DOMAIN-SUFFIX,+.darwinsource.com
 DOMAIN-SUFFIX,+.darwinsource.org
 DOMAIN-SUFFIX,+.darwinsourcecode.com
 DOMAIN-SUFFIX,+.dasaob.online
+DOMAIN-SUFFIX,+.dash.ai
 DOMAIN-SUFFIX,+.dashlane.com
 DOMAIN-SUFFIX,+.dashly.app
 DOMAIN-SUFFIX,+.dashly.help
@@ -7065,6 +7067,7 @@ DOMAIN-SUFFIX,+.docs.com
 DOMAIN-SUFFIX,+.docs.new
 DOMAIN-SUFFIX,+.docs.rs
 DOMAIN-SUFFIX,+.docs.rw
+DOMAIN-SUFFIX,+.docsend.com
 DOMAIN-SUFFIX,+.doctor-videos.com
 DOMAIN-SUFFIX,+.documentforce.com
 DOMAIN-SUFFIX,+.documentingreality.com
@@ -7259,12 +7262,15 @@ DOMAIN-SUFFIX,+.dropbox.tech
 DOMAIN-SUFFIX,+.dropboxapi.com
 DOMAIN-SUFFIX,+.dropboxbusiness.com
 DOMAIN-SUFFIX,+.dropboxcaptcha.com
+DOMAIN-SUFFIX,+.dropboxexperiment.com
 DOMAIN-SUFFIX,+.dropboxforum.com
 DOMAIN-SUFFIX,+.dropboxforums.com
 DOMAIN-SUFFIX,+.dropboxinsiders.com
+DOMAIN-SUFFIX,+.dropboxlegal.com
 DOMAIN-SUFFIX,+.dropboxmail.com
 DOMAIN-SUFFIX,+.dropboxpartners.com
 DOMAIN-SUFFIX,+.dropboxstatic.com
+DOMAIN-SUFFIX,+.dropboxteam.com
 DOMAIN-SUFFIX,+.dropboxusercontent.com
 DOMAIN-SUFFIX,+.drpc.org
 DOMAIN-SUFFIX,+.drtuber.com
@@ -10992,9 +10998,11 @@ DOMAIN-SUFFIX,+.heise360182.buzz
 DOMAIN-SUFFIX,+.helixstudios.net
 DOMAIN-SUFFIX,+.helloandroid.com
 DOMAIN-SUFFIX,+.helloavgirls.com
+DOMAIN-SUFFIX,+.hellofax.com
 DOMAIN-SUFFIX,+.hellokittybeats.com
 DOMAIN-SUFFIX,+.hellomoto.com
 DOMAIN-SUFFIX,+.helloqueer.com
+DOMAIN-SUFFIX,+.hellosign.com
 DOMAIN-SUFFIX,+.hellosmartbook.com
 DOMAIN-SUFFIX,+.hellporno.com
 DOMAIN-SUFFIX,+.hellven.net
@@ -14086,6 +14094,7 @@ DOMAIN-SUFFIX,+.library.lol
 DOMAIN-SUFFIX,+.librarylovefest.com
 DOMAIN-SUFFIX,+.libraryofthumbs.com
 DOMAIN-SUFFIX,+.libredd.it
+DOMAIN-SUFFIX,+.librewolf.dev
 DOMAIN-SUFFIX,+.librewolf.net
 DOMAIN-SUFFIX,+.libsolutions.app
 DOMAIN-SUFFIX,+.libsolutions.domains
@@ -20854,7 +20863,6 @@ DOMAIN-SUFFIX,+.sites.new
 DOMAIN-SUFFIX,+.situero.com
 DOMAIN-SUFFIX,+.six-degrees.io
 DOMAIN-SUFFIX,+.six9dy.pw
-DOMAIN-SUFFIX,+.sixte.st
 DOMAIN-SUFFIX,+.sjcollect.com
 DOMAIN-SUFFIX,+.sjhsp1.buzz
 DOMAIN-SUFFIX,+.skate2.com
@@ -22147,29 +22155,6 @@ DOMAIN-SUFFIX,+.tesla.services
 DOMAIN-SUFFIX,+.teslaenergy.services
 DOMAIN-SUFFIX,+.teslamotors.com
 DOMAIN-SUFFIX,+.teslazta.net
-DOMAIN-SUFFIX,+.test-ipv6.alpinedc.ch
-DOMAIN-SUFFIX,+.test-ipv6.arauc.br
-DOMAIN-SUFFIX,+.test-ipv6.belwue.net
-DOMAIN-SUFFIX,+.test-ipv6.carnet.hr
-DOMAIN-SUFFIX,+.test-ipv6.cl
-DOMAIN-SUFFIX,+.test-ipv6.com
-DOMAIN-SUFFIX,+.test-ipv6.cs.umd.edu
-DOMAIN-SUFFIX,+.test-ipv6.csclub.uwaterloo.ca
-DOMAIN-SUFFIX,+.test-ipv6.cz
-DOMAIN-SUFFIX,+.test-ipv6.epic.network
-DOMAIN-SUFFIX,+.test-ipv6.fratec.net
-DOMAIN-SUFFIX,+.test-ipv6.freerangecloud.com
-DOMAIN-SUFFIX,+.test-ipv6.go6.si
-DOMAIN-SUFFIX,+.test-ipv6.hu
-DOMAIN-SUFFIX,+.test-ipv6.is
-DOMAIN-SUFFIX,+.test-ipv6.iu13.net
-DOMAIN-SUFFIX,+.test-ipv6.ke.liquidtelecom.net
-DOMAIN-SUFFIX,+.test-ipv6.noroutetohost.net
-DOMAIN-SUFFIX,+.test-ipv6.roedu.net
-DOMAIN-SUFFIX,+.test-ipv6.se
-DOMAIN-SUFFIX,+.test-ipv6.sin.vr.org
-DOMAIN-SUFFIX,+.test-ipv6.ttk.ru
-DOMAIN-SUFFIX,+.testipv6.de
 DOMAIN-SUFFIX,+.testonfox.com
 DOMAIN-SUFFIX,+.tetrika-school.ru
 DOMAIN-SUFFIX,+.tettediferro.it
@@ -26724,6 +26709,9 @@ DOMAIN-SUFFIX,apple.com.akadns.net
 DOMAIN-SUFFIX,appledaily
 DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN-SUFFIX,appleworldwidedeveloper.sc.omtrdc.net
+DOMAIN-SUFFIX,appsgenaiserver-pa.clients.google.com
+DOMAIN-SUFFIX,appsgenaiserver-pa.clients6.google.com
+DOMAIN-SUFFIX,appsgenaiserver-pa.googleapis.com
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,armorgames.com
@@ -26889,6 +26877,8 @@ DOMAIN-SUFFIX,databank.worldbank.org
 DOMAIN-SUFFIX,database.asahi.com
 DOMAIN-SUFFIX,datarouter.apps.netherrealm.com
 DOMAIN-SUFFIX,daum.net
+DOMAIN-SUFFIX,dc.applicationinsights.azure.com
+DOMAIN-SUFFIX,dc.services.visualstudio.com
 DOMAIN-SUFFIX,dcb0z5ovq92mz.cloudfront.net
 DOMAIN-SUFFIX,ddacn6pr5v0tl.cloudfront.net
 DOMAIN-SUFFIX,dditscdn.com
@@ -26931,6 +26921,7 @@ DOMAIN-SUFFIX,driverinjuryprotection.uber.com
 DOMAIN-SUFFIX,drivers.uber.com
 DOMAIN-SUFFIX,dropbox
 DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropbox.zendesk.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxusercontent.com
@@ -27137,6 +27128,7 @@ DOMAIN-SUFFIX,link.theplatform.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,linkedin.sc.omtrdc.net
 DOMAIN-SUFFIX,live-patreon-marketing.pantheonsite.io
+DOMAIN-SUFFIX,live.applicationinsights.azure.com
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,livefilestore.com
 DOMAIN-SUFFIX,livejasmin.com
@@ -27185,7 +27177,6 @@ DOMAIN-SUFFIX,myteamspeak.com
 DOMAIN-SUFFIX,na1r.services.adobe.com
 DOMAIN-SUFFIX,nbbb1bb7.pmhcjk.com
 DOMAIN-SUFFIX,netdna-cdn.com
-DOMAIN-SUFFIX,netflix.com.edgesuite.net
 DOMAIN-SUFFIX,neulion.com
 DOMAIN-SUFFIX,newsroom.uber.com
 DOMAIN-SUFFIX,nhncorp.jp
@@ -27359,6 +27350,7 @@ DOMAIN-SUFFIX,rsshub.rssforever.com
 DOMAIN-SUFFIX,rsshub.umzzz.com
 DOMAIN-SUFFIX,rsshub.woodland.cafe
 DOMAIN-SUFFIX,rsshub2.asailor.org
+DOMAIN-SUFFIX,rt.services.visualstudio.com
 DOMAIN-SUFFIX,rtm.tnt-ea.com
 DOMAIN-SUFFIX,rush.uber.com
 DOMAIN-SUFFIX,sa78gs.wpc.edgecastcdn.net
@@ -27461,7 +27453,6 @@ DOMAIN-SUFFIX,spankbang.com
 DOMAIN-SUFFIX,spectator.ppy.sh
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,spotify
-DOMAIN-SUFFIX,spotify.com.edgesuite.net
 DOMAIN-SUFFIX,spotify.map.fastly.net
 DOMAIN-SUFFIX,spotify.map.fastlylb.net
 DOMAIN-SUFFIX,spring.io
