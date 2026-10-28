@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27803
+# COUNT: 27804
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -13028,6 +13028,7 @@ DOMAIN-SUFFIX,+.ius.io
 DOMAIN-SUFFIX,+.iutunes.com
 DOMAIN-SUFFIX,+.ivacy.com
 DOMAIN-SUFFIX,+.ivi.ru
+DOMAIN-SUFFIX,+.ivi.tv
 DOMAIN-SUFFIX,+.ivicdn.tv
 DOMAIN-SUFFIX,+.ivintageporn.com
 DOMAIN-SUFFIX,+.ivonblog.com
