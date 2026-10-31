@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27812
+# COUNT: 27814
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -22707,6 +22707,7 @@ DOMAIN-SUFFIX,+.toroporno.com
 DOMAIN-SUFFIX,+.torproject.org
 DOMAIN-SUFFIX,+.torrentgalaxy.to
 DOMAIN-SUFFIX,+.torrentkitty.tv
+DOMAIN-SUFFIX,+.torrentleech.org
 DOMAIN-SUFFIX,+.torrentprivacy.com
 DOMAIN-SUFFIX,+.torrentproject.se
 DOMAIN-SUFFIX,+.torrenty.org
@@ -26285,6 +26286,7 @@ DOMAIN-SUFFIX,+.youtubego.in
 DOMAIN-SUFFIX,+.youtubekids.com
 DOMAIN-SUFFIX,+.youtubemobilesupport.com
 DOMAIN-SUFFIX,+.youversion.com
+DOMAIN-SUFFIX,+.youversionapi.com
 DOMAIN-SUFFIX,+.youwin.com
 DOMAIN-SUFFIX,+.youwuss.com
 DOMAIN-SUFFIX,+.youx.xxx
