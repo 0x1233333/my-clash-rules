@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27839
+# COUNT: 27840
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -394,6 +394,7 @@ DOMAIN-SUFFIX,+.51lieqi.com
 DOMAIN-SUFFIX,+.51luoben.com
 DOMAIN-SUFFIX,+.51luoli.info
 DOMAIN-SUFFIX,+.51mh.app
+DOMAIN-SUFFIX,+.51papaya.com
 DOMAIN-SUFFIX,+.51pincha.cc
 DOMAIN-SUFFIX,+.51tuqiang.com
 DOMAIN-SUFFIX,+.520aa.tv
