@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27840
+# COUNT: 27845
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -6403,6 +6403,7 @@ DOMAIN-SUFFIX,+.dealtree.org
 DOMAIN-SUFFIX,+.deasians.com
 DOMAIN-SUFFIX,+.debank.com
 DOMAIN-SUFFIX,+.debian.org
+DOMAIN-SUFFIX,+.debot.ai
 DOMAIN-SUFFIX,+.debug.com
 DOMAIN-SUFFIX,+.debugproject.com
 DOMAIN-SUFFIX,+.decentr.net
@@ -19643,6 +19644,7 @@ DOMAIN-SUFFIX,+.reiporno.com
 DOMAIN-SUFFIX,+.relateiq.com
 DOMAIN-SUFFIX,+.religionnews.com
 DOMAIN-SUFFIX,+.remirepo.net
+DOMAIN-SUFFIX,+.remna.dev
 DOMAIN-SUFFIX,+.remna.st
 DOMAIN-SUFFIX,+.rencapbank.ru
 DOMAIN-SUFFIX,+.renchead.com
@@ -26816,6 +26818,7 @@ DOMAIN-SUFFIX,box.com
 DOMAIN-SUFFIX,brand.uber.com
 DOMAIN-SUFFIX,brightcove.imgix.net
 DOMAIN-SUFFIX,btlibrary.me
+DOMAIN-SUFFIX,builds.dotnet.microsoft.com
 DOMAIN-SUFFIX,business.uber.com
 DOMAIN-SUFFIX,businesses.uber.com
 DOMAIN-SUFFIX,buzzsprout.com
@@ -26954,6 +26957,7 @@ DOMAIN-SUFFIX,docker-pinata-support.s3.amazonaws.com
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dockerhub.com
+DOMAIN-SUFFIX,dotnetcli.trafficmanager.net
 DOMAIN-SUFFIX,doy2mn9upadnk.cloudfront.net
 DOMAIN-SUFFIX,dqd0jw5gvbchn.cloudfront.net
 DOMAIN-SUFFIX,dqrpb9wgowsf5.cloudfront.net
@@ -27538,6 +27542,7 @@ DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
 DOMAIN-SUFFIX,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+DOMAIN-SUFFIX,sundry-star-net-geo.trafficmanager.net
 DOMAIN-SUFFIX,supercell.helpshift.com
 DOMAIN-SUFFIX,supercell.zendesk.com
 DOMAIN-SUFFIX,support.uber.com
