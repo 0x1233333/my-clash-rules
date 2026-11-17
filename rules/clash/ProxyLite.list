@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27845
+# COUNT: 27847
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -6220,6 +6220,7 @@ DOMAIN-SUFFIX,+.cybertrust.co.jp
 DOMAIN-SUFFIX,+.cybertrust.ne.jp
 DOMAIN-SUFFIX,+.cyberx.com
 DOMAIN-SUFFIX,+.cygames.co.jp
+DOMAIN-SUFFIX,+.cygames.com
 DOMAIN-SUFFIX,+.cygames.jp
 DOMAIN-SUFFIX,+.cygwin.com
 DOMAIN-SUFFIX,+.cylink.pro
@@ -25986,6 +25987,7 @@ DOMAIN-SUFFIX,+.yavtube.com
 DOMAIN-SUFFIX,+.yaya.cyou
 DOMAIN-SUFFIX,+.yayadizhi.xyz
 DOMAIN-SUFFIX,+.yazhouse8.com
+DOMAIN-SUFFIX,+.yb-payment.ru
 DOMAIN-SUFFIX,+.yccdn.ru
 DOMAIN-SUFFIX,+.yclients.com
 DOMAIN-SUFFIX,+.ycombinator.com
