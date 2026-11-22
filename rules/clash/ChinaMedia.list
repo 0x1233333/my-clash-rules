@@ -1,6 +1,6 @@
 # NAME: ChinaMedia
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 77
+# COUNT: 78
 
 DOMAIN-SUFFIX,101.71.154.241/32
 DOMAIN-SUFFIX,103.126.92.132/31
@@ -57,6 +57,7 @@ DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,biliimg.com
 DOMAIN-SUFFIX,biliintl.co
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com

@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27736
+# COUNT: 27804
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -4493,6 +4493,7 @@ DOMAIN-SUFFIX,+.bravoporn.com
 DOMAIN-SUFFIX,+.bravoteens.com
 DOMAIN-SUFFIX,+.bravotube.net
 DOMAIN-SUFFIX,+.bravotube.tv
+DOMAIN-SUFFIX,+.bravotv.com
 DOMAIN-SUFFIX,+.brawlstars.com
 DOMAIN-SUFFIX,+.brawlstarsgame.com
 DOMAIN-SUFFIX,+.brazilpartneruniversity.com
@@ -5715,6 +5716,7 @@ DOMAIN-SUFFIX,+.cn.sandscotaicentral.com
 DOMAIN-SUFFIX,+.cn.shafaqna.com
 DOMAIN-SUFFIX,+.cna.com.tw
 DOMAIN-SUFFIX,+.cnbc.com
+DOMAIN-SUFFIX,+.cnbccouncils.com
 DOMAIN-SUFFIX,+.cnbcfm.com
 DOMAIN-SUFFIX,+.cnbeta.com
 DOMAIN-SUFFIX,+.cnbeta.com.tw
@@ -8598,6 +8600,7 @@ DOMAIN-SUFFIX,+.fantasti.cc
 DOMAIN-SUFFIX,+.fantom.foundation
 DOMAIN-SUFFIX,+.fantom.network
 DOMAIN-SUFFIX,+.fantv.hk
+DOMAIN-SUFFIX,+.fanza.jp
 DOMAIN-SUFFIX,+.fap-xxx.com
 DOMAIN-SUFFIX,+.fap18.net
 DOMAIN-SUFFIX,+.fap666.com
@@ -9045,6 +9048,7 @@ DOMAIN-SUFFIX,+.fnlondon.com
 DOMAIN-SUFFIX,+.fnmt.es
 DOMAIN-SUFFIX,+.foampositeshoes.com
 DOMAIN-SUFFIX,+.fochk.org
+DOMAIN-SUFFIX,+.focusfeatures.com
 DOMAIN-SUFFIX,+.focustaiwan.tw
 DOMAIN-SUFFIX,+.fofg.org
 DOMAIN-SUFFIX,+.foftolia.com
@@ -10835,6 +10839,7 @@ DOMAIN-SUFFIX,+.hayabusa.io
 DOMAIN-SUFFIX,+.hayabusa.media
 DOMAIN-SUFFIX,+.hayday.com
 DOMAIN-SUFFIX,+.haydaygame.com
+DOMAIN-SUFFIX,+.hayu.com
 DOMAIN-SUFFIX,+.hayya.ae
 DOMAIN-SUFFIX,+.hbabit.com
 DOMAIN-SUFFIX,+.hbfile.net
@@ -11280,6 +11285,7 @@ DOMAIN-SUFFIX,+.hkpeanut.com
 DOMAIN-SUFFIX,+.hkporn.net
 DOMAIN-SUFFIX,+.hkreadingcity.net
 DOMAIN-SUFFIX,+.hkreporter.com
+DOMAIN-SUFFIX,+.hkt
 DOMAIN-SUFFIX,+.hkt-enterprise.com
 DOMAIN-SUFFIX,+.hkt-eye.com
 DOMAIN-SUFFIX,+.hkt.com
@@ -12203,6 +12209,7 @@ DOMAIN-SUFFIX,+.ilife.gr
 DOMAIN-SUFFIX,+.ilife.wang
 DOMAIN-SUFFIX,+.illawarramercury.com.au
 DOMAIN-SUFFIX,+.illgames.jp
+DOMAIN-SUFFIX,+.illumination.com
 DOMAIN-SUFFIX,+.illusion111.com
 DOMAIN-SUFFIX,+.illusionas.com
 DOMAIN-SUFFIX,+.illusionchn.com
@@ -15956,7 +15963,6 @@ DOMAIN-SUFFIX,+.msk.ilnk.info
 DOMAIN-SUFFIX,+.msk.kitazawa.me
 DOMAIN-SUFFIX,+.msn.com
 DOMAIN-SUFFIX,+.msn.net
-DOMAIN-SUFFIX,+.msnbc.com
 DOMAIN-SUFFIX,+.msnewskids.com
 DOMAIN-SUFFIX,+.msnewskids.net
 DOMAIN-SUFFIX,+.msnewskids.org
@@ -16356,8 +16362,11 @@ DOMAIN-SUFFIX,+.nbcnews.com
 DOMAIN-SUFFIX,+.nbcolympics.com
 DOMAIN-SUFFIX,+.nbcsports.com
 DOMAIN-SUFFIX,+.nbcudigitaladops.com
+DOMAIN-SUFFIX,+.nbcumv.com
 DOMAIN-SUFFIX,+.nbcuni.com
+DOMAIN-SUFFIX,+.nbcunicareers.com
 DOMAIN-SUFFIX,+.nbcuniversal.com
+DOMAIN-SUFFIX,+.nbcuniversalprivacy.com
 DOMAIN-SUFFIX,+.nbdh15.buzz
 DOMAIN-SUFFIX,+.nbtvpn.com
 DOMAIN-SUFFIX,+.nbys.tv
@@ -17985,6 +17994,7 @@ DOMAIN-SUFFIX,+.pbxes.com
 DOMAIN-SUFFIX,+.pbxes.org
 DOMAIN-SUFFIX,+.pc.com
 DOMAIN-SUFFIX,+.pca.st
+DOMAIN-SUFFIX,+.pccw
 DOMAIN-SUFFIX,+.pccw.com
 DOMAIN-SUFFIX,+.pccwglobal.com
 DOMAIN-SUFFIX,+.pccwsolutions.com
@@ -19580,6 +19590,7 @@ DOMAIN-SUFFIX,+.rentry.co
 DOMAIN-SUFFIX,+.renyurenquan.org
 DOMAIN-SUFFIX,+.renzhe.cloud
 DOMAIN-SUFFIX,+.repe21.com
+DOMAIN-SUFFIX,+.replit.com
 DOMAIN-SUFFIX,+.repo.new
 DOMAIN-SUFFIX,+.report-megafon.ru
 DOMAIN-SUFFIX,+.repotama.com
@@ -22042,6 +22053,7 @@ DOMAIN-SUFFIX,+.telegram.space
 DOMAIN-SUFFIX,+.telegramdownload.com
 DOMAIN-SUFFIX,+.telekom.com
 DOMAIN-SUFFIX,+.telekom.de
+DOMAIN-SUFFIX,+.telemundo.com
 DOMAIN-SUFFIX,+.telerik.com
 DOMAIN-SUFFIX,+.telesco.pe
 DOMAIN-SUFFIX,+.telesec.de
@@ -22633,6 +22645,7 @@ DOMAIN-SUFFIX,+.torrentprivacy.com
 DOMAIN-SUFFIX,+.torrentproject.se
 DOMAIN-SUFFIX,+.torrenty.org
 DOMAIN-SUFFIX,+.torrindex.net
+DOMAIN-SUFFIX,+.tortoisegit.org
 DOMAIN-SUFFIX,+.tortoisesvn.net
 DOMAIN-SUFFIX,+.torvpn.com
 DOMAIN-SUFFIX,+.tosh.comedycentral.com
@@ -23124,6 +23137,7 @@ DOMAIN-SUFFIX,+.udndata.com
 DOMAIN-SUFFIX,+.udnfunlife.com
 DOMAIN-SUFFIX,+.udomain.hk
 DOMAIN-SUFFIX,+.udtrucksmeena.com
+DOMAIN-SUFFIX,+.udxfpp.com
 DOMAIN-SUFFIX,+.ueberamazon.de
 DOMAIN-SUFFIX,+.uflash.tv
 DOMAIN-SUFFIX,+.uforadio.com.tw
@@ -23201,11 +23215,18 @@ DOMAIN-SUFFIX,+.uniswap.org
 DOMAIN-SUFFIX,+.united.ru
 DOMAIN-SUFFIX,+.unity.com
 DOMAIN-SUFFIX,+.unity3d.com
+DOMAIN-SUFFIX,+.universalbeijingresort.com
+DOMAIN-SUFFIX,+.universalhorrorunleashed.com
+DOMAIN-SUFFIX,+.universalkidsresort.com
 DOMAIN-SUFFIX,+.universalorlando.com
+DOMAIN-SUFFIX,+.universalpictures.co.uk
 DOMAIN-SUFFIX,+.universalpictures.com
+DOMAIN-SUFFIX,+.universalpicturesathome.com
 DOMAIN-SUFFIX,+.universalpicturesinternational.com
+DOMAIN-SUFFIX,+.universalproductsexperiences.com
 DOMAIN-SUFFIX,+.universalscalablefirmware.org
 DOMAIN-SUFFIX,+.universalstudioshollywood.com
+DOMAIN-SUFFIX,+.universalukproject.co.uk
 DOMAIN-SUFFIX,+.universitypressscholarship.com
 DOMAIN-SUFFIX,+.unknownspace.org
 DOMAIN-SUFFIX,+.unkoscene.com
@@ -23232,6 +23253,7 @@ DOMAIN-SUFFIX,+.updatetube.com
 DOMAIN-SUFFIX,+.upfrontcfd.com
 DOMAIN-SUFFIX,+.upfrontfea.com
 DOMAIN-SUFFIX,+.upghsbc.com
+DOMAIN-SUFFIX,+.uphe.com
 DOMAIN-SUFFIX,+.upholdjustice.org
 DOMAIN-SUFFIX,+.upjav.cc
 DOMAIN-SUFFIX,+.uplay-istrip.com
@@ -23281,6 +23303,7 @@ DOMAIN-SUFFIX,+.userpxt.io
 DOMAIN-SUFFIX,+.usersdrive.com
 DOMAIN-SUFFIX,+.usertrust.com
 DOMAIN-SUFFIX,+.usfk.mil
+DOMAIN-SUFFIX,+.usj.co.jp
 DOMAIN-SUFFIX,+.usma.edu
 DOMAIN-SUFFIX,+.usno.navy.mil
 DOMAIN-SUFFIX,+.usocial.pro
@@ -26600,7 +26623,9 @@ DOMAIN-SUFFIX,ads-cdn.grab.com
 DOMAIN-SUFFIX,afa7f374f51cc8991.awsglobalaccelerator.com
 DOMAIN-SUFFIX,agb9r0ad.qllfkl.com
 DOMAIN-SUFFIX,ahcdn.com
+DOMAIN-SUFFIX,ai.azure.com
 DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,alkalicore-pa.clients6.google.com
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,alt1-mtalk.google.com
@@ -26621,15 +26646,20 @@ DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,android.googlesource.com
 DOMAIN-SUFFIX,angle.com.tw
 DOMAIN-SUFFIX,anime-rule34-world.b-cdn.net
+DOMAIN-SUFFIX,anthropic
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,antigravity
 DOMAIN-SUFFIX,antigravity-pa.googleapis.com
 DOMAIN-SUFFIX,antigravity.googleapis.com
 DOMAIN-SUFFIX,aod-pod-uk-live.akamaized.net
 DOMAIN-SUFFIX,aolcdn.com
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api-p.videomarket.jp
+DOMAIN-SUFFIX,api.githubcopilot.com
 DOMAIN-SUFFIX,api.grab.com
+DOMAIN-SUFFIX,api.groq.com
 DOMAIN-SUFFIX,api.sg.gdefence.io
+DOMAIN-SUFFIX,api.together.xyz
 DOMAIN-SUFFIX,api.uber.com
 DOMAIN-SUFFIX,api.viu.now.com
 DOMAIN-SUFFIX,apkmirror.com
@@ -26659,6 +26689,7 @@ DOMAIN-SUFFIX,assets.ppy.sh
 DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
 DOMAIN-SUFFIX,audio4-ak-spotify-com.akamaized.net
 DOMAIN-SUFFIX,auth.uber.com
+DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
 DOMAIN-SUFFIX,avtb
 DOMAIN-SUFFIX,awsstatic.com
@@ -26668,6 +26699,7 @@ DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,azuremarketplace.microsoft.com
 DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,bandwagonhost.com
+DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,base.uber.com
 DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.com
@@ -26727,13 +26759,19 @@ DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatscc-hamivideo2.cdn.hinet.net
 DOMAIN-SUFFIX,chaturbate.com
 DOMAIN-SUFFIX,chinapower.csis.org
 DOMAIN-SUFFIX,cisco.evergage.com
 DOMAIN-SUFFIX,ciscolivehls-i.akamaihd.net
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,click.et.uber.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,client-teamviewer-com.trafficmanager.net
 DOMAIN-SUFFIX,clients.uber.com
 DOMAIN-SUFFIX,clients1.google.com
@@ -26747,14 +26785,19 @@ DOMAIN-SUFFIX,cn-phx2.cfe.uber.com
 DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,compose-spec.io
 DOMAIN-SUFFIX,configuration-lb.ls-apple.com.akadns.net
+DOMAIN-SUFFIX,console.groq.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
 DOMAIN-SUFFIX,copilot-telemetry-service.githubusercontent.com
 DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com
 DOMAIN-SUFFIX,copilot-workspace.githubnext.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,copilotprodattachments.blob.core.windows.net
 DOMAIN-SUFFIX,crl.microsoft.com
 DOMAIN-SUFFIX,crl.versign.net
 DOMAIN-SUFFIX,csis-prod.s3.amazonaws.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,d1d0w7op819ely.cloudfront.net
 DOMAIN-SUFFIX,d1fijc56o1fzod.cloudfront.net
 DOMAIN-SUFFIX,d1g1f25tn8m2e6.cloudfront.net
@@ -26899,6 +26942,7 @@ DOMAIN-SUFFIX,espn.hb.omtrdc.net
 DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net
 DOMAIN-SUFFIX,eu
 DOMAIN-SUFFIX,eurekavpt.com
+DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net
 DOMAIN-SUFFIX,facebook
 DOMAIN-SUFFIX,facebook.com
@@ -26914,6 +26958,7 @@ DOMAIN-SUFFIX,fbcdn
 DOMAIN-SUFFIX,fbcdn-a.akamaihd.net
 DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,firebase.googleapis.com
 DOMAIN-SUFFIX,firebaseappcheck.googleapis.com
 DOMAIN-SUFFIX,firebaseappdistribution.googleapis.com
@@ -26944,8 +26989,10 @@ DOMAIN-SUFFIX,gamer-cds.cdn.hinet.net
 DOMAIN-SUFFIX,gamer2-cds.cdn.hinet.net
 DOMAIN-SUFFIX,garena.com
 DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,geminiweb-pa.clients.google.com
 DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,get.uber.com
 DOMAIN-SUFFIX,gfx.ms
 DOMAIN-SUFFIX,ggpht.com
@@ -26977,6 +27024,9 @@ DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,grab.com
 DOMAIN-SUFFIX,grabtaxi.com
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt0.com
@@ -27013,6 +27063,7 @@ DOMAIN-SUFFIX,i.jeded.com
 DOMAIN-SUFFIX,icntv.xyz
 DOMAIN-SUFFIX,icons.grab.com
 DOMAIN-SUFFIX,id.heroku.com
+DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,image.et.uber.com
 DOMAIN-SUFFIX,images-eu.ssl-images-amazon.com
 DOMAIN-SUFFIX,images-fe.ssl-images-amazon.com
@@ -27027,12 +27078,15 @@ DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,instagram
 DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,investor.uber.com
 DOMAIN-SUFFIX,io.io
 DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,issuu.com
 DOMAIN-SUFFIX,iwara.tv
 DOMAIN-SUFFIX,ixquick.com
+DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,jitpack.io
 DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,jtvnw.net
@@ -27078,6 +27132,7 @@ DOMAIN-SUFFIX,lolstatic-a.akamaihd.net
 DOMAIN-SUFFIX,m.uber.com
 DOMAIN-SUFFIX,m1.ppy.sh
 DOMAIN-SUFFIX,macrumors.com
+DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,map-tiles-cloudfront.grab.com
 DOMAIN-SUFFIX,marketplace.uber.com
 DOMAIN-SUFFIX,matsuridayo.github.io
@@ -27092,9 +27147,11 @@ DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,megaupload.com
 DOMAIN-SUFFIX,messages.uber.com
 DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,metacubex.github.io
 DOMAIN-SUFFIX,microsoftpersonalcontent.com
 DOMAIN-SUFFIX,misa-prod.s3.ap-northeast-1.amazonaws.com
+DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,mobilelive-hamivideo.cdn.hinet.net
 DOMAIN-SUFFIX,mof.moca.vn
 DOMAIN-SUFFIX,movement.uber.com
@@ -27122,6 +27179,8 @@ DOMAIN-SUFFIX,nix-community.github.io
 DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com
 DOMAIN-SUFFIX,notary-submissions-prod.s3.us-west-2.amazonaws.com
 DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,notebooklm.googleapis.com
 DOMAIN-SUFFIX,notify.ppy.sh
 DOMAIN-SUFFIX,notion.so
@@ -27158,6 +27217,8 @@ DOMAIN-SUFFIX,nvidia.custhelp.com
 DOMAIN-SUFFIX,nvidia.tt.omtrdc.net
 DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,o1158394.ingest.us.sentry.io
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,ocnttv.com
 DOMAIN-SUFFIX,ocra-grab.api.sinch.com
 DOMAIN-SUFFIX,ocsp.microsoft.com
@@ -27169,6 +27230,7 @@ DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,onekey.zendesk.com
 DOMAIN-SUFFIX,oneocsp.microsoft.com
 DOMAIN-SUFFIX,ood.opsource.net
+DOMAIN-SUFFIX,openai
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaiassets.blob.core.windows.net
@@ -27192,6 +27254,7 @@ DOMAIN-SUFFIX,partner-api.grab.com
 DOMAIN-SUFFIX,partners.uber.com
 DOMAIN-SUFFIX,pchomeonline.com.tw
 DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,photos.live.com
 DOMAIN-SUFFIX,phprcdn.com
@@ -27373,6 +27436,7 @@ DOMAIN-SUFFIX,scholar.google.sk
 DOMAIN-SUFFIX,scholar.googleusercontent.com
 DOMAIN-SUFFIX,scholar.l.google.com
 DOMAIN-SUFFIX,sci-hub
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sentry.ppy.sh
 DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,sfx.ms
@@ -27386,6 +27450,7 @@ DOMAIN-SUFFIX,smartmailcloud.com
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,sni1dcb6gl.wpc.edgecastcdn.net
 DOMAIN-SUFFIX,sonatype.org
+DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,sourcegraph.com
 DOMAIN-SUFFIX,spankbang.com
@@ -27433,10 +27498,12 @@ DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
 DOMAIN-SUFFIX,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,sundry-star-net-geo.trafficmanager.net
 DOMAIN-SUFFIX,supercell.helpshift.com
 DOMAIN-SUFFIX,supercell.zendesk.com
 DOMAIN-SUFFIX,support.uber.com
+DOMAIN-SUFFIX,sydney.bing.com
 DOMAIN-SUFFIX,symauth.com
 DOMAIN-SUFFIX,symcb.com
 DOMAIN-SUFFIX,symcd.com
@@ -27715,6 +27782,7 @@ DOMAIN-SUFFIX,wwis-dubc1-vip99.adobe.com
 DOMAIN-SUFFIX,www-cdn.icloud.com.akadns.net
 DOMAIN-SUFFIX,www.microsoft.com
 DOMAIN-SUFFIX,www.quora.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,xhamster.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com

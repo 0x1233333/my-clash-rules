@@ -1,6 +1,6 @@
 # NAME: AI
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 121
+# COUNT: 127
 
 DOMAIN-SUFFIX,104.238.150.13/32
 DOMAIN-SUFFIX,14061
@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,anthropic
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,antigravity
 DOMAIN-SUFFIX,api.githubcopilot.com
 DOMAIN-SUFFIX,api.groq.com
 DOMAIN-SUFFIX,api.microsoftapp.net
@@ -53,6 +54,7 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,chatgptvideo.xyz
 DOMAIN-SUFFIX,chatgptvideob.buzz
+DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
@@ -74,11 +76,14 @@ DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,gateway.bingviz.microsoft.net
 DOMAIN-SUFFIX,gateway.bingviz.microsoftapp.net
 DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,geminiweb-pa.clients.google.com
+DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,generativelanguage
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,help.openai.com
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,identrust.com
@@ -92,6 +97,7 @@ DOMAIN-SUFFIX,location.microsoft.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,o33249.ingest.sentry.io
