@@ -1,6 +1,6 @@
 # NAME: ProxyLite
 # TYPE: DOMAIN-SUFFIX
-# COUNT: 27805
+# COUNT: 27810
 
 DOMAIN-SUFFIX,+.000webhost.com
 DOMAIN-SUFFIX,+.01.org
@@ -4811,6 +4811,7 @@ DOMAIN-SUFFIX,+.cabletv.com.hk
 DOMAIN-SUFFIX,+.cabletvdirectv.com
 DOMAIN-SUFFIX,+.cachefly.com
 DOMAIN-SUFFIX,+.cachefly.net
+DOMAIN-SUFFIX,+.cachix.org
 DOMAIN-SUFFIX,+.cacnw.com
 DOMAIN-SUFFIX,+.cactusvpn.com
 DOMAIN-SUFFIX,+.cad-mep.com
@@ -8655,10 +8656,12 @@ DOMAIN-SUFFIX,+.fastindianporn.com
 DOMAIN-SUFFIX,+.fastlane.ci
 DOMAIN-SUFFIX,+.fastlane.tools
 DOMAIN-SUFFIX,+.fastly-edge.com
+DOMAIN-SUFFIX,+.fastly-insights.com
 DOMAIN-SUFFIX,+.fastly-terrarium.com
 DOMAIN-SUFFIX,+.fastly.com
 DOMAIN-SUFFIX,+.fastly.io
 DOMAIN-SUFFIX,+.fastly.net
+DOMAIN-SUFFIX,+.fastlydns.net
 DOMAIN-SUFFIX,+.fastlylabs.com
 DOMAIN-SUFFIX,+.fastlylb.net
 DOMAIN-SUFFIX,+.fastpic.ru
@@ -23919,6 +23922,7 @@ DOMAIN-SUFFIX,+.viu.com
 DOMAIN-SUFFIX,+.viu.tv
 DOMAIN-SUFFIX,+.vivaldi.com
 DOMAIN-SUFFIX,+.vivaxnxx.com
+DOMAIN-SUFFIX,+.vivox.com
 DOMAIN-SUFFIX,+.vivthomas.com
 DOMAIN-SUFFIX,+.vixen.com
 DOMAIN-SUFFIX,+.vixengroup.com
@@ -26794,6 +26798,7 @@ DOMAIN-SUFFIX,copilot-workspace.githubnext.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,copilotprodattachments.blob.core.windows.net
+DOMAIN-SUFFIX,courses.myecnu.org
 DOMAIN-SUFFIX,crl.microsoft.com
 DOMAIN-SUFFIX,crl.versign.net
 DOMAIN-SUFFIX,csis-prod.s3.amazonaws.com
